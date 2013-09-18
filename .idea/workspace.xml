@@ -2,12 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="423b565a-aab8-44ad-820b-1c188bd089ce" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\dev\GitHub\ROR\tracks\Modules\tracks-2.2.2\tmp\pids\server.pid" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ROR.iml" afterPath="$PROJECT_DIR$/.idea/ROR.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/107/841/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Faccept.png%3F" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/107/841/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Faccept.png%3F" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/5AA/581/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fapplication.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/5AA/581/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fapplication.css%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/53E/311/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fapplication.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/53E/311/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fapplication.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/09F/E61/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fblank.png%3F" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/09F/E61/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fblank.png%3F" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/4C9/EE1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fcollapse_expand.png%3F" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/4C9/EE1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fcollapse_expand.png%3F" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/3B3/BF1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fconstruction.gif%3F" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/3B3/BF1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fconstruction.gif%3F" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/EC1/731/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fimages%2Fui-bg_highlight-soft_100_feeebd_1x100.png%3F" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/EC1/731/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fimages%2Fui-bg_highlight-soft_100_feeebd_1x100.png%3F" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/A47/A51/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery-ui-1.10.0.custom.min.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/A47/A51/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery-ui-1.10.0.custom.min.css%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/9DB/E11/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery-ui-1.10.0.custom.min.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/9DB/E11/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery-ui-1.10.0.custom.min.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/621/871/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.blockUI.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/621/871/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.blockUI.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/5F2/311/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.cookie.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/5F2/311/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.cookie.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/52C/3A1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.form.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/52C/3A1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.form.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/8F7/021/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.jeditable.mini.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/8F7/021/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.jeditable.mini.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/34A/041/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/34A/041/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/C31/641/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.simulate.drag-sortable.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/C31/641/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.simulate.drag-sortable.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/75A/C51/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.truncator.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/75A/C51/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.truncator.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/A64/BD1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.ui.touch-punch.min.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/A64/BD1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.ui.touch-punch.min.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/4FB/6C1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery_ujs.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/4FB/6C1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery_ujs.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/32F/041/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Flogin.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/32F/041/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Flogin.css%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/61C/AE1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2FniftyCorners.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/61C/AE1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2FniftyCorners.css%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/473/DC1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fniftycube.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/473/DC1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fniftycube.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/343/661/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fprint.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/343/661/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fprint.css%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/26D/DE1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fstaricons.png%3F" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/26D/DE1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fstaricons.png%3F" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/796/E21/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsuperfish-navbar.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/796/E21/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsuperfish-navbar.css%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/876/CD1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsuperfish-vertical.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/876/CD1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsuperfish-vertical.css%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/4EF/8B1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsuperfish.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/4EF/8B1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsuperfish.css%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/483/1F1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsuperfish.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/483/1F1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsuperfish.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/496/6A1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsupersubs.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/496/6A1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsupersubs.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/334/BA1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fswf_fu.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/334/BA1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fswf_fu.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/471/C91/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fswfobject.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/471/C91/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fswfobject.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/3DF/C01/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsystem-search.png%3F" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/3DF/C01/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsystem-search.png%3F" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/39E/A61/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Ftracks.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/39E/A61/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Ftracks.css%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/332/8B1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Ftracks.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/332/8B1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Ftracks.js%3Fbody%3D1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/miniprofiler/mp_timers_1vxzpc8ysn25r3we8yqx" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/miniprofiler/mp_timers_1vxzpc8ysn25r3we8yqx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/miniprofiler/mp_timers_6e1jx7dpiu71ezwlc9mh" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/miniprofiler/mp_timers_6e1jx7dpiu71ezwlc9mh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/miniprofiler/mp_timers_fwuaduo00pq5omk2ivkt" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/miniprofiler/mp_timers_fwuaduo00pq5omk2ivkt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/db/tracks-example.sqlite3.db" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/db/tracks-example.sqlite3.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/log/development.log" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/app/controllers/login_controller.rb" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/app/controllers/login_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/miniprofiler/mp_views_127.0.0.1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/miniprofiler/mp_views_127.0.0.1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ROR.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379491398602" ignored="false" />
+    <file path="/Dummy.txt" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379505922801" ignored="false" />
     <file path="/dummy2.txt" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379490969907" ignored="false" />
+    <file path="/login_controller.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379492291173" ignored="false" />
+    <file path="/*.regexp" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379504426364" ignored="false" />
+    <file path="/Ruby Console" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379506410949" ignored="false" />
+    <file path="$PROJECT_DIR$/depot/Modules/depot/app/views/products/_form.html.erb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379506882000" ignored="false" />
+    <file path="/_form.html.erb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379506858830" ignored="false" />
+    <file path="$PROJECT_DIR$/depot/Modules/depot/db/seeds.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379509623702" ignored="false" />
+    <file path="/seeds.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379507695400" ignored="false" />
+    <file path="/styles.css" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379508455659" ignored="false" />
+    <file path="$PROJECT_DIR$/depot/Modules/depot/app/views/products/index.html.erb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379508771560" ignored="false" />
+    <file path="/index.html.erb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379508750055" ignored="false" />
+    <file path="$PROJECT_DIR$/depot/Modules/depot/app/assets/stylesheets/application.css" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379508877690" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +69,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="D:\dev\GitHub\ROR" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -26,7 +79,71 @@
     <favorites_list name="ROR" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/Rakefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".yardopts" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/.yardopts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="14" selection-start="13" selection-end="13" vertical-scroll-proportion="0.16585366">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dummy.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tracks/dummy.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dummy.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tracks/Modules/dummy.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -98,60 +215,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ROR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ROR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tracks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ROR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ROR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tracks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ROR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ROR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tracks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tracks-2.2.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -159,30 +222,54 @@
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="132" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="160" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="88" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="105" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="154" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="103" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tracks" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="162" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="829" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="836" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="154" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="153" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="107" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="531" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="527" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="103" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="103" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="BROWSER_URL" VALUE="http://127.0.0.1:3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="CapistranoRunConfigurationType" factoryName="Capistrano">
       <module name="" />
       <CAPISTRANO_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -312,6 +399,25 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
+    <configuration default="true" type="RackRunConfigurationType" factoryName="Rack">
+      <module name="" />
+      <RACK_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RACK_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="D:\dev\GitHub\ROR" />
+      <RACK_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RACK_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RACK_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RACK_CONFIG_SETTINGS_ID NAME="PORT" VALUE="9292" />
+      <RACK_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RACK_CONFIG_SETTINGS_ID NAME="CONFIG_FILE" VALUE="" />
+      <RACK_CONFIG_SETTINGS_ID NAME="RACK_SERVER_TYPE" VALUE="Default" />
+      <RACK_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="SporkRunConfigurationType" factoryName="Spork DRb">
       <module name="" />
       <SPORK_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -364,7 +470,15 @@
       <created>1379491406640</created>
       <updated>1379491406640</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added 9">
+      <created>1379491413389</created>
+      <updated>1379491413389</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added 9">
+      <created>1379492414681</created>
+      <updated>1379492414681</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -389,20 +503,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11265432" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3276923" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32923076" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32923076" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3090909" sideWeight="0.67230767" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.67230767" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20984848" sideWeight="0.6707692" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4861111" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25230768" sideWeight="0.6598485" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -481,13 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracks/Modules/dummy.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tracks/Doc/dummy.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -502,9 +609,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/.yardopts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tracks/dummy.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracks/Modules/dummy.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="14" selection-start="13" selection-end="13" vertical-scroll-proportion="0.16585366">
           <folding />
         </state>
       </provider>

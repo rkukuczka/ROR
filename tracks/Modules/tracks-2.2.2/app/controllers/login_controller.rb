@@ -8,6 +8,7 @@ class LoginController < ApplicationController
 
   protect_from_forgery :except => [:check_expiry, :login]
 
+  #to beanalyzed RK
   def login
     @page_title = "TRACKS::Login"
     cookies[:preferred_auth] = prefered_auth? unless cookies[:preferred_auth]

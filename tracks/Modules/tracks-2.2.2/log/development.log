@@ -1248,3 +1248,756 @@ Processing by IntegrationsController#search_plugin as XML
   [1m[36mPreference Load (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1[0m
   Rendered integrations/search_plugin.xml.builder (1.0ms)
 Completed 200 OK in 12ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-18 10:13:59 +0200
+Processing by TodosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '43def8581b5021288853c41e421e0c28aa588b7c' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "users" SET "remember_token_expires_at" = '2013-10-02 08:14:00.477036' WHERE "users"."id" = 2[0m
+  [1m[35m (3.0ms)[0m  commit transaction
+  [1m[36mPreference Load (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1[0m
+  [1m[35mTodo Load (1.0ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 2 AND (state = 'deferred') AND (show_from <= '2013-09-18 08:14:01.294083') ORDER BY show_from ASC, todos.created_at DESC
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' GROUP BY project_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'deferred') GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' GROUP BY context_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'deferred') GROUP BY context_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'active' OR todos.state = 'project_hidden') GROUP BY project_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))[0m
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f' ORDER BY position ASC
+  Rendered collection (0.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'completed') LIMIT 5) subquery_for_count [0m
+  [1m[35mTodo Load (0.0ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'completed') ORDER BY todos.completed_at DESC, todos.created_at DESC LIMIT 5
+  Rendered todos/_todo.html.erb (0.0ms)
+  Rendered todos/_completed.html.erb (21.0ms)
+  [1m[36mContext Load (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1[0m
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 ORDER BY position ASC LIMIT 1
+  Rendered todos/_new_todo_form.html.erb (10.0ms)
+  Rendered todos/_new_multi_todo_form.html.erb (6.0ms)
+  Rendered shared/_add_new_item_form.html.erb (49.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'active'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'active'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f'
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'hidden'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'hidden'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 't'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 't'
+  Rendered sidebar/sidebar.html.erb (30.0ms)
+  Rendered todos/index.html.erb within layouts/application (167.0ms)
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC[0m
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC
+  Rendered shared/_flash.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (2.0ms)
+Completed 200 OK in 1483ms (Views: 445.0ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/assets/niftyCorners.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:02 +0200
+Served asset /niftyCorners.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:02 +0200
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/jquery-ui-1.10.0.custom.min.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:02 +0200
+Served asset /jquery-ui-1.10.0.custom.min.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/superfish-navbar.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:02 +0200
+Served asset /superfish-navbar.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/superfish-vertical.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:02 +0200
+Served asset /superfish-vertical.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:02 +0200
+Served asset /superfish.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:02 +0200
+Served asset /tracks.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:02 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (35ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:02 +0200
+Served asset /jquery.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:02 +0200
+Served asset /tracks.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.ui.touch-punch.min.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:02 +0200
+Served asset /jquery.ui.touch-punch.min.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.blockUI.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:02 +0200
+Served asset /jquery.blockUI.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery-ui-1.10.0.custom.min.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:03 +0200
+Served asset /jquery-ui-1.10.0.custom.min.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/jquery.cookie.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:03 +0200
+Served asset /jquery.cookie.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.form.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:03 +0200
+Served asset /jquery.form.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/jquery.jeditable.mini.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:03 +0200
+Served asset /jquery.jeditable.mini.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.simulate.drag-sortable.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:03 +0200
+Served asset /jquery.simulate.drag-sortable.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.truncator.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:03 +0200
+Served asset /jquery.truncator.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/niftycube.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:03 +0200
+Served asset /niftycube.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:03 +0200
+Served asset /superfish.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/supersubs.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:03 +0200
+Served asset /supersubs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/swfobject.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:03 +0200
+Served asset /swfobject.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/swf_fu.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:03 +0200
+Served asset /swf_fu.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:03 +0200
+Served asset /application.js - 304 Not Modified (54ms)
+
+
+Started GET "/assets/collapse_expand.png" for 127.0.0.1 at 2013-09-18 10:14:04 +0200
+Served asset /collapse_expand.png - 304 Not Modified (11ms)
+
+
+Started GET "/assets/construction.gif" for 127.0.0.1 at 2013-09-18 10:14:04 +0200
+Served asset /construction.gif - 304 Not Modified (7ms)
+
+
+Started GET "/assets/staricons.png" for 127.0.0.1 at 2013-09-18 10:14:04 +0200
+Served asset /staricons.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_100_feeebd_1x100.png" for 127.0.0.1 at 2013-09-18 10:14:04 +0200
+Served asset /images/ui-bg_highlight-soft_100_feeebd_1x100.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:04 +0200
+Served asset /print.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/system-search.png" for 127.0.0.1 at 2013-09-18 10:14:04 +0200
+Served asset /system-search.png - 304 Not Modified (7ms)
+
+
+Started GET "/assets/blank.png" for 127.0.0.1 at 2013-09-18 10:14:04 +0200
+Served asset /blank.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/accept.png" for 127.0.0.1 at 2013-09-18 10:14:04 +0200
+Served asset /accept.png - 304 Not Modified (3ms)
+
+
+Started GET "/integrations/search_plugin.xml" for 127.0.0.1 at 2013-09-18 10:14:05 +0200
+Processing by IntegrationsController#search_plugin as XML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPreference Load (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1
+  Rendered integrations/search_plugin.xml.builder (189.0ms)
+Completed 200 OK in 268ms (Views: 257.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2013-09-18 10:14:10 +0200
+Processing by LoginController#logout as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPreference Load (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  UPDATE "users" SET "remember_token_expires_at" = NULL, "remember_token" = NULL WHERE "users"."id" = 2
+  [1m[36m (4.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 39ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-18 10:14:10 +0200
+Processing by LoginController#login as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "users" 
+  Rendered shared/_flash.html.erb (1.0ms)
+  Rendered login/login.html.erb within layouts/login (8.0ms)
+  Rendered shared/_footer.html.erb (2.0ms)
+Completed 200 OK in 67ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:11 +0200
+Served asset /login.css - 304 Not Modified (4ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-18 10:14:16 +0200
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YH1nivWl7KqkMy+I7UqMrdQ2xlbDut349S5aC2rllyM=", "user_login"=>"jane", "user_password"=>"[FILTERED]", "user_noexpiry"=>"on", "login"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE (login = 'jane') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mUPDATE "users" SET "remember_token_expires_at" = '2013-10-02 08:14:16.993981', "remember_token" = '998ccafcd02844542f626c62a4171e11c1d480b0' WHERE "users"."id" = 2[0m
+  [1m[35m (5.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 109ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-18 10:14:17 +0200
+Processing by TodosController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPreference Load (1.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1
+  [1m[36mTodo Load (1.0ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 2 AND (state = 'deferred') AND (show_from <= '2013-09-18 08:14:17.063985') ORDER BY show_from ASC, todos.created_at DESC[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'deferred') GROUP BY project_id[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' GROUP BY context_id
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'deferred') GROUP BY context_id[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'active' OR todos.state = 'project_hidden') GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))
+  [1m[36mContext Load (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f' ORDER BY position ASC[0m
+  Rendered collection (0.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'completed') LIMIT 5) subquery_for_count 
+  [1m[36mTodo Load (0.0ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'completed') ORDER BY todos.completed_at DESC, todos.created_at DESC LIMIT 5[0m
+  Rendered todos/_todo.html.erb (0.0ms)
+  Rendered todos/_completed.html.erb (12.0ms)
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1
+  [1m[36mContext Load (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 ORDER BY position ASC LIMIT 1[0m
+  Rendered todos/_new_todo_form.html.erb (7.0ms)
+  Rendered todos/_new_multi_todo_form.html.erb (3.0ms)
+  Rendered shared/_add_new_item_form.html.erb (62.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'active'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'active'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'hidden'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'hidden'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 't'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 't'[0m
+  Rendered sidebar/sidebar.html.erb (36.0ms)
+  Rendered todos/index.html.erb within layouts/application (124.0ms)
+  [1m[35mProject Load (1.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC[0m
+  Rendered shared/_flash.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 243ms (Views: 187.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:17 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/superfish-navbar.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:17 +0200
+Served asset /superfish-navbar.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/niftyCorners.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:17 +0200
+Served asset /niftyCorners.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.0.custom.min.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:17 +0200
+Served asset /jquery-ui-1.10.0.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/superfish-vertical.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:17 +0200
+Served asset /superfish-vertical.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:17 +0200
+Served asset /superfish.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:17 +0200
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:17 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:17 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:17 +0200
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.touch-punch.min.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:18 +0200
+Served asset /jquery.ui.touch-punch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.0.custom.min.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:18 +0200
+Served asset /jquery-ui-1.10.0.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.blockUI.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:18 +0200
+Served asset /jquery.blockUI.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.cookie.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:18 +0200
+Served asset /jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.jeditable.mini.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:18 +0200
+Served asset /jquery.jeditable.mini.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.form.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:18 +0200
+Served asset /jquery.form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.simulate.drag-sortable.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:18 +0200
+Served asset /jquery.simulate.drag-sortable.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.truncator.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:18 +0200
+Served asset /jquery.truncator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/niftycube.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:18 +0200
+Served asset /niftycube.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:18 +0200
+Served asset /superfish.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/supersubs.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:18 +0200
+Served asset /supersubs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swfobject.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:18 +0200
+Served asset /swfobject.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swf_fu.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:18 +0200
+Served asset /swf_fu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-18 10:14:18 +0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/system-search.png" for 127.0.0.1 at 2013-09-18 10:14:19 +0200
+Served asset /system-search.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2013-09-18 10:14:19 +0200
+Served asset /print.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blank.png" for 127.0.0.1 at 2013-09-18 10:14:19 +0200
+Served asset /blank.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accept.png" for 127.0.0.1 at 2013-09-18 10:14:19 +0200
+Served asset /accept.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-18 10:16:40 +0200
+Processing by TodosController#index as HTML
+  [1m[36mUser Load (9.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPreference Load (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1
+  [1m[36mTodo Load (0.0ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 2 AND (state = 'deferred') AND (show_from <= '2013-09-18 08:16:41.493245') ORDER BY show_from ASC, todos.created_at DESC[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'deferred') GROUP BY project_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' GROUP BY context_id
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'deferred') GROUP BY context_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'active' OR todos.state = 'project_hidden') GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))
+  [1m[36mContext Load (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f' ORDER BY position ASC[0m
+  Rendered collection (0.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'completed') LIMIT 5) subquery_for_count 
+  [1m[36mTodo Load (0.0ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'completed') ORDER BY todos.completed_at DESC, todos.created_at DESC LIMIT 5[0m
+  Rendered todos/_todo.html.erb (0.0ms)
+  Rendered todos/_completed.html.erb (24.0ms)
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1
+  [1m[36mContext Load (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 ORDER BY position ASC LIMIT 1[0m
+  Rendered todos/_new_todo_form.html.erb (12.0ms)
+  Rendered todos/_new_multi_todo_form.html.erb (8.0ms)
+  Rendered shared/_add_new_item_form.html.erb (59.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'active'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'active'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'hidden'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'hidden'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 't'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 't'[0m
+  Rendered sidebar/sidebar.html.erb (35.0ms)
+  Rendered todos/index.html.erb within layouts/application (181.0ms)
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC
+  [1m[36mProject Load (1.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC[0m
+  Rendered shared/_flash.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (2.0ms)
+Completed 200 OK in 1401ms (Views: 412.0ms | ActiveRecord: 14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-18 10:16:42 +0200
+Processing by TodosController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mPreference Load (1.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1[0m
+  [1m[35mTodo Load (1.0ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 2 AND (state = 'deferred') AND (show_from <= '2013-09-18 08:16:42.243288') ORDER BY show_from ASC, todos.created_at DESC
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' GROUP BY project_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'deferred') GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' GROUP BY context_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'deferred') GROUP BY context_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'active' OR todos.state = 'project_hidden') GROUP BY project_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))[0m
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f' ORDER BY position ASC
+  Rendered collection (1.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'completed') LIMIT 5) subquery_for_count [0m
+  [1m[35mTodo Load (1.0ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'completed') ORDER BY todos.completed_at DESC, todos.created_at DESC LIMIT 5
+  Rendered todos/_todo.html.erb (0.0ms)
+  Rendered todos/_completed.html.erb (14.0ms)
+  [1m[36mContext Load (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1[0m
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 ORDER BY position ASC LIMIT 1
+  Rendered todos/_new_todo_form.html.erb (9.0ms)
+  Rendered todos/_new_multi_todo_form.html.erb (4.0ms)
+  Rendered shared/_add_new_item_form.html.erb (63.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'active'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'active'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'hidden'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'hidden'
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed'
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 't'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 't'
+  Rendered sidebar/sidebar.html.erb (40.0ms)
+  Rendered todos/index.html.erb within layouts/application (156.0ms)
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC[0m
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (2.0ms)
+Completed 200 OK in 297ms (Views: 224.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-18 10:16:42 +0200
+Served asset /application.css - 304 Not Modified (55ms)
+
+
+Started GET "/assets/niftyCorners.css?body=1" for 127.0.0.1 at 2013-09-18 10:16:42 +0200
+Served asset /niftyCorners.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/superfish-vertical.css?body=1" for 127.0.0.1 at 2013-09-18 10:16:42 +0200
+Served asset /superfish-vertical.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/superfish-navbar.css?body=1" for 127.0.0.1 at 2013-09-18 10:16:42 +0200
+Served asset /superfish-navbar.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery-ui-1.10.0.custom.min.css?body=1" for 127.0.0.1 at 2013-09-18 10:16:42 +0200
+Served asset /jquery-ui-1.10.0.custom.min.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2013-09-18 10:16:42 +0200
+Served asset /superfish.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-18 10:16:42 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/niftyCorners.css?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /niftyCorners.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/superfish-vertical.css?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /superfish-vertical.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/superfish-navbar.css?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /superfish-navbar.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.0.custom.min.css?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /jquery-ui-1.10.0.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /superfish.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.0.custom.min.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /jquery-ui-1.10.0.custom.min.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/jquery.ui.touch-punch.min.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /jquery.ui.touch-punch.min.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.blockUI.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /jquery.blockUI.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.cookie.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /jquery.cookie.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/jquery.form.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /jquery.form.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.jeditable.mini.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /jquery.jeditable.mini.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.truncator.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /jquery.truncator.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.simulate.drag-sortable.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /jquery.simulate.drag-sortable.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /tracks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /print.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:43 +0200
+Served asset /jquery.js - 304 Not Modified (40ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:44 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:44 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:44 +0200
+Served asset /tracks.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/niftycube.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:44 +0200
+Served asset /niftycube.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:44 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:44 +0200
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.0.custom.min.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:44 +0200
+Served asset /jquery-ui-1.10.0.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/supersubs.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:44 +0200
+Served asset /supersubs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/swfobject.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:44 +0200
+Served asset /swfobject.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/swf_fu.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:44 +0200
+Served asset /swf_fu.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:44 +0200
+Served asset /application.js - 304 Not Modified (82ms)
+
+
+Started GET "/assets/jquery.ui.touch-punch.min.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:44 +0200
+Served asset /jquery.ui.touch-punch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.blockUI.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:44 +0200
+Served asset /jquery.blockUI.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.cookie.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:44 +0200
+Served asset /jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.form.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:44 +0200
+Served asset /jquery.form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.jeditable.mini.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /jquery.jeditable.mini.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.simulate.drag-sortable.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /jquery.simulate.drag-sortable.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.truncator.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /jquery.truncator.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /superfish.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /superfish.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/construction.gif" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /construction.gif - 304 Not Modified (5ms)
+
+
+Started GET "/assets/collapse_expand.png" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /collapse_expand.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/staricons.png" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /staricons.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_100_feeebd_1x100.png" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /images/ui-bg_highlight-soft_100_feeebd_1x100.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/niftycube.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /niftycube.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/supersubs.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /supersubs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swfobject.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /swfobject.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swf_fu.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /swf_fu.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/system-search.png" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /system-search.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/blank.png" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /blank.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/accept.png" for 127.0.0.1 at 2013-09-18 10:16:45 +0200
+Served asset /accept.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/system-search.png" for 127.0.0.1 at 2013-09-18 10:16:46 +0200
+Served asset /system-search.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blank.png" for 127.0.0.1 at 2013-09-18 10:16:46 +0200
+Served asset /blank.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/accept.png" for 127.0.0.1 at 2013-09-18 10:16:46 +0200
+Served asset /accept.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2013-09-18 10:16:46 +0200
+Served asset /print.css - 304 Not Modified (1ms)
+
+
+Started GET "/integrations/search_plugin.xml" for 127.0.0.1 at 2013-09-18 10:16:46 +0200
+Processing by IntegrationsController#search_plugin as XML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPreference Load (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1
+  Rendered integrations/search_plugin.xml.builder (34.0ms)
+Completed 200 OK in 97ms (Views: 86.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/construction.gif" for 127.0.0.1 at 2013-09-18 10:16:47 +0200
+Served asset /construction.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collapse_expand.png" for 127.0.0.1 at 2013-09-18 10:16:47 +0200
+Served asset /collapse_expand.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/staricons.png" for 127.0.0.1 at 2013-09-18 10:16:47 +0200
+Served asset /staricons.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_100_feeebd_1x100.png" for 127.0.0.1 at 2013-09-18 10:16:47 +0200
+Served asset /images/ui-bg_highlight-soft_100_feeebd_1x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/integrations/search_plugin.xml" for 127.0.0.1 at 2013-09-18 10:16:47 +0200
+Processing by IntegrationsController#search_plugin as XML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPreference Load (1.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1
+  Rendered integrations/search_plugin.xml.builder (3.0ms)
+Completed 200 OK in 34ms (Views: 13.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2013-09-18 10:16:50 +0200
+Processing by LoginController#logout as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPreference Load (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  UPDATE "users" SET "remember_token_expires_at" = NULL, "remember_token" = NULL WHERE "users"."id" = 2
+  [1m[36m (4.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 45ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-18 10:16:50 +0200
+Processing by LoginController#login as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "users" 
+  Rendered shared/_flash.html.erb (1.0ms)
+  Rendered login/login.html.erb within layouts/login (16.0ms)
+  Rendered shared/_footer.html.erb (3.0ms)
+Completed 200 OK in 43259ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2013-09-18 10:17:34 +0200
+Served asset /login.css - 304 Not Modified (10ms)

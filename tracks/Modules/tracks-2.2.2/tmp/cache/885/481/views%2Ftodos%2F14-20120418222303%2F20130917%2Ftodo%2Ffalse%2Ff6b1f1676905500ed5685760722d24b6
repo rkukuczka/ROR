@@ -1,0 +1,33 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1379446107.177328:@value"I"  <div id="todo_14" class="item-container">
+    <div id="line_todo_14" class="item-show">
+      <a href="/todos/14/toggle_star" class="icon star_item" title="star the action &#x27;Call stock broker&#x27;"><img alt="Blank" class="todo_star" id="star_img_14" src="/assets/blank.png" title="Star this action" /></a>
+      <input class="item-checkbox" id="mark_complete_14" name="mark_complete_14" title="" type="checkbox" value="/todos/14/toggle_check" />
+      <a href="/todos/14/edit" class="icon edit_item" id="icon_edit_todo_14" title="Edit the action &#x27;Call stock broker&#x27;"><img align="absmiddle" alt="Edit" class="edit_item" id="edit_icon_todo_14" src="/assets/blank.png" /></a>
+      <ul class="sf-menu sf-item-menu">
+        <li style="z-index:492"><a href="#" class="item-downarrow"><img alt="" class="todo-submenu" src="/assets/downarrow.png" /></a>
+          <ul id="ultodo_14" class="todo-submenu">
+            <li><a href="/todos/14" class="icon_delete_item" id="delete_todo_14" title="Delete action" x_confirm_message="Are you sure that you want to delete the action &#x27;Call stock broker&#x27;?">Delete</a></li>
+              <li><a href="/todos/14/defer?_source_view=todo&amp;days=1" class="icon_defer_item icon_defer_1_item" id="defer_1_todo_14" x_defer_alert="false">Defer 1 day</a></li>
+              <li><a href="/todos/14/defer?_source_view=todo&amp;days=2" class="icon_defer_item icon_defer_2_item" id="defer_2_todo_14" x_defer_alert="false">Defer 2 days</a></li>
+              <li><a href="/todos/14/defer?_source_view=todo&amp;days=3" class="icon_defer_item icon_defer_3_item" id="defer_3_todo_14" x_defer_alert="false">Defer 3 days</a></li>
+              <li><a href="/todos/14/defer?_source_view=todo&amp;days=7" class="icon_defer_item icon_defer_7_item" id="defer_7_todo_14" x_defer_alert="false">Defer 7 days</a></li>
+              <li><a href="/todos/14/convert_to_project?_source_view=todo" class="icon_item_to_project" id="to_project_todo_14">Make project</a></li>
+          </ul>
+        </li>
+      </ul>
+      <img alt="Grip" border="0" class="grip" height="16" src="/assets/grip.png" title="Drag onto another action to make it depend on that action" width="7" />
+      <div class="description stale_l3">
+                <span class="todo.descr">Call stock broker</span>
+        
+        <span class="tags"></span>
+        
+        <a href="/projects/2" title="View project: Make more money than Billy Gates">[P]</a>
+        <a href="#" class="show_notes" title="Show notes"><img alt="Blank" border="0" height="16" src="/assets/blank.png" width="16" /></a><div class="todo_notes" id="notes_todo_14" style="display:none"></div>
+        
+      </div>
+    </div>
+    <div id="edit_todo_14" class="edit-form" style="display:none">
+      <div class="placeholder"> </div>
+    </div>
+  </div>
+:ET

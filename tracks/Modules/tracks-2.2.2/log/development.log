@@ -1,0 +1,1250 @@
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-17 21:09:40 +0200
+Processing by TodosController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :login_or_feed_token_required rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-17 21:09:40 +0200
+Processing by LoginController#login as HTML
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" [0m
+  Rendered shared/_flash.html.erb (1.0ms)
+  Rendered login/login.html.erb within layouts/login (110.0ms)
+Compiled login.css  (59ms)  (pid 5580)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 596ms (Views: 372.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2013-09-17 21:09:41 +0200
+Served asset /login.css - 200 OK (3ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2013-09-17 21:09:41 +0200
+Served asset /favicon.ico - 200 OK (33ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-17 21:09:52 +0200
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p4VfhyOg8rPoERCWWyC7s9g1+w6ZzpXn0WJOPzfhbxA=", "user_login"=>"admin", "user_password"=>"[FILTERED]", "user_noexpiry"=>"on", "login"=>"Sign in"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE (login = 'admin') LIMIT 1
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered login/login.html.erb within layouts/login (4.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-17 21:22:15 +0200
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p4VfhyOg8rPoERCWWyC7s9g1+w6ZzpXn0WJOPzfhbxA=", "user_login"=>"admin", "user_password"=>"[FILTERED]", "user_noexpiry"=>"on", "login"=>"Sign in"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE (login = 'admin') LIMIT 1[0m
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered login/login.html.erb within layouts/login (5.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2013-09-17 21:22:15 +0200
+Served asset /login.css - 304 Not Modified (0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-17 21:22:22 +0200
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p4VfhyOg8rPoERCWWyC7s9g1+w6ZzpXn0WJOPzfhbxA=", "user_login"=>"admin", "user_password"=>"[FILTERED]", "user_noexpiry"=>"on", "login"=>"Sign in"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE (login = 'admin') LIMIT 1
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered login/login.html.erb within layouts/login (33.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 42ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2013-09-17 21:22:22 +0200
+Served asset /login.css - 304 Not Modified (0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-17 21:24:22 +0200
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p4VfhyOg8rPoERCWWyC7s9g1+w6ZzpXn0WJOPzfhbxA=", "user_login"=>"admin", "user_password"=>"[FILTERED]", "user_noexpiry"=>"on", "login"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE (login = 'admin') LIMIT 1[0m
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered login/login.html.erb within layouts/login (3.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2013-09-17 21:24:23 +0200
+Served asset /login.css - 304 Not Modified (1ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-17 21:24:27 +0200
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p4VfhyOg8rPoERCWWyC7s9g1+w6ZzpXn0WJOPzfhbxA=", "user_login"=>"jane", "user_password"=>"[FILTERED]", "user_noexpiry"=>"on", "login"=>"Sign in"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE (login = 'jane') LIMIT 1
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered login/login.html.erb within layouts/login (2.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2013-09-17 21:24:27 +0200
+Served asset /login.css - 304 Not Modified (0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-17 21:28:19 +0200
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p4VfhyOg8rPoERCWWyC7s9g1+w6ZzpXn0WJOPzfhbxA=", "user_login"=>"jane", "user_password"=>"[FILTERED]", "user_noexpiry"=>"on", "login"=>"Sign in"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE (login = 'jane') LIMIT 1[0m
+  Rendered shared/_flash.html.erb (1.0ms)
+  Rendered login/login.html.erb within layouts/login (3.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 9.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2013-09-17 21:28:19 +0200
+Served asset /login.css - 304 Not Modified (0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-17 21:28:25 +0200
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p4VfhyOg8rPoERCWWyC7s9g1+w6ZzpXn0WJOPzfhbxA=", "user_login"=>"admin", "user_password"=>"[FILTERED]", "user_noexpiry"=>"on", "login"=>"Sign in"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE (login = 'admin') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "users" SET "remember_token_expires_at" = '2013-10-01 19:28:26.088265', "remember_token" = '0c3b3e6368161f2b076026bbcc2581bd987f4788' WHERE "users"."id" = 1
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 105ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-17 21:28:26 +0200
+Processing by TodosController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPreference Load (12.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mTodo Load (0.0ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 1 AND (state = 'deferred') AND (show_from <= '2013-09-17 19:28:26.383282') ORDER BY show_from ASC, todos.created_at DESC
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' GROUP BY project_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'deferred') GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' GROUP BY context_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'deferred') GROUP BY context_id
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'active' OR todos.state = 'project_hidden') GROUP BY project_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))[0m
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC
+  [1m[36mTodo Load (1.0ms)[0m  [1mSELECT "todos".* FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending')))) ORDER BY todos.due IS NULL, todos.due ASC, todos.created_at ASC[0m
+  [1m[35mProject Load (1.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" IN (2, 1, 3)
+  [1m[36mContext Load (1.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."id" IN (1, 2, 5, 6)[0m
+  [1m[35mTagging Load (0.0ms)[0m  SELECT "taggings".* FROM "taggings" WHERE "taggings"."taggable_type" = 'Todo' AND "taggings"."taggable_id" IN (11, 6, 9, 12, 13, 1, 2, 14, 5, 7)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "taggings".* FROM "taggings" WHERE "taggings"."taggable_type" = 'Todo' AND "taggings"."taggable_id" IN (11, 6, 9, 12, 13, 1, 2, 14, 5, 7)[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT "dependencies"."id" AS t0_r0, "dependencies"."successor_id" AS t0_r1, "dependencies"."predecessor_id" AS t0_r2, "dependencies"."relationship_type" AS t0_r3, "todos"."id" AS t1_r0, "todos"."context_id" AS t1_r1, "todos"."project_id" AS t1_r2, "todos"."description" AS t1_r3, "todos"."notes" AS t1_r4, "todos"."created_at" AS t1_r5, "todos"."due" AS t1_r6, "todos"."completed_at" AS t1_r7, "todos"."user_id" AS t1_r8, "todos"."show_from" AS t1_r9, "todos"."state" AS t1_r10, "todos"."recurring_todo_id" AS t1_r11, "todos"."updated_at" AS t1_r12, "todos"."rendered_notes" AS t1_r13 FROM "dependencies" LEFT OUTER JOIN "todos" ON "todos"."id" = "dependencies"."successor_id" WHERE "dependencies"."predecessor_id" IN (11, 6, 9, 12, 13, 1, 2, 14, 5, 7) AND (todos.state = 'pending')
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "dependencies"."id" AS t0_r0, "dependencies"."successor_id" AS t0_r1, "dependencies"."predecessor_id" AS t0_r2, "dependencies"."relationship_type" AS t0_r3, "todos"."id" AS t1_r0, "todos"."context_id" AS t1_r1, "todos"."project_id" AS t1_r2, "todos"."description" AS t1_r3, "todos"."notes" AS t1_r4, "todos"."created_at" AS t1_r5, "todos"."due" AS t1_r6, "todos"."completed_at" AS t1_r7, "todos"."user_id" AS t1_r8, "todos"."show_from" AS t1_r9, "todos"."state" AS t1_r10, "todos"."recurring_todo_id" AS t1_r11, "todos"."updated_at" AS t1_r12, "todos"."rendered_notes" AS t1_r13 FROM "dependencies" LEFT OUTER JOIN "todos" ON "todos"."id" = "dependencies"."predecessor_id" WHERE "dependencies"."successor_id" IN (11, 6, 9, 12, 13, 1, 2, 14, 5, 7) AND (NOT (todos.state = 'completed'))[0m
+Couldn't find template for digesting: ings/ing.html
+Cache digest for contexts/_context.html: b9ee296a92fbc373dd6b97ac54e01e92
+Read fragment views/contexts/1-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+Cache digest for todos/_todo.html: f6b1f1676905500ed5685760722d24b6
+Read fragment views/todos/11-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+Write fragment views/todos/11-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (5.0ms)
+Read fragment views/todos/9-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (1.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+Write fragment views/todos/9-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (28.0ms)
+Read fragment views/todos/12-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (1.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+Write fragment views/todos/12-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (5.0ms)
+Read fragment views/todos/13-20120418222303/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (1.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+Write fragment views/todos/13-20120418222303/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (3.0ms)
+Read fragment views/todos/1-20060603143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+Write fragment views/todos/1-20060603143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (5.0ms)
+  Rendered todos/_todo.html.erb (142.0ms)
+Write fragment views/contexts/1-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (5.0ms)
+Read fragment views/contexts/2-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+Read fragment views/todos/6-20120418222303/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (1.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+Write fragment views/todos/6-20120418222303/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (5.0ms)
+Read fragment views/todos/2-20120418222303/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+Write fragment views/todos/2-20120418222303/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (5.0ms)
+Read fragment views/todos/14-20120418222303/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+Write fragment views/todos/14-20120418222303/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (5.0ms)
+  Rendered todos/_todo.html.erb (78.0ms)
+Write fragment views/contexts/2-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (5.0ms)
+Read fragment views/contexts/3-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/3-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (5.0ms)
+Read fragment views/contexts/4-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/4-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (5.0ms)
+Read fragment views/contexts/5-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+Read fragment views/todos/5-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+Write fragment views/todos/5-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (2.0ms)
+  Rendered todos/_todo.html.erb (8.0ms)
+Write fragment views/contexts/5-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (36.0ms)
+Read fragment views/contexts/6-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+Read fragment views/todos/7-20120418222303/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+Write fragment views/todos/7-20120418222303/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (5.0ms)
+  Rendered todos/_todo.html.erb (11.0ms)
+Write fragment views/contexts/6-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (4.0ms)
+Read fragment views/contexts/7-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/7-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (5.0ms)
+Read fragment views/contexts/8-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/8-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (5.0ms)
+Read fragment views/contexts/9-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/9-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (5.0ms)
+  Rendered contexts/_context.html.erb (709.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'completed') LIMIT 5) subquery_for_count 
+  [1m[36mTodo Load (0.0ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'completed') ORDER BY todos.completed_at DESC, todos.created_at DESC LIMIT 5[0m
+  [1m[35mContext Load (1.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."id" IN (4, 1)
+  [1m[36mTagging Load (0.0ms)[0m  [1mSELECT "taggings".* FROM "taggings" WHERE "taggings"."taggable_type" = 'Todo' AND "taggings"."taggable_id" IN (3, 4, 8, 10)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "taggings".* FROM "taggings" WHERE "taggings"."taggable_type" = 'Todo' AND "taggings"."taggable_id" IN (3, 4, 8, 10)
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "dependencies"."id" AS t0_r0, "dependencies"."successor_id" AS t0_r1, "dependencies"."predecessor_id" AS t0_r2, "dependencies"."relationship_type" AS t0_r3, "todos"."id" AS t1_r0, "todos"."context_id" AS t1_r1, "todos"."project_id" AS t1_r2, "todos"."description" AS t1_r3, "todos"."notes" AS t1_r4, "todos"."created_at" AS t1_r5, "todos"."due" AS t1_r6, "todos"."completed_at" AS t1_r7, "todos"."user_id" AS t1_r8, "todos"."show_from" AS t1_r9, "todos"."state" AS t1_r10, "todos"."recurring_todo_id" AS t1_r11, "todos"."updated_at" AS t1_r12, "todos"."rendered_notes" AS t1_r13 FROM "dependencies" LEFT OUTER JOIN "todos" ON "todos"."id" = "dependencies"."successor_id" WHERE "dependencies"."predecessor_id" IN (3, 4, 8, 10) AND (todos.state = 'pending')[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT "dependencies"."id" AS t0_r0, "dependencies"."successor_id" AS t0_r1, "dependencies"."predecessor_id" AS t0_r2, "dependencies"."relationship_type" AS t0_r3, "todos"."id" AS t1_r0, "todos"."context_id" AS t1_r1, "todos"."project_id" AS t1_r2, "todos"."description" AS t1_r3, "todos"."notes" AS t1_r4, "todos"."created_at" AS t1_r5, "todos"."due" AS t1_r6, "todos"."completed_at" AS t1_r7, "todos"."user_id" AS t1_r8, "todos"."show_from" AS t1_r9, "todos"."state" AS t1_r10, "todos"."recurring_todo_id" AS t1_r11, "todos"."updated_at" AS t1_r12, "todos"."rendered_notes" AS t1_r13 FROM "dependencies" LEFT OUTER JOIN "todos" ON "todos"."id" = "dependencies"."predecessor_id" WHERE "dependencies"."successor_id" IN (3, 4, 8, 10) AND (NOT (todos.state = 'completed'))
+Read fragment views/todos/3-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+Write fragment views/todos/3-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (3.0ms)
+Read fragment views/todos/4-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+Write fragment views/todos/4-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (5.0ms)
+Read fragment views/todos/8-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+Write fragment views/todos/8-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (6.0ms)
+Read fragment views/todos/10-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+Write fragment views/todos/10-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (5.0ms)
+  Rendered todos/_todo.html.erb (64.0ms)
+  Rendered todos/_completed.html.erb (89.0ms)
+  [1m[36mContext Load (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1
+  [1m[36mContext Load (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 ORDER BY position ASC LIMIT 1[0m
+  Rendered todos/_new_todo_form.html.erb (5.0ms)
+  Rendered todos/_new_multi_todo_form.html.erb (4.0ms)
+  Rendered shared/_add_new_item_form.html.erb (64.0ms)
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active'[0m
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active' ORDER BY projects.position ASC
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'hidden'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'hidden'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'completed'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'completed'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 't'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 't'[0m
+  Rendered sidebar/sidebar.html.erb (30.0ms)
+  Rendered todos/index.html.erb within layouts/application (961.1ms)
+Compiled jquery-ui-1.10.0.custom.min.css  (1ms)  (pid 5580)
+Compiled niftyCorners.css  (0ms)  (pid 5580)
+Compiled superfish-navbar.css  (1ms)  (pid 5580)
+Compiled superfish-vertical.css  (0ms)  (pid 5580)
+Compiled superfish.css  (0ms)  (pid 5580)
+Compiled tracks.css  (402ms)  (pid 5580)
+Compiled application.css  (619ms)  (pid 5580)
+Compiled print.css  (19ms)  (pid 5580)
+Compiled jquery.js  (3ms)  (pid 5580)
+Compiled jquery_ujs.js  (0ms)  (pid 5580)
+Compiled tracks.js  (1ms)  (pid 5580)
+Compiled jquery-ui-1.10.0.custom.min.js  (3ms)  (pid 5580)
+Compiled jquery.ui.touch-punch.min.js  (0ms)  (pid 5580)
+Compiled jquery.blockUI.js  (1ms)  (pid 5580)
+Compiled jquery.cookie.js  (0ms)  (pid 5580)
+Compiled jquery.form.js  (0ms)  (pid 5580)
+Compiled jquery.jeditable.mini.js  (0ms)  (pid 5580)
+Compiled jquery.simulate.drag-sortable.js  (0ms)  (pid 5580)
+Compiled jquery.truncator.js  (0ms)  (pid 5580)
+Compiled niftycube.js  (0ms)  (pid 5580)
+Compiled superfish.js  (0ms)  (pid 5580)
+Compiled supersubs.js  (0ms)  (pid 5580)
+Compiled swfobject.js  (0ms)  (pid 5580)
+Compiled swf_fu.js  (619ms)  (pid 5580)
+Compiled application.js  (967ms)  (pid 5580)
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC[0m
+  Rendered shared/_flash.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 3174ms (Views: 2805.2ms | ActiveRecord: 21.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-17 21:28:29 +0200
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/jquery-ui-1.10.0.custom.min.css?body=1" for 127.0.0.1 at 2013-09-17 21:28:29 +0200
+Served asset /jquery-ui-1.10.0.custom.min.css - 200 OK (41ms)
+
+
+Started GET "/assets/niftyCorners.css?body=1" for 127.0.0.1 at 2013-09-17 21:28:29 +0200
+Served asset /niftyCorners.css - 200 OK (3ms)
+
+
+Started GET "/assets/superfish-navbar.css?body=1" for 127.0.0.1 at 2013-09-17 21:28:29 +0200
+Served asset /superfish-navbar.css - 200 OK (34ms)
+
+
+Started GET "/assets/superfish-vertical.css?body=1" for 127.0.0.1 at 2013-09-17 21:28:29 +0200
+Served asset /superfish-vertical.css - 200 OK (6ms)
+
+
+Started GET "/assets/superfish.css?body=1" for 127.0.0.1 at 2013-09-17 21:28:29 +0200
+Served asset /superfish.css - 200 OK (5ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-09-17 21:28:29 +0200
+Served asset /tracks.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /jquery.js - 200 OK (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /jquery_ujs.js - 200 OK (7ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /tracks.js - 200 OK (63ms)
+
+
+Started GET "/assets/jquery-ui-1.10.0.custom.min.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /jquery-ui-1.10.0.custom.min.js - 200 OK (53ms)
+
+
+Started GET "/assets/jquery.ui.touch-punch.min.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /jquery.ui.touch-punch.min.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.blockUI.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /jquery.blockUI.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.cookie.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /jquery.cookie.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.form.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /jquery.form.js - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.jeditable.mini.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /jquery.jeditable.mini.js - 200 OK (60ms)
+
+
+Started GET "/assets/jquery.simulate.drag-sortable.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /jquery.simulate.drag-sortable.js - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.truncator.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /jquery.truncator.js - 200 OK (4ms)
+
+
+Started GET "/assets/niftycube.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /niftycube.js - 200 OK (4ms)
+
+
+Started GET "/assets/supersubs.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /supersubs.js - 200 OK (3ms)
+
+
+Started GET "/assets/superfish.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /superfish.js - 200 OK (6ms)
+
+
+Started GET "/assets/swfobject.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Compiled swfobject.js  (0ms)  (pid 5580)
+Served asset /swfobject.js - 200 OK (54ms)
+
+
+Started GET "/assets/swf_fu.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /swf_fu.js - 200 OK (45ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /application.js - 200 OK (53ms)
+
+
+Started GET "/assets/system-search.png" for 127.0.0.1 at 2013-09-17 21:28:30 +0200
+Served asset /system-search.png - 200 OK (67ms)
+
+
+Started GET "/assets/downarrow.png" for 127.0.0.1 at 2013-09-17 21:28:31 +0200
+Served asset /downarrow.png - 200 OK (27ms)
+
+
+Started GET "/assets/accept.png" for 127.0.0.1 at 2013-09-17 21:28:31 +0200
+Served asset /accept.png - 200 OK (50ms)
+
+
+Started GET "/assets/blank.png" for 127.0.0.1 at 2013-09-17 21:28:31 +0200
+Served asset /blank.png - 200 OK (50ms)
+
+
+Started GET "/assets/grip.png" for 127.0.0.1 at 2013-09-17 21:28:31 +0200
+Served asset /grip.png - 200 OK (46ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2013-09-17 21:28:31 +0200
+Served asset /print.css - 200 OK (7ms)
+
+
+Started GET "/assets/construction.gif" for 127.0.0.1 at 2013-09-17 21:28:31 +0200
+Served asset /construction.gif - 200 OK (59ms)
+
+
+Started GET "/assets/collapse_expand.png" for 127.0.0.1 at 2013-09-17 21:28:31 +0200
+Served asset /collapse_expand.png - 200 OK (325ms)
+
+
+Started GET "/assets/staricons.png" for 127.0.0.1 at 2013-09-17 21:28:31 +0200
+Served asset /staricons.png - 200 OK (79ms)
+
+
+Started GET "/assets/edit.png" for 127.0.0.1 at 2013-09-17 21:28:31 +0200
+Served asset /edit.png - 200 OK (32ms)
+
+
+Started GET "/assets/delete.png" for 127.0.0.1 at 2013-09-17 21:28:31 +0200
+Served asset /delete.png - 200 OK (17ms)
+
+
+Started GET "/assets/defer_1.png" for 127.0.0.1 at 2013-09-17 21:28:31 +0200
+Served asset /defer_1.png - 200 OK (17ms)
+
+
+Started GET "/assets/defer_2.png" for 127.0.0.1 at 2013-09-17 21:28:32 +0200
+Served asset /defer_2.png - 200 OK (15ms)
+
+
+Started GET "/assets/defer_3.png" for 127.0.0.1 at 2013-09-17 21:28:32 +0200
+Served asset /defer_3.png - 200 OK (80ms)
+
+
+Started GET "/assets/defer_7.png" for 127.0.0.1 at 2013-09-17 21:28:32 +0200
+Served asset /defer_7.png - 200 OK (17ms)
+
+
+Started GET "/assets/to_project_off.png" for 127.0.0.1 at 2013-09-17 21:28:32 +0200
+Served asset /to_project_off.png - 200 OK (50ms)
+
+
+Started GET "/assets/notes_off.png" for 127.0.0.1 at 2013-09-17 21:28:32 +0200
+Served asset /notes_off.png - 200 OK (17ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_100_feeebd_1x100.png" for 127.0.0.1 at 2013-09-17 21:28:32 +0200
+Served asset /images/ui-bg_highlight-soft_100_feeebd_1x100.png - 200 OK (50ms)
+
+
+Started GET "/integrations/search_plugin.xml" for 127.0.0.1 at 2013-09-17 21:28:32 +0200
+Processing by IntegrationsController#search_plugin as XML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPreference Load (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+  Rendered integrations/search_plugin.xml.builder (86.0ms)
+Completed 200 OK in 123ms (Views: 95.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/notes_on.png" for 127.0.0.1 at 2013-09-17 21:28:35 +0200
+Served asset /notes_on.png - 200 OK (40ms)
+
+
+Started GET "/integrations/search_plugin.xml" for 127.0.0.1 at 2013-09-17 21:28:40 +0200
+Processing by IntegrationsController#search_plugin as XML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPreference Load (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+  Rendered integrations/search_plugin.xml.builder (1.0ms)
+Completed 200 OK in 14ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-09-17 21:28:42 +0200
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPreference Load (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 AND "users"."is_admin" = 't' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" [0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" ORDER BY login ASC LIMIT 5 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1[0m
+  [1m[35m (9.0ms)[0m  SELECT COUNT(*) FROM "notes" WHERE "notes"."user_id" = 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = 2[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "notes" WHERE "notes"."user_id" = 2
+  Rendered users/index.html.erb within layouts/application (52.0ms)
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC[0m
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 96ms (Views: 76.0ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-09-17 21:29:03 +0200
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPreference Load (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 AND "users"."is_admin" = 't' LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "users" 
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY login ASC LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "notes" WHERE "notes"."user_id" = 1[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = 2
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "notes" WHERE "notes"."user_id" = 2[0m
+  Rendered users/index.html.erb within layouts/application (27.0ms)
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC[0m
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 69ms (Views: 56.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2013-09-17 21:29:09 +0200
+Processing by TodosController#calendar as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPreference Load (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = 1 AND (NOT (todos.state = 'completed')) AND (NOT (todos.due IS NULL))
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = 1 AND (NOT (todos.state = 'completed')) AND (todos.due <= '2013-09-17 19:29:09.483748')[0m
+  [1m[35mTodo Load (1.0ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 1 AND (NOT (todos.state = 'completed')) AND (todos.due <= '2013-09-17 19:29:09.483748') ORDER BY due
+  [1m[36mProject Load (1.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" IN (2, 1, 3)[0m
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."id" IN (1, 2)
+  [1m[36mTagging Load (0.0ms)[0m  [1mSELECT "taggings".* FROM "taggings" WHERE "taggings"."taggable_type" = 'Todo' AND "taggings"."taggable_id" IN (11, 6, 9, 12, 13, 1, 2)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "taggings".* FROM "taggings" WHERE "taggings"."taggable_type" = 'Todo' AND "taggings"."taggable_id" IN (11, 6, 9, 12, 13, 1, 2)
+  [1m[36mSQL (1.0ms)[0m  [1mSELECT "dependencies"."id" AS t0_r0, "dependencies"."successor_id" AS t0_r1, "dependencies"."predecessor_id" AS t0_r2, "dependencies"."relationship_type" AS t0_r3, "todos"."id" AS t1_r0, "todos"."context_id" AS t1_r1, "todos"."project_id" AS t1_r2, "todos"."description" AS t1_r3, "todos"."notes" AS t1_r4, "todos"."created_at" AS t1_r5, "todos"."due" AS t1_r6, "todos"."completed_at" AS t1_r7, "todos"."user_id" AS t1_r8, "todos"."show_from" AS t1_r9, "todos"."state" AS t1_r10, "todos"."recurring_todo_id" AS t1_r11, "todos"."updated_at" AS t1_r12, "todos"."rendered_notes" AS t1_r13 FROM "dependencies" LEFT OUTER JOIN "todos" ON "todos"."id" = "dependencies"."successor_id" WHERE "dependencies"."predecessor_id" IN (11, 6, 9, 12, 13, 1, 2) AND (todos.state = 'pending')[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT "dependencies"."id" AS t0_r0, "dependencies"."successor_id" AS t0_r1, "dependencies"."predecessor_id" AS t0_r2, "dependencies"."relationship_type" AS t0_r3, "todos"."id" AS t1_r0, "todos"."context_id" AS t1_r1, "todos"."project_id" AS t1_r2, "todos"."description" AS t1_r3, "todos"."notes" AS t1_r4, "todos"."created_at" AS t1_r5, "todos"."due" AS t1_r6, "todos"."completed_at" AS t1_r7, "todos"."user_id" AS t1_r8, "todos"."show_from" AS t1_r9, "todos"."state" AS t1_r10, "todos"."recurring_todo_id" AS t1_r11, "todos"."updated_at" AS t1_r12, "todos"."rendered_notes" AS t1_r13 FROM "dependencies" LEFT OUTER JOIN "todos" ON "todos"."id" = "dependencies"."predecessor_id" WHERE "dependencies"."successor_id" IN (11, 6, 9, 12, 13, 1, 2) AND (NOT (todos.state = 'completed'))
+Read fragment views/todos/11-20060610143602/20130917/calendar/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1
+Write fragment views/todos/11-20060610143602/20130917/calendar/false/f6b1f1676905500ed5685760722d24b6 (43.0ms)
+Read fragment views/todos/6-20120418222303/20130917/calendar/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1
+Write fragment views/todos/6-20120418222303/20130917/calendar/false/f6b1f1676905500ed5685760722d24b6 (8.0ms)
+Read fragment views/todos/9-20060610143602/20130917/calendar/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1
+Write fragment views/todos/9-20060610143602/20130917/calendar/false/f6b1f1676905500ed5685760722d24b6 (8.0ms)
+Read fragment views/todos/12-20060610143602/20130917/calendar/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1
+Write fragment views/todos/12-20060610143602/20130917/calendar/false/f6b1f1676905500ed5685760722d24b6 (6.0ms)
+Read fragment views/todos/13-20120418222303/20130917/calendar/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1
+Write fragment views/todos/13-20120418222303/20130917/calendar/false/f6b1f1676905500ed5685760722d24b6 (3.0ms)
+Read fragment views/todos/1-20060603143602/20130917/calendar/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1
+Write fragment views/todos/1-20060603143602/20130917/calendar/false/f6b1f1676905500ed5685760722d24b6 (5.0ms)
+Read fragment views/todos/2-20120418222303/20130917/calendar/false/f6b1f1676905500ed5685760722d24b6 (1.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1
+Write fragment views/todos/2-20120418222303/20130917/calendar/false/f6b1f1676905500ed5685760722d24b6 (7.0ms)
+  Rendered todos/_todo.html.erb (222.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = 1 AND (NOT (todos.state = 'completed')) AND (todos.due > '2013-09-17 19:29:09.483748' AND todos.due <= '2013-09-22 22:59:59.999999')[0m
+  [1m[35mTodo Load (0.0ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 1 AND (NOT (todos.state = 'completed')) AND (todos.due > '2013-09-17 19:29:09.483748' AND todos.due <= '2013-09-22 22:59:59.999999') ORDER BY due
+  Rendered todos/_todo.html.erb (0.0ms)
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = 1 AND (NOT (todos.state = 'completed')) AND (todos.due > '2013-09-22 22:59:59.999999' AND todos.due <= '2013-09-29 22:59:59.999999')[0m
+  [1m[35mTodo Load (0.0ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 1 AND (NOT (todos.state = 'completed')) AND (todos.due > '2013-09-22 22:59:59.999999' AND todos.due <= '2013-09-29 22:59:59.999999') ORDER BY due
+  Rendered todos/_todo.html.erb (0.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = 1 AND (NOT (todos.state = 'completed')) AND (todos.due > '2013-09-29 22:59:59.999999' AND todos.due <= '2013-09-30 22:59:59.999999')[0m
+  [1m[35mTodo Load (0.0ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 1 AND (NOT (todos.state = 'completed')) AND (todos.due > '2013-09-29 22:59:59.999999' AND todos.due <= '2013-09-30 22:59:59.999999') ORDER BY due
+  Rendered todos/_todo.html.erb (0.0ms)
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = 1 AND (NOT (todos.state = 'completed')) AND (todos.due > '2013-09-30 22:59:59.999999')[0m
+  [1m[35mTodo Load (0.0ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 1 AND (NOT (todos.state = 'completed')) AND (todos.due > '2013-09-30 22:59:59.999999') ORDER BY due
+  Rendered todos/_todo.html.erb (0.0ms)
+  Rendered todos/calendar.html.erb within layouts/application (331.0ms)
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC[0m
+  [1m[35mProject Load (1.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 447ms (Views: 427.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/assets/waiting.gif" for 127.0.0.1 at 2013-09-17 21:29:15 +0200
+Served asset /waiting.gif - 200 OK (59ms)
+
+
+Started PUT "/todos/11/toggle_check" for 127.0.0.1 at 2013-09-17 21:29:15 +0200
+Processing by TodosController#toggle_check as JS
+  Parameters: {"_source_view"=>"calendar", "_tag_name"=>"", "authenticity_token"=>"\"p4VfhyOg8rPoERCWWyC7s9g1+w6ZzpXn0WJOPzfhbxA=\"", "id"=>"11"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPreference Load (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1
+  [1m[36mTodo Load (0.0ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 1 AND "todos"."id" = ? ORDER BY todos.completed_at DESC, todos.created_at DESC LIMIT 1[0m  [["id", "11"]]
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."id" = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  UPDATE "todos" SET "completed_at" = '2013-09-17 19:29:15.797109', "state" = 'completed', "updated_at" = '2013-09-17 19:29:15.800109' WHERE "todos"."id" = 11
+  [1m[36mSQL (0.0ms)[0m  [1mUPDATE "contexts" SET "updated_at" = '2013-09-17 19:29:15.804109' WHERE "contexts"."id" = 1[0m
+  [1m[35mProject Load (1.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = 2 LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "projects" SET "updated_at" = '2013-09-17 19:29:15.810109' WHERE "projects"."id" = 2[0m
+  [1m[35m (4.0ms)[0m  commit transaction
+  [1m[36mTodo Load (0.0ms)[0m  [1mSELECT "todos".* FROM "todos" INNER JOIN "dependencies" ON "todos"."id" = "dependencies"."successor_id" WHERE "dependencies"."predecessor_id" = 11[0m
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."id" = 1 ORDER BY position ASC LIMIT 1
+  [1m[36mTodo Load (1.0ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."context_id" = 1 ORDER BY todos.due IS NULL, todos.due ASC, todos.created_at ASC[0m
+  [1m[35mProject Load (37.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" IN (2, 3)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."context_id" = 1 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "todos" WHERE "todos"."user_id" = 1 AND (NOT (todos.state = 'completed')) AND (todos.due <= '2013-09-17 19:29:15.875113')
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" INNER JOIN "dependencies" ON "todos"."id" = "dependencies"."predecessor_id" WHERE "dependencies"."successor_id" = 11 AND (NOT (todos.state = 'completed'))[0m
+Read fragment views/todos/11-20130917192915/20130917/calendar/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+  [1m[35mTag Load (0.0ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 11 AND "taggings"."taggable_type" = 'Todo'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" INNER JOIN "dependencies" ON "todos"."id" = "dependencies"."successor_id" WHERE "dependencies"."predecessor_id" = 11 AND (todos.state = 'pending')[0m
+Write fragment views/todos/11-20130917192915/20130917/calendar/false/f6b1f1676905500ed5685760722d24b6 (5.0ms)
+  Rendered todos/_todo.html.erb (22.0ms)
+  Rendered todos/toggle_check.js.erb (33.0ms)
+Completed 200 OK in 152ms (Views: 57.0ms | ActiveRecord: 45.0ms)
+
+
+Started GET "/contexts" for 127.0.0.1 at 2013-09-17 21:29:24 +0200
+Processing by ContextsController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPreference Load (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' GROUP BY context_id
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'deferred') GROUP BY context_id[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 't'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 't'[0m
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC
+  Rendered contexts/_context_listing.html.erb (14.0ms)
+  Rendered contexts/_context_state_group.html.erb (19.0ms)
+  [1m[36mContext Load (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 't' ORDER BY position ASC[0m
+  Rendered contexts/_context_listing.html.erb (0.0ms)
+  Rendered contexts/_context_state_group.html.erb (3.0ms)
+  Rendered contexts/_new_context_form.html.erb (2.0ms)
+  Rendered contexts/index.html.erb within layouts/application (31.0ms)
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC[0m
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 82ms (Views: 64.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/tickler" for 127.0.0.1 at 2013-09-17 21:29:30 +0200
+Processing by TodosController#list_deferred as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPreference Load (1.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mTodo Load (0.0ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 1 AND (state = 'deferred') AND (show_from <= '2013-09-17 19:29:30.579954') ORDER BY show_from ASC, todos.created_at DESC
+  [1m[36mTodo Load (0.0ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'deferred') ORDER BY todos.completed_at DESC, todos.created_at DESC[0m
+  [1m[35mTodo Load (0.0ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'pending') ORDER BY todos.completed_at DESC, todos.created_at DESC
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' GROUP BY project_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'deferred') GROUP BY project_id
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' GROUP BY context_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'deferred') GROUP BY context_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'active' OR todos.state = 'project_hidden') GROUP BY project_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'active' OR todos.state = 'project_hidden') GROUP BY context_id
+  [1m[36mContext Load (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 ORDER BY position ASC[0m
+Read fragment views/contexts/1-20130917192915/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/1-20130917192915/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (7.0ms)
+Read fragment views/contexts/2-20080324192353/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/2-20080324192353/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (44.0ms)
+Read fragment views/contexts/3-20080324192353/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (1.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/3-20080324192353/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (8.0ms)
+Read fragment views/contexts/4-20080324192353/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/4-20080324192353/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (6.0ms)
+Read fragment views/contexts/5-20080324192353/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/5-20080324192353/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (5.0ms)
+Read fragment views/contexts/6-20080324192353/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/6-20080324192353/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (5.0ms)
+Read fragment views/contexts/7-20080324192353/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/7-20080324192353/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (5.0ms)
+Read fragment views/contexts/8-20080324192353/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/8-20080324192353/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (8.0ms)
+Read fragment views/contexts/9-20080324192353/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (1.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/9-20080324192353/deferred/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (2.0ms)
+  Rendered contexts/_context.html.erb (126.0ms)
+  [1m[35mContext Load (1.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1[0m
+  Rendered todos/_new_todo_form.html.erb (5.0ms)
+  Rendered todos/_new_multi_todo_form.html.erb (2.0ms)
+  Rendered shared/_add_new_item_form.html.erb (17.0ms)
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active'[0m
+  [1m[35mProject Load (1.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active' ORDER BY projects.position ASC
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f'
+  [1m[36mContext Load (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'hidden'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'hidden'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'completed'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'completed'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 't'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 't'[0m
+  Rendered sidebar/sidebar.html.erb (68.0ms)
+  Rendered todos/list_deferred.html.erb within layouts/application (222.0ms)
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC[0m
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 311ms (Views: 264.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2013-09-17 21:29:32 +0200
+Processing by ProjectsController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPreference Load (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'deferred') GROUP BY project_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'active' OR todos.state = 'project_hidden') GROUP BY project_id
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 ORDER BY projects.position ASC[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'completed'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "notes" GROUP BY project_id[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 ORDER BY projects.position ASC
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active'[0m
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active' ORDER BY projects.position ASC
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "notes" WHERE "notes"."project_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "notes" WHERE "notes"."project_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "notes" WHERE "notes"."project_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "notes" WHERE "notes"."project_id" = 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "notes" WHERE "notes"."project_id" = 2[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "notes" WHERE "notes"."project_id" = 3
+  Rendered projects/_project_listing.html.erb (23.0ms)
+  Rendered projects/_project_state_group.html.erb (34.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'hidden'[0m
+  [1m[35mProject Load (1.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'hidden' ORDER BY projects.position ASC
+  Rendered projects/_project_listing.html.erb (0.0ms)
+  Rendered projects/_project_state_group.html.erb (7.0ms)
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'completed' LIMIT 10) subquery_for_count [0m
+  [1m[35mProject Load (1.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'completed' ORDER BY projects.position ASC LIMIT 10
+  Rendered projects/_project_listing.html.erb (0.0ms)
+  Rendered projects/_project_state_group.html.erb (9.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1[0m
+  Rendered projects/_new_project_form.html.erb (8.0ms)
+  Rendered projects/index.html.erb within layouts/application (64.0ms)
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC
+  [1m[36mProject Load (1.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC[0m
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 138ms (Views: 106.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/projects/1" for 127.0.0.1 at 2013-09-17 21:29:36 +0200
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPreference Load (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."id" = 1 ORDER BY projects.position ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' GROUP BY project_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'deferred') GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' GROUP BY context_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'deferred') GROUP BY context_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'active' OR todos.state = 'project_hidden') GROUP BY project_id[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "todos" WHERE "todos"."project_id" = 1 AND (todos.state = 'active' OR todos.state = 'project_hidden')
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" WHERE "todos"."project_id" = 1 AND (todos.state = 'deferred')[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "todos" WHERE "todos"."project_id" = 1 AND (todos.state = 'pending')
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 ORDER BY projects.position ASC[0m
+Cache digest for projects/_project.html: c228baf07fdd0285fbf27f14c28e8590
+Read fragment views/projects/1-20080324192353/20130917/c228baf07fdd0285fbf27f14c28e8590 (0.0ms)
+  Rendered projects/_project_settings.html.erb (2.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "todos" WHERE "todos"."project_id" = 1 AND (todos.state = 'active' OR todos.state = 'project_hidden')
+  [1m[36mTodo Load (0.0ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = 1 AND (todos.state = 'active' OR todos.state = 'project_hidden') ORDER BY todos.due IS NULL, todos.due ASC, todos.created_at ASC[0m
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" IN (1)
+  [1m[36mContext Load (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."id" IN (2, 5)[0m
+  [1m[35mTagging Load (0.0ms)[0m  SELECT "taggings".* FROM "taggings" WHERE "taggings"."taggable_type" = 'Todo' AND "taggings"."taggable_id" IN (6, 5)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "taggings".* FROM "taggings" WHERE "taggings"."taggable_type" = 'Todo' AND "taggings"."taggable_id" IN (6, 5)[0m
+  [1m[35mSQL (1.0ms)[0m  SELECT "dependencies"."id" AS t0_r0, "dependencies"."successor_id" AS t0_r1, "dependencies"."predecessor_id" AS t0_r2, "dependencies"."relationship_type" AS t0_r3, "todos"."id" AS t1_r0, "todos"."context_id" AS t1_r1, "todos"."project_id" AS t1_r2, "todos"."description" AS t1_r3, "todos"."notes" AS t1_r4, "todos"."created_at" AS t1_r5, "todos"."due" AS t1_r6, "todos"."completed_at" AS t1_r7, "todos"."user_id" AS t1_r8, "todos"."show_from" AS t1_r9, "todos"."state" AS t1_r10, "todos"."recurring_todo_id" AS t1_r11, "todos"."updated_at" AS t1_r12, "todos"."rendered_notes" AS t1_r13 FROM "dependencies" LEFT OUTER JOIN "todos" ON "todos"."id" = "dependencies"."successor_id" WHERE "dependencies"."predecessor_id" IN (6, 5) AND (todos.state = 'pending')
+  [1m[36mSQL (1.0ms)[0m  [1mSELECT "dependencies"."id" AS t0_r0, "dependencies"."successor_id" AS t0_r1, "dependencies"."predecessor_id" AS t0_r2, "dependencies"."relationship_type" AS t0_r3, "todos"."id" AS t1_r0, "todos"."context_id" AS t1_r1, "todos"."project_id" AS t1_r2, "todos"."description" AS t1_r3, "todos"."notes" AS t1_r4, "todos"."created_at" AS t1_r5, "todos"."due" AS t1_r6, "todos"."completed_at" AS t1_r7, "todos"."user_id" AS t1_r8, "todos"."show_from" AS t1_r9, "todos"."state" AS t1_r10, "todos"."recurring_todo_id" AS t1_r11, "todos"."updated_at" AS t1_r12, "todos"."rendered_notes" AS t1_r13 FROM "dependencies" LEFT OUTER JOIN "todos" ON "todos"."id" = "dependencies"."predecessor_id" WHERE "dependencies"."successor_id" IN (6, 5) AND (NOT (todos.state = 'completed'))[0m
+Read fragment views/todos/6-20120418222303/20130917/project/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+Write fragment views/todos/6-20120418222303/20130917/project/false/f6b1f1676905500ed5685760722d24b6 (8.0ms)
+Read fragment views/todos/5-20060610143602/20130917/project/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+Write fragment views/todos/5-20060610143602/20130917/project/false/f6b1f1676905500ed5685760722d24b6 (4.0ms)
+  Rendered todos/_todo.html.erb (74.0ms)
+Write fragment views/projects/1-20080324192353/20130917/c228baf07fdd0285fbf27f14c28e8590 (4.0ms)
+  Rendered projects/_project.html.erb (111.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "todos" WHERE "todos"."project_id" = 1 AND (todos.state = 'deferred')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" WHERE "todos"."project_id" = 1 AND (todos.state = 'pending')[0m
+  [1m[35mTodo Load (0.0ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."project_id" = 1 AND (todos.state = 'deferred') ORDER BY todos.due IS NULL, todos.due ASC, todos.created_at ASC
+  Rendered todos/_todo.html.erb (0.0ms)
+  [1m[36mTodo Load (0.0ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = 1 AND (todos.state = 'pending') ORDER BY todos.due IS NULL, todos.due ASC, todos.created_at ASC[0m
+  Rendered todos/_todo.html.erb (0.0ms)
+  Rendered todos/_deferred.html.erb (11.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "todos" WHERE "todos"."project_id" = 1 AND (todos.state = 'completed') LIMIT 5) subquery_for_count 
+  [1m[36mTodo Load (0.0ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."project_id" = 1 AND (todos.state = 'completed') ORDER BY todos.completed_at DESC LIMIT 5[0m
+  Rendered todos/_todo.html.erb (0.0ms)
+  Rendered todos/_completed.html.erb (10.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "notes" WHERE "notes"."project_id" = 1
+  [1m[36mNote Load (0.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."project_id" = 1 ORDER BY created_at DESC[0m
+  Rendered notes/_notes_summary.html.erb (56.0ms)
+  Rendered notes/_note_edit_form.html.erb (2.0ms)
+  [1m[35mContext Load (1.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1[0m
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 ORDER BY position ASC LIMIT 1
+  Rendered todos/_new_todo_form.html.erb (4.0ms)
+  Rendered todos/_new_multi_todo_form.html.erb (2.0ms)
+  Rendered shared/_add_new_item_form.html.erb (20.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active'
+  [1m[36mProject Load (1.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active' ORDER BY projects.position ASC[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f'[0m
+  [1m[35mContext Load (1.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'hidden'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'hidden'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'completed'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'completed'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 't'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 't'
+  Rendered sidebar/sidebar.html.erb (29.0ms)
+  Rendered projects/show.html.erb within layouts/application (257.0ms)
+  [1m[36mProject Load (1.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC[0m
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 374ms (Views: 319.0ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/assets/cancel.png" for 127.0.0.1 at 2013-09-17 21:29:36 +0200
+Served asset /cancel.png - 200 OK (13ms)
+
+
+Started GET "/todos/tag/starred" for 127.0.0.1 at 2013-09-17 21:29:42 +0200
+Processing by TodosController#tag as HTML
+  Parameters: {"name"=>"starred"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPreference Load (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' GROUP BY project_id[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'deferred') GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' GROUP BY context_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'deferred') GROUP BY context_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'active' OR todos.state = 'project_hidden') GROUP BY project_id[0m
+  [1m[35mTag Load (0.0ms)[0m  SELECT "tags".* FROM "tags" WHERE "tags"."name" = 'starred' LIMIT 1
+  [1m[36mContext Load (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 ORDER BY position ASC[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' AND (taggings.tag_id = -1 ) AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' AND (taggings.tag_id = -1 ) AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' AND (taggings.tag_id = -1 ) AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))
+  [1m[36mTodo Load (1.0ms)[0m  [1mSELECT "todos".* FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' AND (taggings.tag_id = -1 ) AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending')))) ORDER BY todos.due IS NULL, todos.due ASC, todos.created_at ASC[0m
+Read fragment views/contexts/1-20130917192915/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/1-20130917192915/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (26.0ms)
+Read fragment views/contexts/2-20080324192353/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/2-20080324192353/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (6.0ms)
+Read fragment views/contexts/3-20080324192353/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/3-20080324192353/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (44.0ms)
+Read fragment views/contexts/4-20080324192353/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/4-20080324192353/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (6.0ms)
+Read fragment views/contexts/5-20080324192353/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/5-20080324192353/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (7.0ms)
+Read fragment views/contexts/6-20080324192353/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/6-20080324192353/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (6.0ms)
+Read fragment views/contexts/7-20080324192353/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/7-20080324192353/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (7.0ms)
+Read fragment views/contexts/8-20080324192353/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/8-20080324192353/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (5.0ms)
+Read fragment views/contexts/9-20080324192353/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (1.0ms)
+  Rendered todos/_todo.html.erb (0.0ms)
+Write fragment views/contexts/9-20080324192353/tag/20130917/starred/b9ee296a92fbc373dd6b97ac54e01e92 (3.0ms)
+  Rendered contexts/_context.html.erb (146.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id WHERE "todos"."user_id" = 1 AND (taggings.tag_id = -1 ) AND (todos.state = 'deferred')
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id WHERE "todos"."user_id" = 1 AND (taggings.tag_id = -1 ) AND (todos.state = 'pending')[0m
+  [1m[35mTodo Load (0.0ms)[0m  SELECT "todos".* FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id WHERE "todos"."user_id" = 1 AND (taggings.tag_id = -1 ) AND (todos.state = 'deferred') ORDER BY todos.show_from ASC, todos.created_at DESC
+  Rendered todos/_todo.html.erb (0.0ms)
+  [1m[36mTodo Load (1.0ms)[0m  [1mSELECT "todos".* FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id WHERE "todos"."user_id" = 1 AND (taggings.tag_id = -1 ) AND (todos.state = 'pending') ORDER BY todos.show_from ASC, todos.created_at DESC[0m
+  Rendered todos/_todo.html.erb (0.0ms)
+  Rendered todos/_deferred.html.erb (15.0ms)
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 1 AND (taggings.tag_id = -1 ) AND (todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending')))
+  [1m[36mTodo Load (0.0ms)[0m  [1mSELECT "todos".* FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 1 AND (taggings.tag_id = -1 ) AND (todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))) ORDER BY todos.completed_at DESC, todos.created_at DESC[0m
+  Rendered todos/_todo.html.erb (0.0ms)
+  Rendered todos/_hidden.html.erb (52.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id WHERE "todos"."user_id" = 1 AND (taggings.tag_id = -1 ) AND (todos.state = 'completed') LIMIT 5) subquery_for_count 
+  [1m[36mTodo Load (0.0ms)[0m  [1mSELECT "todos".* FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id WHERE "todos"."user_id" = 1 AND (taggings.tag_id = -1 ) AND (todos.state = 'completed') ORDER BY todos.completed_at DESC LIMIT 5[0m
+  Rendered todos/_todo.html.erb (0.0ms)
+  Rendered todos/_completed.html.erb (10.0ms)
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1[0m
+  Rendered todos/_new_todo_form.html.erb (3.0ms)
+  Rendered todos/_new_multi_todo_form.html.erb (1.0ms)
+  Rendered shared/_add_new_item_form.html.erb (13.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active'[0m
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active' ORDER BY projects.position ASC
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f'
+  [1m[36mContext Load (1.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'hidden'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'hidden'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'completed'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'completed'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 't'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 't'[0m
+  Rendered sidebar/sidebar.html.erb (28.0ms)
+  Rendered todos/tag.html.erb within layouts/application (274.0ms)
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC[0m
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 346ms (Views: 306.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-17 21:29:46 +0200
+Processing by TodosController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPreference Load (1.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1[0m
+  [1m[35mTodo Load (1.0ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 1 AND (state = 'deferred') AND (show_from <= '2013-09-17 19:29:46.307854') ORDER BY show_from ASC, todos.created_at DESC
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' GROUP BY project_id[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'deferred') GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' GROUP BY context_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'deferred') GROUP BY context_id
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'active' OR todos.state = 'project_hidden') GROUP BY project_id[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))[0m
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC
+  [1m[36mTodo Load (0.0ms)[0m  [1mSELECT "todos".* FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 1 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending')))) ORDER BY todos.due IS NULL, todos.due ASC, todos.created_at ASC[0m
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" IN (1, 3, 2)
+  [1m[36mContext Load (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."id" IN (2, 1, 5, 6)[0m
+  [1m[35mTagging Load (0.0ms)[0m  SELECT "taggings".* FROM "taggings" WHERE "taggings"."taggable_type" = 'Todo' AND "taggings"."taggable_id" IN (6, 9, 12, 13, 1, 2, 14, 5, 7)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "taggings".* FROM "taggings" WHERE "taggings"."taggable_type" = 'Todo' AND "taggings"."taggable_id" IN (6, 9, 12, 13, 1, 2, 14, 5, 7)[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT "dependencies"."id" AS t0_r0, "dependencies"."successor_id" AS t0_r1, "dependencies"."predecessor_id" AS t0_r2, "dependencies"."relationship_type" AS t0_r3, "todos"."id" AS t1_r0, "todos"."context_id" AS t1_r1, "todos"."project_id" AS t1_r2, "todos"."description" AS t1_r3, "todos"."notes" AS t1_r4, "todos"."created_at" AS t1_r5, "todos"."due" AS t1_r6, "todos"."completed_at" AS t1_r7, "todos"."user_id" AS t1_r8, "todos"."show_from" AS t1_r9, "todos"."state" AS t1_r10, "todos"."recurring_todo_id" AS t1_r11, "todos"."updated_at" AS t1_r12, "todos"."rendered_notes" AS t1_r13 FROM "dependencies" LEFT OUTER JOIN "todos" ON "todos"."id" = "dependencies"."successor_id" WHERE "dependencies"."predecessor_id" IN (6, 9, 12, 13, 1, 2, 14, 5, 7) AND (todos.state = 'pending')
+  [1m[36mSQL (1.0ms)[0m  [1mSELECT "dependencies"."id" AS t0_r0, "dependencies"."successor_id" AS t0_r1, "dependencies"."predecessor_id" AS t0_r2, "dependencies"."relationship_type" AS t0_r3, "todos"."id" AS t1_r0, "todos"."context_id" AS t1_r1, "todos"."project_id" AS t1_r2, "todos"."description" AS t1_r3, "todos"."notes" AS t1_r4, "todos"."created_at" AS t1_r5, "todos"."due" AS t1_r6, "todos"."completed_at" AS t1_r7, "todos"."user_id" AS t1_r8, "todos"."show_from" AS t1_r9, "todos"."state" AS t1_r10, "todos"."recurring_todo_id" AS t1_r11, "todos"."updated_at" AS t1_r12, "todos"."rendered_notes" AS t1_r13 FROM "dependencies" LEFT OUTER JOIN "todos" ON "todos"."id" = "dependencies"."predecessor_id" WHERE "dependencies"."successor_id" IN (6, 9, 12, 13, 1, 2, 14, 5, 7) AND (NOT (todos.state = 'completed'))[0m
+Read fragment views/contexts/1-20130917192915/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+Read fragment views/todos/9-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (1.0ms)
+Read fragment views/todos/12-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+Read fragment views/todos/13-20120418222303/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+Read fragment views/todos/1-20060603143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+  Rendered todos/_todo.html.erb (5.0ms)
+Write fragment views/contexts/1-20130917192915/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (3.0ms)
+Read fragment views/contexts/2-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (1.0ms)
+Read fragment views/contexts/3-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+Read fragment views/contexts/4-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+Read fragment views/contexts/5-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (1.0ms)
+Read fragment views/contexts/6-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (2.0ms)
+Read fragment views/contexts/7-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+Read fragment views/contexts/8-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+Read fragment views/contexts/9-20080324192353/todo/20130917//b9ee296a92fbc373dd6b97ac54e01e92 (0.0ms)
+  Rendered contexts/_context.html.erb (49.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'completed') LIMIT 5) subquery_for_count 
+  [1m[36mTodo Load (1.0ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 1 AND (todos.state = 'completed') ORDER BY todos.completed_at DESC, todos.created_at DESC LIMIT 5[0m
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" IN (2)
+  [1m[36mContext Load (1.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."id" IN (1, 4)[0m
+  [1m[35mTagging Load (0.0ms)[0m  SELECT "taggings".* FROM "taggings" WHERE "taggings"."taggable_type" = 'Todo' AND "taggings"."taggable_id" IN (11, 3, 4, 8, 10)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "taggings".* FROM "taggings" WHERE "taggings"."taggable_type" = 'Todo' AND "taggings"."taggable_id" IN (11, 3, 4, 8, 10)[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT "dependencies"."id" AS t0_r0, "dependencies"."successor_id" AS t0_r1, "dependencies"."predecessor_id" AS t0_r2, "dependencies"."relationship_type" AS t0_r3, "todos"."id" AS t1_r0, "todos"."context_id" AS t1_r1, "todos"."project_id" AS t1_r2, "todos"."description" AS t1_r3, "todos"."notes" AS t1_r4, "todos"."created_at" AS t1_r5, "todos"."due" AS t1_r6, "todos"."completed_at" AS t1_r7, "todos"."user_id" AS t1_r8, "todos"."show_from" AS t1_r9, "todos"."state" AS t1_r10, "todos"."recurring_todo_id" AS t1_r11, "todos"."updated_at" AS t1_r12, "todos"."rendered_notes" AS t1_r13 FROM "dependencies" LEFT OUTER JOIN "todos" ON "todos"."id" = "dependencies"."successor_id" WHERE "dependencies"."predecessor_id" IN (11, 3, 4, 8, 10) AND (todos.state = 'pending')
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "dependencies"."id" AS t0_r0, "dependencies"."successor_id" AS t0_r1, "dependencies"."predecessor_id" AS t0_r2, "dependencies"."relationship_type" AS t0_r3, "todos"."id" AS t1_r0, "todos"."context_id" AS t1_r1, "todos"."project_id" AS t1_r2, "todos"."description" AS t1_r3, "todos"."notes" AS t1_r4, "todos"."created_at" AS t1_r5, "todos"."due" AS t1_r6, "todos"."completed_at" AS t1_r7, "todos"."user_id" AS t1_r8, "todos"."show_from" AS t1_r9, "todos"."state" AS t1_r10, "todos"."recurring_todo_id" AS t1_r11, "todos"."updated_at" AS t1_r12, "todos"."rendered_notes" AS t1_r13 FROM "dependencies" LEFT OUTER JOIN "todos" ON "todos"."id" = "dependencies"."predecessor_id" WHERE "dependencies"."successor_id" IN (11, 3, 4, 8, 10) AND (NOT (todos.state = 'completed'))[0m
+Read fragment views/todos/11-20130917192915/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (1.0ms)
+Write fragment views/todos/11-20130917192915/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (6.0ms)
+Read fragment views/todos/3-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+Read fragment views/todos/4-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+Read fragment views/todos/8-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+Read fragment views/todos/10-20060610143602/20130917/todo/false/f6b1f1676905500ed5685760722d24b6 (0.0ms)
+  Rendered todos/_todo.html.erb (15.0ms)
+  Rendered todos/_completed.html.erb (84.0ms)
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1[0m
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 ORDER BY position ASC LIMIT 1
+  Rendered todos/_new_todo_form.html.erb (3.0ms)
+  Rendered todos/_new_multi_todo_form.html.erb (1.0ms)
+  Rendered shared/_add_new_item_form.html.erb (15.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active'
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'active' ORDER BY projects.position ASC[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 'f' ORDER BY position ASC
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'hidden'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'hidden'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'completed'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 1 AND "projects"."state" = 'completed'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 't'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 1 AND "contexts"."hide" = 't'
+  Rendered sidebar/sidebar.html.erb (26.0ms)
+  Rendered todos/index.html.erb within layouts/application (185.0ms)
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC[0m
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 1 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 249ms (Views: 212.0ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/integrations/search_plugin.xml" for 127.0.0.1 at 2013-09-17 21:29:47 +0200
+Processing by IntegrationsController#search_plugin as XML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPreference Load (1.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1
+  Rendered integrations/search_plugin.xml.builder (1.0ms)
+Completed 200 OK in 18ms (Views: 12.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2013-09-17 21:31:08 +0200
+Processing by LoginController#logout as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPreference Load (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "users" SET "remember_token_expires_at" = NULL, "remember_token" = NULL WHERE "users"."id" = 1
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 31ms (ActiveRecord: 11.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-17 21:31:08 +0200
+Processing by LoginController#login as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "users" 
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered login/login.html.erb within layouts/login (2.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2013-09-17 21:31:08 +0200
+Served asset /login.css - 304 Not Modified (0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-17 21:31:13 +0200
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9JMygRAGvI2FpjjnvcfbW7LUY2xTc3b5kOhLTphwwU=", "user_login"=>"jane", "user_password"=>"[FILTERED]", "user_noexpiry"=>"on", "login"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE (login = 'jane') LIMIT 1[0m
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered login/login.html.erb within layouts/login (2.0ms)
+  Rendered shared/_footer.html.erb (2.0ms)
+Completed 200 OK in 112ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2013-09-17 21:31:13 +0200
+Served asset /login.css - 304 Not Modified (0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-17 21:31:19 +0200
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O9JMygRAGvI2FpjjnvcfbW7LUY2xTc3b5kOhLTphwwU=", "user_login"=>"jane", "user_password"=>"[FILTERED]", "user_noexpiry"=>"on", "login"=>"Sign in"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE (login = 'jane') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "users" SET "remember_token_expires_at" = '2013-10-01 19:31:19.313173', "remember_token" = '43def8581b5021288853c41e421e0c28aa588b7c' WHERE "users"."id" = 2
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 108ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-17 21:31:19 +0200
+Processing by TodosController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mPreference Load (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1[0m
+  [1m[35mTodo Load (0.0ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 2 AND (state = 'deferred') AND (show_from <= '2013-09-17 19:31:19.401178') ORDER BY show_from ASC, todos.created_at DESC
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' GROUP BY project_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'deferred') GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' GROUP BY context_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'deferred') GROUP BY context_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'active' OR todos.state = 'project_hidden') GROUP BY project_id[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))[0m
+  [1m[35mContext Load (1.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f' ORDER BY position ASC
+  Rendered collection (0.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'completed') LIMIT 5) subquery_for_count [0m
+  [1m[35mTodo Load (0.0ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'completed') ORDER BY todos.completed_at DESC, todos.created_at DESC LIMIT 5
+  Rendered todos/_todo.html.erb (0.0ms)
+  Rendered todos/_completed.html.erb (7.0ms)
+  [1m[36mContext Load (1.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1[0m
+  [1m[35mContext Load (1.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 ORDER BY position ASC LIMIT 1
+  Rendered todos/_new_todo_form.html.erb (3.0ms)
+  Rendered todos/_new_multi_todo_form.html.erb (1.0ms)
+  Rendered shared/_add_new_item_form.html.erb (15.0ms)
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'active'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'active'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'hidden'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'hidden'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 't'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 't'
+  Rendered sidebar/sidebar.html.erb (14.0ms)
+  Rendered todos/index.html.erb within layouts/application (45.0ms)
+  [1m[36mProject Load (1.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC[0m
+  [1m[35mProject Load (1.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 109ms (Views: 72.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/assets/swf_fu.js?body=1" for 127.0.0.1 at 2013-09-17 21:31:19 +0200
+Served asset /swf_fu.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2013-09-17 21:31:29 +0200
+Processing by ProjectsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPreference Load (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' GROUP BY project_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'deferred') GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'active' OR todos.state = 'project_hidden') GROUP BY project_id[0m
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 ORDER BY projects.position ASC
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "notes" GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'active'[0m
+  [1m[35mProject Load (1.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'active' ORDER BY projects.position ASC
+  Rendered projects/_project_listing.html.erb (0.0ms)
+  Rendered projects/_project_state_group.html.erb (11.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'hidden'[0m
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'hidden' ORDER BY projects.position ASC
+  Rendered projects/_project_listing.html.erb (0.0ms)
+  Rendered projects/_project_state_group.html.erb (9.0ms)
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed' LIMIT 10) subquery_for_count [0m
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed' ORDER BY projects.position ASC LIMIT 10
+  Rendered projects/_project_listing.html.erb (0.0ms)
+  Rendered projects/_project_state_group.html.erb (10.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2[0m
+  Rendered projects/_new_project_form.html.erb (7.0ms)
+  Rendered projects/index.html.erb within layouts/application (43.0ms)
+  [1m[35mProject Load (1.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC
+  [1m[36mProject Load (1.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC[0m
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 105ms (Views: 75.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/swf_fu.js?body=1" for 127.0.0.1 at 2013-09-17 21:31:29 +0200
+Served asset /swf_fu.js - 304 Not Modified (0ms)
+
+
+Started GET "/todos/tag/starred" for 127.0.0.1 at 2013-09-17 21:31:35 +0200
+Processing by TodosController#tag as HTML
+  Parameters: {"name"=>"starred"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mPreference Load (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'deferred') GROUP BY project_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' GROUP BY context_id
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'deferred') GROUP BY context_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'active' OR todos.state = 'project_hidden') GROUP BY project_id
+  [1m[36mTag Load (0.0ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE "tags"."name" = 'starred' LIMIT 1[0m
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 ORDER BY position ASC
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' AND (taggings.tag_id = -1 ) AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' AND (taggings.tag_id = -1 ) AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' AND (taggings.tag_id = -1 ) AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))[0m
+  Rendered contexts/_context.html.erb (0.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id WHERE "todos"."user_id" = 2 AND (taggings.tag_id = -1 ) AND (todos.state = 'deferred')
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id WHERE "todos"."user_id" = 2 AND (taggings.tag_id = -1 ) AND (todos.state = 'pending')[0m
+  [1m[35mTodo Load (0.0ms)[0m  SELECT "todos".* FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id WHERE "todos"."user_id" = 2 AND (taggings.tag_id = -1 ) AND (todos.state = 'deferred') ORDER BY todos.show_from ASC, todos.created_at DESC
+  Rendered todos/_todo.html.erb (0.0ms)
+  [1m[36mTodo Load (0.0ms)[0m  [1mSELECT "todos".* FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id WHERE "todos"."user_id" = 2 AND (taggings.tag_id = -1 ) AND (todos.state = 'pending') ORDER BY todos.show_from ASC, todos.created_at DESC[0m
+  Rendered todos/_todo.html.erb (0.0ms)
+  Rendered todos/_deferred.html.erb (15.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND (taggings.tag_id = -1 ) AND (todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending')))
+  [1m[36mTodo Load (0.0ms)[0m  [1mSELECT "todos".* FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND (taggings.tag_id = -1 ) AND (todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))) ORDER BY todos.completed_at DESC, todos.created_at DESC[0m
+  Rendered todos/_todo.html.erb (0.0ms)
+  Rendered todos/_hidden.html.erb (8.0ms)
+  [1m[35m (1.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id WHERE "todos"."user_id" = 2 AND (taggings.tag_id = -1 ) AND (todos.state = 'completed') LIMIT 5) subquery_for_count 
+  [1m[36mTodo Load (0.0ms)[0m  [1mSELECT "todos".* FROM "todos" INNER JOIN taggings ON todos.id = taggings.taggable_id WHERE "todos"."user_id" = 2 AND (taggings.tag_id = -1 ) AND (todos.state = 'completed') ORDER BY todos.completed_at DESC LIMIT 5[0m
+  Rendered todos/_todo.html.erb (0.0ms)
+  Rendered todos/_completed.html.erb (9.0ms)
+  [1m[35mContext Load (0.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1
+  Rendered todos/_new_todo_form.html.erb (4.0ms)
+  Rendered todos/_new_multi_todo_form.html.erb (2.0ms)
+  Rendered shared/_add_new_item_form.html.erb (11.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'active'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'active'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'hidden'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'hidden'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 't'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 't'
+  Rendered sidebar/sidebar.html.erb (16.0ms)
+  Rendered todos/tag.html.erb within layouts/application (67.0ms)
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC[0m
+  [1m[35mProject Load (1.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC
+  Rendered shared/_flash.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 176ms (Views: 96.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/swf_fu.js?body=1" for 127.0.0.1 at 2013-09-17 21:31:35 +0200
+Served asset /swf_fu.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-17 21:31:38 +0200
+Processing by TodosController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPreference Load (0.0ms)[0m  SELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1
+  [1m[36mTodo Load (1.0ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 2 AND (state = 'deferred') AND (show_from <= '2013-09-17 19:31:38.224255') ORDER BY show_from ASC, todos.created_at DESC[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'deferred') GROUP BY project_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' GROUP BY context_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) AS count_all, context_id AS context_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'deferred') GROUP BY context_id[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) AS count_all, project_id AS project_id FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'active' OR todos.state = 'project_hidden') GROUP BY project_id
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "todos" INNER JOIN contexts c_hidden ON c_hidden.id = todos.context_id WHERE "todos"."user_id" = 2 AND "todos"."state" = 'active' AND (NOT(todos.state = 'project_hidden' OR (c_hidden.hide = 't' AND (todos.state = 'active' OR todos.state = 'deferred' OR todos.state = 'pending'))))
+  [1m[36mContext Load (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f' ORDER BY position ASC[0m
+  Rendered collection (0.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'completed') LIMIT 5) subquery_for_count 
+  [1m[36mTodo Load (1.0ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."user_id" = 2 AND (todos.state = 'completed') ORDER BY todos.completed_at DESC, todos.created_at DESC LIMIT 5[0m
+  Rendered todos/_todo.html.erb (0.0ms)
+  Rendered todos/_completed.html.erb (9.0ms)
+  [1m[35mContext Load (1.0ms)[0m  SELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f' ORDER BY position ASC LIMIT 1
+  [1m[36mContext Load (0.0ms)[0m  [1mSELECT "contexts".* FROM "contexts" WHERE "contexts"."user_id" = 2 ORDER BY position ASC LIMIT 1[0m
+  Rendered todos/_new_todo_form.html.erb (3.0ms)
+  Rendered todos/_new_multi_todo_form.html.erb (1.0ms)
+  Rendered shared/_add_new_item_form.html.erb (14.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'active'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'active'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 'f'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'hidden'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'hidden'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."user_id" = 2 AND "projects"."state" = 'completed'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 't'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contexts" WHERE "contexts"."user_id" = 2 AND "contexts"."hide" = 't'[0m
+  Rendered sidebar/sidebar.html.erb (16.0ms)
+  Rendered todos/index.html.erb within layouts/application (46.0ms)
+  [1m[35mProject Load (0.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND (NOT(state = 'completed')) AND (NOT(default_context_id IS NULL)) ORDER BY projects.position ASC
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = 2 AND (NOT(state = 'completed')) AND (NOT(default_tags = '')) ORDER BY projects.position ASC[0m
+  Rendered shared/_flash.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 141ms (Views: 110.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/swf_fu.js?body=1" for 127.0.0.1 at 2013-09-17 21:31:38 +0200
+Served asset /swf_fu.js - 304 Not Modified (0ms)
+
+
+Started GET "/integrations/search_plugin.xml" for 127.0.0.1 at 2013-09-17 21:31:38 +0200
+Processing by IntegrationsController#search_plugin as XML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mPreference Load (1.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1[0m
+  Rendered integrations/search_plugin.xml.builder (2.0ms)
+Completed 200 OK in 21ms (Views: 12.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/integrations/search_plugin.xml" for 127.0.0.1 at 2013-09-17 21:32:43 +0200
+Processing by IntegrationsController#search_plugin as XML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mPreference Load (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1[0m
+  Rendered integrations/search_plugin.xml.builder (1.0ms)
+Completed 200 OK in 21ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/integrations/search_plugin.xml" for 127.0.0.1 at 2013-09-17 21:32:46 +0200
+Processing by IntegrationsController#search_plugin as XML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mPreference Load (0.0ms)[0m  [1mSELECT "preferences".* FROM "preferences" WHERE "preferences"."user_id" = 2 LIMIT 1[0m
+  Rendered integrations/search_plugin.xml.builder (1.0ms)
+Completed 200 OK in 12ms (Views: 7.0ms | ActiveRecord: 0.0ms)

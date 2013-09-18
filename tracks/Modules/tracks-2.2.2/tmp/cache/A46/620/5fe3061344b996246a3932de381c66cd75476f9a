@@ -1,0 +1,1852 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1379446109.9814882:@value"¯[I"¯/* line 1, ../../app/assets/stylesheets/tracks.css.scss */
+.needsreview {
+  background: #ffC;
+}
+
+/* line 5, ../../app/assets/stylesheets/tracks.css.scss */
+.widgets a.reviewed, button.reviewed {
+  float: right;
+}
+
+/* line 9, ../../app/assets/stylesheets/tracks.css.scss */
+div.depends_on {
+  clear: both;
+}
+
+/* line 13, ../../app/assets/stylesheets/tracks.css.scss */
+div.depends_on label {
+  float: left;
+}
+
+/* line 17, ../../app/assets/stylesheets/tracks.css.scss */
+div#input_box div#todo_new_action_container div#todo_multi_add form#todo-form-multi-new-action.inline-form label {
+  float: center;
+}
+
+/* line 21, ../../app/assets/stylesheets/tracks.css.scss */
+div#input_box div#todo_new_action_container div#todo_multi_add form#todo-form-multi-new-action.inline-form input#todos_sequential {
+  float: left;
+  width: 30px;
+}
+
+/* line 27, ../../app/assets/stylesheets/tracks.css.scss */
+input#project_name.project-name, input#project_default_context_name.ui-autocomplete-input, textarea#project_description.project-description, input#project_default_tags.ui-autocomplete-input {
+  width: 100%;
+}
+
+/* line 31, ../../app/assets/stylesheets/tracks.css.scss */
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 36, ../../app/assets/stylesheets/tracks.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 41, ../../app/assets/stylesheets/tracks.css.scss */
+fieldset, img {
+  border: 0;
+}
+
+/* line 45, ../../app/assets/stylesheets/tracks.css.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 49, ../../app/assets/stylesheets/tracks.css.scss */
+caption, th {
+  text-align: left;
+}
+
+/* line 53, ../../app/assets/stylesheets/tracks.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* line 58, ../../app/assets/stylesheets/tracks.css.scss */
+q:before, q:after {
+  content: '';
+}
+
+/* line 62, ../../app/assets/stylesheets/tracks.css.scss */
+abbr, acronym {
+  border: 0;
+}
+
+/* line 66, ../../app/assets/stylesheets/tracks.css.scss */
+body {
+  font-family: "Lucida Grande", Verdana, Geneva, Arial, sans-serif;
+  font-size: 80%;
+  padding: 0px 10px;
+  margin: 0px;
+  background: #eee;
+}
+
+/* line 74, ../../app/assets/stylesheets/tracks.css.scss */
+p {
+  padding: 2px;
+  font-size: 92%;
+  line-height: 140%;
+}
+
+/* line 80, ../../app/assets/stylesheets/tracks.css.scss */
+a, a:link, a:active, a:visited {
+  color: #cc3334;
+  text-decoration: none;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+/* line 87, ../../app/assets/stylesheets/tracks.css.scss */
+a:hover {
+  color: #fff;
+  background-color: #cc3334;
+}
+
+/* line 92, ../../app/assets/stylesheets/tracks.css.scss */
+h1 {
+  font-size: 304%;
+  font-weight: bold;
+}
+
+/* line 97, ../../app/assets/stylesheets/tracks.css.scss */
+h2 {
+  font-size: 148%;
+  font-weight: bold;
+}
+
+/* line 102, ../../app/assets/stylesheets/tracks.css.scss */
+h3 {
+  font-size: 129%;
+  font-weight: bold;
+}
+
+/* Rules for the icon links */
+/* line 109, ../../app/assets/stylesheets/tracks.css.scss */
+img.edit_item {
+  background: url(/assets/edit.png) no-repeat top;
+  border: none;
+}
+/* line 113, ../../app/assets/stylesheets/tracks.css.scss */
+a:hover img.edit_item {
+  background-position: bottom;
+}
+
+/* line 118, ../../app/assets/stylesheets/tracks.css.scss */
+img.delete_item {
+  background: url(/assets/delete.png) no-repeat top;
+  border: none;
+}
+/* line 122, ../../app/assets/stylesheets/tracks.css.scss */
+a:hover img.delete_item {
+  background-position: bottom;
+}
+
+/* line 127, ../../app/assets/stylesheets/tracks.css.scss */
+a.undecorated_link {
+  background-color: transparent;
+  color: transparent;
+}
+
+/* line 128, ../../app/assets/stylesheets/tracks.css.scss */
+img.todo_star {
+  background-image: url(/assets/staricons.png);
+  background-repeat: no-repeat;
+  border: none;
+  background-position: -32px 0px;
+}
+
+/* line 129, ../../app/assets/stylesheets/tracks.css.scss */
+img.todo_star.starred {
+  background-position: 0px 0px;
+}
+
+/* line 130, ../../app/assets/stylesheets/tracks.css.scss */
+a:hover img.todo_star {
+  background-position: -48px 0px;
+}
+
+/* line 131, ../../app/assets/stylesheets/tracks.css.scss */
+a:hover img.todo_star.starred {
+  background-position: -16px 0px;
+}
+
+/* line 133, ../../app/assets/stylesheets/tracks.css.scss */
+a.to_top {
+  background: transparent url(/assets/top_off.png) no-repeat;
+}
+/* line 135, ../../app/assets/stylesheets/tracks.css.scss */
+a.to_top:hover {
+  background: transparent url(/assets/top_on.png) no-repeat;
+}
+
+/* line 138, ../../app/assets/stylesheets/tracks.css.scss */
+a.up {
+  background: transparent url(/assets/up_off.png) no-repeat;
+}
+/* line 140, ../../app/assets/stylesheets/tracks.css.scss */
+a.up:hover {
+  background: transparent url(/assets/up_on.png) no-repeat;
+}
+
+/* line 143, ../../app/assets/stylesheets/tracks.css.scss */
+a.down {
+  background: transparent url(/assets/down_off.png) no-repeat;
+}
+/* line 145, ../../app/assets/stylesheets/tracks.css.scss */
+a.down:hover {
+  background: transparent url(/assets/down_on.png) no-repeat;
+}
+
+/* line 148, ../../app/assets/stylesheets/tracks.css.scss */
+a.to_bottom {
+  background: transparent url(/assets/bottom_off.png) no-repeat;
+}
+
+/* line 149, ../../app/assets/stylesheets/tracks.css.scss */
+a.to_bottom:hover {
+  background: transparent url(/assets/bottom_on.png) no-repeat;
+}
+
+/* line 151, ../../app/assets/stylesheets/tracks.css.scss */
+a.show_notes, a.link_to_notes {
+  background-image: url(/assets/notes_off.png);
+  background-repeat: no-repeat;
+  padding: 1px;
+  background-color: transparent;
+}
+
+/* line 152, ../../app/assets/stylesheets/tracks.css.scss */
+a.show_notes:hover, a.link_to_notes:hover {
+  background-image: url(/assets/notes_on.png);
+  background-repeat: no-repeat;
+  padding: 1px;
+  background-color: transparent;
+}
+
+/* line 154, ../../app/assets/stylesheets/tracks.css.scss */
+a.show_successors, a.link_to_successors {
+  background-image: url(/assets/successor_off.png);
+  background-repeat: no-repeat;
+  padding: 1px;
+  background-color: transparent;
+}
+
+/* line 155, ../../app/assets/stylesheets/tracks.css.scss */
+a.show_successors:hover, a.link_to_successors:hover {
+  background-image: url(/assets/successor_on.png);
+  background-repeat: no-repeat;
+  padding: 1px;
+  background-color: transparent;
+}
+
+/* Structural divs */
+/* line 159, ../../app/assets/stylesheets/tracks.css.scss */
+#content {
+  margin-top: 90px;
+}
+
+/* line 163, ../../app/assets/stylesheets/tracks.css.scss */
+#display_box {
+  float: none;
+  margin-right: 310px;
+  padding-left: 5px;
+}
+
+/* line 169, ../../app/assets/stylesheets/tracks.css.scss */
+#single_box {
+  width: 60%;
+  margin: 80px auto;
+}
+
+/* line 174, ../../app/assets/stylesheets/tracks.css.scss */
+#full_width_display {
+  float: left;
+  width: 95%;
+  margin: 0px 15px 90px 15px;
+}
+
+/* line 180, ../../app/assets/stylesheets/tracks.css.scss */
+#display_box_projects {
+  float: left;
+  width: 95%;
+  margin: 0px 15px 90px 15px;
+}
+
+/* recurring todos */
+/* line 188, ../../app/assets/stylesheets/tracks.css.scss */
+#recurring_timespan, #recurring_target {
+  border: none;
+  clear: both;
+}
+
+/* line 193, ../../app/assets/stylesheets/tracks.css.scss */
+#recurring_target {
+  border-top-style: dotted;
+  padding: 15px 0px 0px 0px;
+}
+
+/* line 199, ../../app/assets/stylesheets/tracks.css.scss */
+#recurring_daily, #recurring_weekly, #recurring_monthly, #recurring_yearly,
+#recurring_edit_daily, #recurring_edit_weekly, #recurring_edit_monthly, #recurring_edit_yearly {
+  border: none;
+  border-top-style: dotted;
+  clear: both;
+  padding: 15px 0px 15px 0px;
+}
+
+/* line 206, ../../app/assets/stylesheets/tracks.css.scss */
+#recurring_period_id, #recurring_edit_period_id {
+  border: none;
+  float: left;
+  margin: 0px 50px 0px 0px;
+  padding: 0px 25px 15px 50px;
+  border-right-style: none;
+}
+
+/* line 214, ../../app/assets/stylesheets/tracks.css.scss */
+#recurring_todo {
+  width: 270px;
+}
+
+/* line 218, ../../app/assets/stylesheets/tracks.css.scss */
+#recurring_todo_form_container {
+  border-right-style: dotted;
+  padding: 0px 50px 15px 0px;
+  float: left;
+}
+
+/* line 225, ../../app/assets/stylesheets/tracks.css.scss */
+#recurring_todo input, #recurring_todo textarea {
+  width: 100%;
+}
+
+/* line 228, ../../app/assets/stylesheets/tracks.css.scss */
+.recurring_container {
+  padding: 0px 5px 0px 5px;
+  border: 1px solid #999999;
+  margin: 0px 0px 0px 0px;
+  background: #fff;
+  text-align: left;
+}
+
+/* Navigation links at the top */
+/* line 238, ../../app/assets/stylesheets/tracks.css.scss */
+#navcontainer {
+  position: fixed;
+  top: 48px;
+  left: 0px;
+}
+/* line 242, ../../app/assets/stylesheets/tracks.css.scss */
+#navcontainer a {
+  color: #eee;
+}
+/* line 243, ../../app/assets/stylesheets/tracks.css.scss */
+#navcontainer a:hover {
+  color: #ccc;
+}
+
+/* line 246, ../../app/assets/stylesheets/tracks.css.scss */
+#navlist {
+  margin: 0;
+  padding: 0 0 20px 5px;
+}
+/* line 250, ../../app/assets/stylesheets/tracks.css.scss */
+#navlist ul, #navlist li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  list-style-type: none;
+}
+/* line 257, ../../app/assets/stylesheets/tracks.css.scss */
+#navlist a:link, #navlist a:visited {
+  float: left;
+  line-height: 14px;
+  font-weight: bold;
+  margin: 0 10px 4px 10px;
+  text-decoration: none;
+  color: #eee;
+}
+/* line 266, ../../app/assets/stylesheets/tracks.css.scss */
+#navlist a:link#current, #navlist a:visited#current, #navlist a:hover {
+  border-bottom: 4px solid #cccccc;
+  padding-bottom: 2px;
+  background: transparent;
+  color: #CCC;
+}
+/* line 273, ../../app/assets/stylesheets/tracks.css.scss */
+#navlist a:hover {
+  color: #CCC;
+}
+
+/* line 276, ../../app/assets/stylesheets/tracks.css.scss */
+#develop-notify-bar {
+  line-height: 0.5;
+  background-image: url(/assets/construction.gif);
+  background-repeat: repeat-x;
+}
+
+/* line 282, ../../app/assets/stylesheets/tracks.css.scss */
+#topbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 68px;
+  margin-bottom: 20px;
+  clear: both;
+  background-color: #000;
+  color: #eee;
+  width: 100%;
+  z-index: 501;
+}
+
+/* line 295, ../../app/assets/stylesheets/tracks.css.scss */
+#date {
+  float: left;
+  width: 45%;
+  padding-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  /* added 2006-05-17 for safari display, timfm */
+}
+/* line 303, ../../app/assets/stylesheets/tracks.css.scss */
+#date h1 {
+  font-size: 152%;
+}
+
+/* line 306, ../../app/assets/stylesheets/tracks.css.scss */
+#minilinks {
+  text-align: right;
+  position: fixed;
+  right: 15px;
+  top: 10px;
+  font-size: 0.9em;
+}
+
+/* line 314, ../../app/assets/stylesheets/tracks.css.scss */
+.container {
+  padding: 0px 5px 0px 5px;
+  border: 1px solid #999999;
+  margin: 0px 0px 15px 0px;
+  background: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/* line 324, ../../app/assets/stylesheets/tracks.css.scss */
+.completed {
+  background: #eee;
+}
+
+/* line 328, ../../app/assets/stylesheets/tracks.css.scss */
+.container h2 {
+  background: #ccc;
+  padding: 5px;
+  margin-top: 0px;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-bottom: 0px;
+  color: #666;
+  position: static;
+}
+
+/* line 339, ../../app/assets/stylesheets/tracks.css.scss */
+.container_toggle img {
+  height: 14px;
+  width: 14px;
+  border: 0px;
+  background: url(/assets/collapse_expand.png) no-repeat left top;
+}
+/* line 345, ../../app/assets/stylesheets/tracks.css.scss */
+.context_collapsed .container_toggle img {
+  background-position: left bottom;
+}
+
+/* line 349, ../../app/assets/stylesheets/tracks.css.scss */
+h2 a, h2 a:link, h2 a:active, h2 a:visited {
+  color: #666;
+  text-decoration: none;
+}
+/* line 354, ../../app/assets/stylesheets/tracks.css.scss */
+h2 a:hover {
+  color: #cc3334;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* line 361, ../../app/assets/stylesheets/tracks.css.scss */
+div#input_box {
+  position: absolute;
+  width: 265px;
+  margin: 0;
+  padding: 0px 0px 0px 0px;
+  top: 90px;
+  right: 40px;
+}
+
+/* line 370, ../../app/assets/stylesheets/tracks.css.scss */
+#input_box h2 {
+  color: #999;
+}
+
+/* line 375, ../../app/assets/stylesheets/tracks.css.scss */
+#input_box ul {
+  list-style-type: circle;
+  font-size: 0.9em;
+}
+
+/* line 377, ../../app/assets/stylesheets/tracks.css.scss */
+#input_box ul#predecessor_ul {
+  list-style-type: none;
+  color: red;
+}
+
+/* line 383, ../../app/assets/stylesheets/tracks.css.scss */
+.show_from_input, .due_input, .project_input, .context_input,
+.predecessor_input {
+  float: left;
+}
+
+/* line 387, ../../app/assets/stylesheets/tracks.css.scss */
+#input_box input.pred_remove_button {
+  width: 1.3em;
+}
+
+/* line 391, ../../app/assets/stylesheets/tracks.css.scss */
+.selected_predecessors {
+  clear: both;
+}
+
+/* line 396, ../../app/assets/stylesheets/tracks.css.scss */
+form.new_todo_form ul.predecessor_list,
+form.edit_todo_form ul.predecessor_list {
+  color: #999;
+  font-size: 0.8em;
+  padding: 0 0 5pt 0;
+}
+
+/* line 402, ../../app/assets/stylesheets/tracks.css.scss */
+form.edit_todo_form ul.predecessor_list {
+  color: black;
+}
+
+/* line 406, ../../app/assets/stylesheets/tracks.css.scss */
+ul.predecessor_list li {
+  padding: 0 0;
+}
+
+/* deleting dependency from new form of a todo */
+/* line 411, ../../app/assets/stylesheets/tracks.css.scss */
+img.icon_delete_dep {
+  width: 10px;
+  background-image: url(/assets/icon_delete.png);
+  background-repeat: no-repeat;
+  background-position: -9px 0;
+  border: none;
+  color: black;
+}
+
+/* line 412, ../../app/assets/stylesheets/tracks.css.scss */
+a:hover img.icon_delete_dep {
+  width: 10px;
+  background-image: url(/assets/icon_delete.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  border: none;
+  color: black;
+  background-color: black;
+}
+
+/* line 413, ../../app/assets/stylesheets/tracks.css.scss */
+a.icon_delete_dep:hover {
+  width: 10px;
+  background-color: black;
+}
+
+/* deleting dependency from edit form of a todo */
+/* line 417, ../../app/assets/stylesheets/tracks.css.scss */
+form.edit_todo_form a.icon_delete_dep:hover {
+  background-color: #cccccc;
+}
+/* line 418, ../../app/assets/stylesheets/tracks.css.scss */
+form.edit_todo_form a:hover img.icon_delete_dep {
+  background-color: #cccccc;
+}
+
+/* delete button for deleting a dep from the tree of a todo */
+/* line 422, ../../app/assets/stylesheets/tracks.css.scss */
+a.delete_dependency_button:hover {
+  background-color: white;
+}
+
+/* line 425, ../../app/assets/stylesheets/tracks.css.scss */
+.box {
+  float: left;
+  width: 20px;
+}
+
+/* line 430, ../../app/assets/stylesheets/tracks.css.scss */
+div.item-container {
+  padding: 2px 0px;
+  line-height: 20px;
+  clear: both;
+}
+
+/* line 436, ../../app/assets/stylesheets/tracks.css.scss */
+.sf-item-selected {
+  background: #ddd;
+}
+
+/* line 440, ../../app/assets/stylesheets/tracks.css.scss */
+a.recurring_icon {
+  vertical-align: middle;
+  background-color: transparent;
+}
+
+/* line 445, ../../app/assets/stylesheets/tracks.css.scss */
+a.icon {
+  float: left;
+  vertical-align: middle;
+  background-color: transparent;
+}
+
+/* line 451, ../../app/assets/stylesheets/tracks.css.scss */
+input.item-checkbox {
+  float: left;
+  margin-top: 2px;
+  margin-left: 3px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+/* line 459, ../../app/assets/stylesheets/tracks.css.scss */
+.rec_description, .description, .project_description, .context_description {
+  margin-left: 80px;
+  position: relative;
+}
+
+/* line 464, ../../app/assets/stylesheets/tracks.css.scss */
+.project_description, .context_description {
+  margin-left: 50px;
+}
+
+/* line 468, ../../app/assets/stylesheets/tracks.css.scss */
+.stale_l1 {
+  background: #ffC;
+}
+
+/* line 472, ../../app/assets/stylesheets/tracks.css.scss */
+.tools {
+  margin-left: 25px;
+  width: 40px;
+  border-top: 1px solid #999999;
+}
+
+/* line 478, ../../app/assets/stylesheets/tracks.css.scss */
+#footer {
+  clear: both;
+  font-size: 85%;
+  text-align: center;
+  color: #999;
+  margin: 20px 310px 5px 20px;
+  padding: 0px;
+}
+
+/* line 487, ../../app/assets/stylesheets/tracks.css.scss */
+a.footer_link {
+  color: #cc3334;
+  font-style: normal;
+}
+/* line 491, ../../app/assets/stylesheets/tracks.css.scss */
+a.footer_link:hover {
+  color: #fff;
+  background-color: #cc3334 !important;
+}
+
+/* preferences */
+/* line 499, ../../app/assets/stylesheets/tracks.css.scss */
+body.preferences {
+  /* override jquery css to match tracks defaults better */
+}
+/* line 500, ../../app/assets/stylesheets/tracks.css.scss */
+body.preferences div#display_box {
+  margin-right: 510px;
+}
+/* line 504, ../../app/assets/stylesheets/tracks.css.scss */
+body.preferences div#input_box {
+  width: 490px;
+  right: 15px;
+}
+/* line 509, ../../app/assets/stylesheets/tracks.css.scss */
+body.preferences select#prefs_time_zone, body.preferences select#prefs_sms_context_id {
+  width: 250px;
+}
+/* line 513, ../../app/assets/stylesheets/tracks.css.scss */
+body.preferences div#footer {
+  margin-right: 410px;
+}
+/* line 518, ../../app/assets/stylesheets/tracks.css.scss */
+body.preferences div.ui-widget {
+  font-size: 1em;
+}
+/* line 519, ../../app/assets/stylesheets/tracks.css.scss */
+body.preferences div.ui-tabs li a {
+  padding: 0.1em 1em;
+}
+/* line 520, ../../app/assets/stylesheets/tracks.css.scss */
+body.preferences div.pref_new_token a {
+  color: #CC3334;
+}
+
+/* The notes which may be attached to an item */
+/* line 524, ../../app/assets/stylesheets/tracks.css.scss */
+.todo_notes {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #f5ed59;
+  background: #FAF6AE;
+  color: #666666;
+}
+
+/* line 533, ../../app/assets/stylesheets/tracks.css.scss */
+.todo_notes p, .todo_notes ul, .todo_notes ol,
+.project_notes p, .project_notes ul, .project_notes ol {
+  margin: 10px 0px;
+  font-size: 1em;
+}
+
+/* line 539, ../../app/assets/stylesheets/tracks.css.scss */
+.todo_notes ul, .note_wrapper ul,
+.project_notes ul, .project_notes ul {
+  list-style-type: disc;
+  margin-left: 15px;
+}
+
+/* line 544, ../../app/assets/stylesheets/tracks.css.scss */
+.todo_notes ol, .project_notes ol {
+  list-style-type: decimal;
+  margin-left: 15px;
+}
+
+/* line 550, ../../app/assets/stylesheets/tracks.css.scss */
+.todo_notes ol li, .todo_notes ul li,
+.project_notes ol li, .project_notes ul li {
+  margin-left: 20px;
+}
+
+/* line 554, ../../app/assets/stylesheets/tracks.css.scss */
+.todo_notes h1, .project_notes h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+/* line 560, ../../app/assets/stylesheets/tracks.css.scss */
+.todo_notes h2, .project_notes h2 {
+  font-size: 1.2em;
+  font-style: italic;
+  margin: 10px 0px !important;
+  padding: 0px !important;
+  background-color: transparent !important;
+}
+
+/* The notes for the project */
+/* line 570, ../../app/assets/stylesheets/tracks.css.scss */
+div.note_wrapper {
+  margin: 3px;
+  padding: 2px;
+}
+
+/* line 575, ../../app/assets/stylesheets/tracks.css.scss */
+div.note_wrapper p {
+  display: inline;
+}
+
+/* line 579, ../../app/assets/stylesheets/tracks.css.scss */
+div.note_note {
+  margin-left: 24px;
+}
+
+/* line 583, ../../app/assets/stylesheets/tracks.css.scss */
+div.note_footer {
+  border-top: 1px solid #999999;
+  padding-top: 3px;
+  font-style: italic;
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* line 591, ../../app/assets/stylesheets/tracks.css.scss */
+div.note_footer a, div.note_footer a:hover {
+  border-top: none;
+  padding-top: 0px;
+  vertical-align: middle;
+  background-color: transparent;
+}
+
+/* For the detailed notes view */
+/* line 599, ../../app/assets/stylesheets/tracks.css.scss */
+.project_notes {
+  padding: 5px;
+}
+
+/* line 603, ../../app/assets/stylesheets/tracks.css.scss */
+div.add_note_link {
+  margin-top: 12px;
+  float: right;
+}
+
+/* line 608, ../../app/assets/stylesheets/tracks.css.scss */
+div#project_status > div {
+  padding: 10px;
+}
+
+/* line 612, ../../app/assets/stylesheets/tracks.css.scss */
+#project_status span {
+  margin-right: 5px;
+  background-color: white;
+}
+
+/* line 617, ../../app/assets/stylesheets/tracks.css.scss */
+#project_status .active_state {
+  font-weight: bold;
+}
+
+/* line 621, ../../app/assets/stylesheets/tracks.css.scss */
+div#default_context > div {
+  padding: 10px;
+}
+
+/* line 624, ../../app/assets/stylesheets/tracks.css.scss */
+div#default_tags > div {
+  padding: 10px;
+}
+
+/* Tag formatting */
+/* line 630, ../../app/assets/stylesheets/tracks.css.scss */
+span.tag {
+  font-size: 0.8em;
+  background-color: #CCE7FF;
+  color: #000;
+  padding: 1px;
+  margin-right: 2px;
+}
+
+/* line 641, ../../app/assets/stylesheets/tracks.css.scss */
+span.tag a,
+span.tag a:link,
+span.tag a:active,
+span.tag a:visited {
+  color: #000;
+}
+
+/* line 645, ../../app/assets/stylesheets/tracks.css.scss */
+span.tag a:hover {
+  background-color: #99CCFF;
+  color: #333;
+}
+
+/* Flash box styling */
+/* line 652, ../../app/assets/stylesheets/tracks.css.scss */
+div#message_holder {
+  position: absolute;
+  z-index: 502;
+  left: 60%;
+  top: 30px;
+  right: 0px;
+  margin: 0px;
+}
+
+/* line 661, ../../app/assets/stylesheets/tracks.css.scss */
+h4.alert {
+  font-size: 1em;
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+/* line 668, ../../app/assets/stylesheets/tracks.css.scss */
+h4.warning {
+  border: 1px solid #ed2e38;
+  background-color: #F6979C;
+  color: #000;
+}
+
+/* line 673, ../../app/assets/stylesheets/tracks.css.scss */
+h4.error {
+  color: #fff;
+  background: #c00;
+}
+
+/* line 677, ../../app/assets/stylesheets/tracks.css.scss */
+h4.notice {
+  border: 1px solid #007e00;
+  background-color: #c2ffc2;
+  color: #007E00;
+}
+
+/* *****/
+/* line 685, ../../app/assets/stylesheets/tracks.css.scss */
+.project_completed {
+  border: 1px solid #007e00;
+  background-color: #c2ffc2;
+  padding: 5px;
+  color: #007E00;
+  text-align: center;
+}
+
+/*   Draw attention to some text
+Same format as traffic lights */
+/* line 695, ../../app/assets/stylesheets/tracks.css.scss */
+.red {
+  color: #fff;
+  background: #f00;
+  padding: 1px;
+  font-size: 85%;
+}
+
+/* line 702, ../../app/assets/stylesheets/tracks.css.scss */
+.amber {
+  color: #fff;
+  background: #ff6600;
+  padding: 1px;
+  font-size: 85%;
+}
+
+/* line 709, ../../app/assets/stylesheets/tracks.css.scss */
+.orange {
+  color: #fff;
+  background: #FFA500;
+  padding: 1px;
+  font-size: 85%;
+}
+
+/* line 716, ../../app/assets/stylesheets/tracks.css.scss */
+.green {
+  color: #fff;
+  background: #33cc00;
+  padding: 1px;
+  font-size: 85%;
+}
+
+/* line 723, ../../app/assets/stylesheets/tracks.css.scss */
+.grey {
+  color: #fff;
+  background: #999;
+  padding: 2px;
+  font-size: 85%;
+}
+
+/* line 730, ../../app/assets/stylesheets/tracks.css.scss */
+.info {
+  color: #fff;
+  background: #CCC;
+  border: 1px solid #999999;
+  padding: 5px;
+  text-align: center;
+}
+
+/* line 738, ../../app/assets/stylesheets/tracks.css.scss */
+.highlight {
+  background: #ffC;
+  padding: 2px;
+}
+
+/*  Backgrounds marking out 'staleness' of a task based on age of creation date
+The colour of the background gets progressively yellower with age */
+/* line 746, ../../app/assets/stylesheets/tracks.css.scss */
+.stale_l1 {
+  background: #ffC;
+}
+
+/* line 750, ../../app/assets/stylesheets/tracks.css.scss */
+.stale_l2 {
+  background: #ff6;
+}
+
+/* line 754, ../../app/assets/stylesheets/tracks.css.scss */
+.stale_l3 {
+  background: #ff0;
+}
+
+/* Shows the number of undone next action */
+/* line 759, ../../app/assets/stylesheets/tracks.css.scss */
+.badge {
+  color: #fff;
+  background: #f00;
+  padding: 3px 5px;
+  font-size: 12pt;
+  margin: 10px 10px 0px 0px;
+  height: 26px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 772, ../../app/assets/stylesheets/tracks.css.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 776, ../../app/assets/stylesheets/tracks.css.scss */
+#sidebar h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/* line 781, ../../app/assets/stylesheets/tracks.css.scss */
+#sidebar ul {
+  margin-left: auto;
+  list-style-position: inside;
+}
+
+/* line 786, ../../app/assets/stylesheets/tracks.css.scss */
+li {
+  font-size: 1.1em;
+  padding: 3px 0px;
+}
+
+/* line 791, ../../app/assets/stylesheets/tracks.css.scss */
+#sidebar .integrations-link {
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 0.8em;
+}
+
+/* line 797, ../../app/assets/stylesheets/tracks.css.scss */
+.sortable_row {
+  background: #fff;
+  _background: transparent;
+  /* the underscore is only used by ie6 and below */
+  padding: 4px 4px 4px 8px;
+  margin: 2px 2px;
+}
+
+/* line 804, ../../app/assets/stylesheets/tracks.css.scss */
+.edit-form {
+  background: #ccc;
+  padding: 0 10px;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+  position: relative;
+}
+
+/* Right align labels in forms */
+/* line 813, ../../app/assets/stylesheets/tracks.css.scss */
+.label {
+  text-align: right;
+}
+
+/* line 817, ../../app/assets/stylesheets/tracks.css.scss */
+input {
+  vertical-align: middle;
+}
+
+/* Positioning the 'cells' in the list */
+/* line 823, ../../app/assets/stylesheets/tracks.css.scss */
+img.position, a:hover img.position {
+  text-align: left;
+  vertical-align: middle;
+  background-color: transparent;
+}
+
+/* line 829, ../../app/assets/stylesheets/tracks.css.scss */
+.data {
+  text-align: left;
+  margin-left: 20px;
+  float: left;
+}
+
+/* line 835, ../../app/assets/stylesheets/tracks.css.scss */
+div.buttons, div.buttons a, div.buttons a:hover {
+  text-align: right;
+  margin-right: 0px;
+  vertical-align: middle;
+  background-color: transparent;
+}
+
+/* line 842, ../../app/assets/stylesheets/tracks.css.scss */
+div#list-active-projects, div#list-hidden-projects, div#list-completed-projects, div#list-contexts, div#projects-empty-nd {
+  clear: right;
+}
+
+/* line 846, ../../app/assets/stylesheets/tracks.css.scss */
+.project-state-group h2, .list-stategroup-contexts-container h2 {
+  margin: 20px 0px 8px 13px;
+}
+
+/* line 850, ../../app/assets/stylesheets/tracks.css.scss */
+.search-result-group h2 {
+  margin: 20px 0px 8px 13px;
+}
+
+/* line 854, ../../app/assets/stylesheets/tracks.css.scss */
+div.menu_sort {
+  margin-top: -20px;
+  float: right;
+}
+
+/* line 859, ../../app/assets/stylesheets/tracks.css.scss */
+div.alpha_sort, div.tasks_sort, span.sort_separator {
+  float: left;
+}
+
+/* line 863, ../../app/assets/stylesheets/tracks.css.scss */
+.container td {
+  border: none;
+  padding-bottom: 5px;
+}
+
+/* line 868, ../../app/assets/stylesheets/tracks.css.scss */
+.container form {
+  border: none;
+}
+
+/* line 872, ../../app/assets/stylesheets/tracks.css.scss */
+div.project_settings {
+  background: #eee;
+  padding: 5px;
+  margin-top: 0px;
+  margin-left: -5px;
+  margin-right: -5px;
+  color: #666;
+  font-style: italic;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+/* line 884, ../../app/assets/stylesheets/tracks.css.scss */
+#project-next-prev {
+  text-align: right;
+}
+
+/* Form elements */
+/* line 889, ../../app/assets/stylesheets/tracks.css.scss */
+form {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  margin: 0px;
+}
+
+/* line 895, ../../app/assets/stylesheets/tracks.css.scss */
+.inline-form {
+  border: none;
+  padding: 3px;
+}
+
+/* line 900, ../../app/assets/stylesheets/tracks.css.scss */
+.inline-form table {
+  padding-right: 3px;
+}
+
+/* expand form contents to fill the whole form */
+/* line 907, ../../app/assets/stylesheets/tracks.css.scss */
+.inline-form table,
+.inline-form textarea#item_notes,
+.inline-form input#item_description {
+  width: 100%;
+}
+
+/* shrink the label/left column as small as necessary */
+/* line 912, ../../app/assets/stylesheets/tracks.css.scss */
+.inline-form table td.label {
+  width: 13ex;
+}
+
+/* line 916, ../../app/assets/stylesheets/tracks.css.scss */
+#todo_new_action_container, #project_new_project_container, #context_new_container, #recurring_new_container {
+  background: #ddd;
+  width: 270px;
+  padding: 5px 10px;
+  background-color: #000;
+  color: #eee;
+}
+
+/* line 924, ../../app/assets/stylesheets/tracks.css.scss */
+#recurring_new_container img {
+  vertical-align: middle;
+}
+
+/* line 928, ../../app/assets/stylesheets/tracks.css.scss */
+#project_new_project_filler {
+  padding-top: 50px;
+}
+
+/* line 936, ../../app/assets/stylesheets/tracks.css.scss */
+#todo_new_action_container input,
+#todo_new_action_container textarea,
+#project_new_project_container input,
+#project_new_project_container textarea,
+#context_new_container input {
+  width: 100%;
+}
+
+/* line 940, ../../app/assets/stylesheets/tracks.css.scss */
+input#go_to_project, input#context_hide {
+  width: 5%;
+}
+
+/* line 945, ../../app/assets/stylesheets/tracks.css.scss */
+#todo_new_action_container .show_from_input, #todo_new_action_container .due_input {
+  width: 45%;
+}
+
+/* line 950, ../../app/assets/stylesheets/tracks.css.scss */
+#todo_new_action_container .show_from_input {
+  float: right;
+}
+
+/* line 955, ../../app/assets/stylesheets/tracks.css.scss */
+#todo-form-new-action .submit_box, #project_form .submit_box, #context_form .submit_box, #todo-form-multi-new-action .submit_box {
+  height: 25px;
+  padding: 5px 0;
+  text-align: center;
+  clear: right;
+}
+
+/* line 964, ../../app/assets/stylesheets/tracks.css.scss */
+.edit_todo_form input, .edit_todo_form textarea {
+  width: 100%;
+}
+/* line 966, ../../app/assets/stylesheets/tracks.css.scss */
+.edit_todo_form .submit_box {
+  height: 25px;
+  padding: 5px 0;
+  text-align: center;
+  clear: right;
+}
+/* line 973, ../../app/assets/stylesheets/tracks.css.scss */
+.edit_todo_form .Date {
+  width: 89%;
+}
+/* line 975, ../../app/assets/stylesheets/tracks.css.scss */
+.edit_todo_form a.date_clear:hover {
+  background: #CCCCCC;
+}
+/* line 977, ../../app/assets/stylesheets/tracks.css.scss */
+.edit_todo_form .tag_list_label {
+  clear: both;
+}
+/* line 979, ../../app/assets/stylesheets/tracks.css.scss */
+.edit_todo_form .due_input, .edit_todo_form .show_from_input, .edit_todo_form .project_input, .edit_todo_form .context_input {
+  width: 48%;
+}
+/* line 983, ../../app/assets/stylesheets/tracks.css.scss */
+.edit_todo_form .show_from_input, .edit_todo_form .context_input {
+  float: right;
+}
+/* line 987, ../../app/assets/stylesheets/tracks.css.scss */
+.edit_todo_form .submit_box input {
+  width: 120px;
+}
+
+/* line 992, ../../app/assets/stylesheets/tracks.css.scss */
+.hide_form {
+  text-align: right;
+}
+
+/* line 996, ../../app/assets/stylesheets/tracks.css.scss */
+#todo-form-new-action label, .edit_todo_form label {
+  display: block;
+  padding-bottom: 3px;
+}
+
+/* line 1001, ../../app/assets/stylesheets/tracks.css.scss */
+form.button-to {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 1007, ../../app/assets/stylesheets/tracks.css.scss */
+label {
+  font-weight: bold;
+  padding: 0px 0px;
+}
+
+/* line 1012, ../../app/assets/stylesheets/tracks.css.scss */
+input, select, textarea {
+  margin: 0px 0px 5px 0px;
+}
+
+/* line 1016, ../../app/assets/stylesheets/tracks.css.scss */
+#feedicons-project, #feedicons-context {
+  background-color: #D2D3D6;
+  margin: 0px 0px 0px 60px;
+  padding: 0px 0px 0px 5px;
+  width: 70%;
+}
+
+/* line 1023, ../../app/assets/stylesheets/tracks.css.scss */
+.feed {
+  font-family: verdana, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: #F60;
+  border: 1px solid;
+  border-color: #ffcc99 #663300 #333300 #ff9966;
+  padding: 0px 3px 0px 3px;
+  margin: 0px;
+}
+
+/* Classes for Drag and Drop */
+/* line 1037, ../../app/assets/stylesheets/tracks.css.scss */
+.position {
+  float: left;
+  margin-top: 2px;
+}
+
+/* line 1041, ../../app/assets/stylesheets/tracks.css.scss */
+.handle {
+  color: #fff;
+  background: #000;
+  padding: 2px;
+  font-size: 92%;
+  cursor: move;
+}
+
+/* line 1049, ../../app/assets/stylesheets/tracks.css.scss */
+div.message {
+  margin: 5px 0px;
+  background: #FAF4B5;
+  padding: 2px;
+}
+
+/* line 1055, ../../app/assets/stylesheets/tracks.css.scss */
+.message p {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: 1em;
+  color: #666;
+}
+
+/* line 1063, ../../app/assets/stylesheets/tracks.css.scss */
+.grip {
+  cursor: move;
+  float: left;
+}
+
+/* line 1068, ../../app/assets/stylesheets/tracks.css.scss */
+.drop_target {
+  display: none;
+}
+
+/* line 1072, ../../app/assets/stylesheets/tracks.css.scss */
+.hover {
+  background: #EAEAEA;
+  font-weight: bold;
+}
+
+/* line 1077, ../../app/assets/stylesheets/tracks.css.scss */
+.context_target {
+  height: 15px;
+  margin: 4px;
+  border: 4px dotted #999999;
+}
+
+/* Error message styles */
+/* line 1084, ../../app/assets/stylesheets/tracks.css.scss */
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 1090, ../../app/assets/stylesheets/tracks.css.scss */
+#errorExplanation {
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin: 10px auto 20px auto;
+  background-color: #f0f0f0;
+}
+/* line 1097, ../../app/assets/stylesheets/tracks.css.scss */
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 1107, ../../app/assets/stylesheets/tracks.css.scss */
+#errorExplanation > p {
+  color: #333;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding: 5px;
+}
+/* line 1114, ../../app/assets/stylesheets/tracks.css.scss */
+#errorExplanation ul li {
+  font-size: 1em;
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-left: 7px;
+  color: #333;
+}
+
+/* line 1123, ../../app/assets/stylesheets/tracks.css.scss */
+ul#prefs {
+  list-style-type: disc;
+  margin-left: 15px;
+}
+
+/* line 1124, ../../app/assets/stylesheets/tracks.css.scss */
+#token_area, #authentication_area {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* line 1130, ../../app/assets/stylesheets/tracks.css.scss */
+#token_area .description {
+  font-weight: bold;
+}
+
+/* line 1134, ../../app/assets/stylesheets/tracks.css.scss */
+#token_area form {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 1139, ../../app/assets/stylesheets/tracks.css.scss */
+.prefscontainer .actions {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* line 1144, ../../app/assets/stylesheets/tracks.css.scss */
+.authtype_container .actions {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 1149, ../../app/assets/stylesheets/tracks.css.scss */
+#feedlegend {
+  padding: 2px;
+  background-color: #D2D3D6;
+  color: #666;
+  padding: 5px 20px;
+  text-align: left;
+}
+/* line 1156, ../../app/assets/stylesheets/tracks.css.scss */
+#feedlegend h3, #feedlegend dl, #feedlegend dt, #feedlegend dd {
+  display: inline;
+}
+/* line 1160, ../../app/assets/stylesheets/tracks.css.scss */
+#feedlegend dt {
+  margin-left: 15px;
+}
+/* line 1161, ../../app/assets/stylesheets/tracks.css.scss */
+#feedlegend dd {
+  margin-left: 3px;
+}
+/* line 1162, ../../app/assets/stylesheets/tracks.css.scss */
+#feedlegend p {
+  margin-bottom: 0px;
+}
+
+/* line 1166, ../../app/assets/stylesheets/tracks.css.scss */
+#feeds img.rss-icon {
+  margin-bottom: -4px;
+}
+/* line 1170, ../../app/assets/stylesheets/tracks.css.scss */
+#feeds li {
+  font-size: 13px;
+  font-family: "Lucida Grande", Verdana, Geneva, Arial, sans-serif;
+}
+/* line 1174, ../../app/assets/stylesheets/tracks.css.scss */
+#feeds li h4 {
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-weight: normal;
+  font-style: oblique;
+}
+
+/* line 1183, ../../app/assets/stylesheets/tracks.css.scss */
+input.open_id {
+  background: url(/assets/open-id-login-bg.gif) no-repeat;
+  background-color: #fff;
+  background-position: 0 50%;
+  color: #000;
+  padding-left: 18px;
+  width: 182px;
+}
+
+/* line 1192, ../../app/assets/stylesheets/tracks.css.scss */
+div.page_name_auto_complete {
+  width: 100%;
+  background: #fff;
+  display: inline;
+  z-index: 100;
+}
+/* line 1198, ../../app/assets/stylesheets/tracks.css.scss */
+div.page_name_auto_complete ul {
+  border: 1px solid #888888;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+/* line 1205, ../../app/assets/stylesheets/tracks.css.scss */
+div.page_name_auto_complete ul li {
+  margin: 0;
+  padding: 2px;
+  font-weight: bold;
+  list-style-type: none;
+  color: #000;
+}
+/* line 1213, ../../app/assets/stylesheets/tracks.css.scss */
+div.page_name_auto_complete ul li.selected {
+  background-color: #ffb;
+}
+/* line 1217, ../../app/assets/stylesheets/tracks.css.scss */
+div.page_name_auto_complete ul strong.highlight {
+  color: #800;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1225, ../../app/assets/stylesheets/tracks.css.scss */
+table.next_actions td {
+  padding: 5px 3px 2px 0px;
+}
+
+/* line 1229, ../../app/assets/stylesheets/tracks.css.scss */
+table.users_table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #666666;
+  background-color: #fff;
+  border-spacing: 0px;
+}
+
+/* line 1237, ../../app/assets/stylesheets/tracks.css.scss */
+.users_table th {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 1238, ../../app/assets/stylesheets/tracks.css.scss */
+.users_table td {
+  border: none;
+}
+
+/* line 1240, ../../app/assets/stylesheets/tracks.css.scss */
+table.export_table {
+  border: 1px solid #666666;
+  background-color: #fff;
+  border-spacing: 0px;
+}
+
+/* line 1246, ../../app/assets/stylesheets/tracks.css.scss */
+.export_table th {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 1247, ../../app/assets/stylesheets/tracks.css.scss */
+.export_table td {
+  border: 1px;
+  padding: 5px 0px 5px 5px;
+}
+
+/* Submit button styling from ParticleTree
+http://particletree.com/features/rediscovering-the-button-element/ */
+/* line 1252, ../../app/assets/stylesheets/tracks.css.scss */
+.widgets a, .widgets button {
+  display: block;
+  float: left;
+  margin: 0px 7px 0 0;
+  background-color: #f5f5f5;
+  border: 1px solid #dedede;
+  border-top: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  font-family: "Lucida Grande", Verdana, Geneva, Arial, sans-serif;
+  font-size: 80%;
+  line-height: 100%;
+  text-decoration: none;
+  font-weight: bold;
+  color: #565656;
+  cursor: pointer;
+  padding: 3px 5px 7px 5px;
+  /* Links */
+}
+
+/* line 1271, ../../app/assets/stylesheets/tracks.css.scss */
+.widgets button {
+  width: auto;
+  overflow: visible;
+  padding: 3px 5px 5px 5px;
+  /* IE6 */
+}
+
+/* line 1277, ../../app/assets/stylesheets/tracks.css.scss */
+.widgets button[type] {
+  padding: 3px 5px 4px 5px;
+  /* Firefox */
+  line-height: 15px;
+  /* Safari */
+}
+
+/* line 1281, ../../app/assets/stylesheets/tracks.css.scss */
+.widgets button img, .widgets a img {
+  margin: 0 3px -3px 0 !important;
+  padding: 0;
+  border: none;
+  width: 16px;
+  height: 16px;
+}
+
+/* STANDARD */
+/* line 1291, ../../app/assets/stylesheets/tracks.css.scss */
+.widgets a:hover {
+  background-color: #dff4ff;
+  border: 1px solid #c2e1ef;
+  color: #336699;
+}
+
+/* line 1296, ../../app/assets/stylesheets/tracks.css.scss */
+.widgets a:active {
+  background-color: #6299c5;
+  border: 1px solid #6299c5;
+  color: #fff;
+}
+
+/* POSITIVE */
+/* line 1304, ../../app/assets/stylesheets/tracks.css.scss */
+button.positive, .widgets a.positive {
+  color: #498111;
+}
+
+/* line 1307, ../../app/assets/stylesheets/tracks.css.scss */
+.widgets a.positive:hover, button.positive:hover {
+  background-color: #E6EFC2;
+  border: 1px solid #c6d880;
+  color: #529214;
+}
+
+/* line 1312, ../../app/assets/stylesheets/tracks.css.scss */
+.widgets a.positive:active {
+  background-color: #529214;
+  border: 1px solid #529214;
+  color: #fff;
+}
+
+/* NEGATIVE */
+/* line 1320, ../../app/assets/stylesheets/tracks.css.scss */
+.widgets a.negative, button.negative {
+  color: #d12f19;
+}
+
+/* line 1323, ../../app/assets/stylesheets/tracks.css.scss */
+.widgets a.negative:hover, button.negative:hover {
+  background: #fbe3e4;
+  border: 1px solid #fbc2c4;
+  color: #d12f19;
+}
+
+/* line 1329, ../../app/assets/stylesheets/tracks.css.scss */
+.widgets a.negative:active {
+  background-color: #d12f19;
+  border: 1px solid #d12f19;
+  color: #fff;
+}
+
+/* line 1335, ../../app/assets/stylesheets/tracks.css.scss */
+.blockUI.blockOverlay {
+  background-image: url(/assets/waiting.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: white;
+  opacity: 1;
+}
+
+/* line 1343, ../../app/assets/stylesheets/tracks.css.scss */
+.bigWaiting {
+  background-image: url(/assets/bigWaiting.gif);
+  background-repeat: no-repeat;
+  background-position: center 20%;
+  background-color: white;
+}
+
+/* line 1350, ../../app/assets/stylesheets/tracks.css.scss */
+.blackWaiting {
+  background-image: url(/assets/blackWaiting.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: black;
+}
+
+/* line 1357, ../../app/assets/stylesheets/tracks.css.scss */
+.bigBlackWaiting {
+  background-image: url(/assets/bigBlackWaiting.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: black;
+}
+
+/* line 1364, ../../app/assets/stylesheets/tracks.css.scss */
+.stats_content .open-flash-chart, .stats_content .stats_module {
+  float: left;
+  width: 450px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 1372, ../../app/assets/stylesheets/tracks.css.scss */
+.stats_content h2 {
+  clear: both;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 1379, ../../app/assets/stylesheets/tracks.css.scss */
+div.integrations h2 {
+  margin-top: 40px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  border-top: 1px solid #cccccc;
+}
+/* line 1386, ../../app/assets/stylesheets/tracks.css.scss */
+div.integrations p, div.integrations li {
+  font-size: 1.0em;
+}
+/* line 1387, ../../app/assets/stylesheets/tracks.css.scss */
+div.integrations pre {
+  font-size: 1.1em;
+}
+/* line 1389, ../../app/assets/stylesheets/tracks.css.scss */
+div.integrations li {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-left: 30px;
+}
+/* line 1395, ../../app/assets/stylesheets/tracks.css.scss */
+div.integrations textarea {
+  margin: 10px;
+  padding: 3px;
+  width: 80%;
+  background-color: #ddd;
+}
+
+/* line 1403, ../../app/assets/stylesheets/tracks.css.scss */
+.defer-container {
+  float: right;
+}
+/* line 1406, ../../app/assets/stylesheets/tracks.css.scss */
+.defer-container a:hover {
+  background-color: inherit;
+}
+
+/* line 1409, ../../app/assets/stylesheets/tracks.css.scss */
+div.auto_complete {
+  width: 350px;
+  background: #fff;
+  color: #000;
+}
+/* line 1414, ../../app/assets/stylesheets/tracks.css.scss */
+div.auto_complete ul {
+  border: 1px solid #888888;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+/* line 1421, ../../app/assets/stylesheets/tracks.css.scss */
+div.auto_complete ul li {
+  font-size: 1.0em;
+  margin: 0;
+  padding: 3px;
+  list-style-type: none;
+}
+/* line 1428, ../../app/assets/stylesheets/tracks.css.scss */
+div.auto_complete ul li.selected {
+  background-color: #ffb;
+  font-weight: bold;
+}
+/* line 1433, ../../app/assets/stylesheets/tracks.css.scss */
+div.auto_complete ul strong.highlight {
+  color: #800;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1441, ../../app/assets/stylesheets/tracks.css.scss */
+.ui-datepicker {
+  z-index: 1000 !important;
+}
+
+/* line 1445, ../../app/assets/stylesheets/tracks.css.scss */
+.ui-autocomplete-loading {
+  background: white url(/assets/ui-anim_basic_16x16.gif) right center no-repeat;
+}
+
+/* line 1449, ../../app/assets/stylesheets/tracks.css.scss */
+a.item-downarrow {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 1455, ../../app/assets/stylesheets/tracks.css.scss */
+ul.todo-submenu > li > a, ul.todo-submenu > li > a:hover, ul.todo-submenu > li > a:active, ul.todo-submenu > li > a:visited {
+  position: relative;
+  padding-left: 24px;
+  height: 16px;
+  line-height: 16px;
+}
+/* line 1462, ../../app/assets/stylesheets/tracks.css.scss */
+ul.todo-submenu > li > a.icon_delete_item {
+  background: url(/assets/delete.png) no-repeat 2px top;
+}
+/* line 1464, ../../app/assets/stylesheets/tracks.css.scss */
+ul.todo-submenu > li > a.icon_delete_item:hover {
+  background-position: 2px bottom;
+}
+/* line 1468, ../../app/assets/stylesheets/tracks.css.scss */
+ul.todo-submenu > li > a.icon_defer_1_item {
+  background: url(/assets/defer_1.png) no-repeat left top;
+}
+/* line 1470, ../../app/assets/stylesheets/tracks.css.scss */
+ul.todo-submenu > li > a.icon_defer_1_item:hover {
+  background-position: left bottom;
+}
+/* line 1468, ../../app/assets/stylesheets/tracks.css.scss */
+ul.todo-submenu > li > a.icon_defer_2_item {
+  background: url(/assets/defer_2.png) no-repeat left top;
+}
+/* line 1470, ../../app/assets/stylesheets/tracks.css.scss */
+ul.todo-submenu > li > a.icon_defer_2_item:hover {
+  background-position: left bottom;
+}
+/* line 1468, ../../app/assets/stylesheets/tracks.css.scss */
+ul.todo-submenu > li > a.icon_defer_3_item {
+  background: url(/assets/defer_3.png) no-repeat left top;
+}
+/* line 1470, ../../app/assets/stylesheets/tracks.css.scss */
+ul.todo-submenu > li > a.icon_defer_3_item:hover {
+  background-position: left bottom;
+}
+/* line 1468, ../../app/assets/stylesheets/tracks.css.scss */
+ul.todo-submenu > li > a.icon_defer_7_item {
+  background: url(/assets/defer_7.png) no-repeat left top;
+}
+/* line 1470, ../../app/assets/stylesheets/tracks.css.scss */
+ul.todo-submenu > li > a.icon_defer_7_item:hover {
+  background-position: left bottom;
+}
+/* line 1474, ../../app/assets/stylesheets/tracks.css.scss */
+ul.todo-submenu > li > a.icon_item_to_project {
+  background: url(/assets/to_project_off.png) no-repeat;
+}
+:EF

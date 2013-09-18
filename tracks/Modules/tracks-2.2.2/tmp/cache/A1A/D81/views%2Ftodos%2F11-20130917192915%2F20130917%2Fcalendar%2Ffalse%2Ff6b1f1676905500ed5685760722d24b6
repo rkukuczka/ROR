@@ -1,0 +1,28 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1379446155.9301162:@value"XI"L  <div id="todo_11" class="item-container">
+    <div id="line_todo_11" class="item-show">
+      <a href="/todos/11/toggle_star" class="icon star_item" title="star the action &#x27;Buy shares&#x27;"><img alt="Blank" class="todo_star" id="star_img_11" src="/assets/blank.png" title="Star this action" /></a>
+      <input checked="checked" class="item-checkbox" id="mark_complete_11" name="mark_complete_11" title="" type="checkbox" value="/todos/11/toggle_check" />
+      
+      <ul class="sf-menu sf-item-menu">
+        <li style="z-index:499"><a href="#" class="item-downarrow"><img alt="" class="todo-submenu" src="/assets/downarrow.png" /></a>
+          <ul id="ultodo_11" class="todo-submenu">
+            <li><a href="/todos/11" class="icon_delete_item" id="delete_todo_11" title="Delete action" x_confirm_message="Are you sure that you want to delete the action &#x27;Buy shares&#x27;?">Delete</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <div class="description">
+        <span class="grey">17/09/2013</span>        <span class="todo.descr">Buy shares</span>
+        
+        <span class="tags"></span>
+        
+        (agenda, Make more money than Billy Gates)
+        
+        
+      </div>
+    </div>
+    <div id="edit_todo_11" class="edit-form" style="display:none">
+      <div class="placeholder"> </div>
+    </div>
+  </div>
+:ET

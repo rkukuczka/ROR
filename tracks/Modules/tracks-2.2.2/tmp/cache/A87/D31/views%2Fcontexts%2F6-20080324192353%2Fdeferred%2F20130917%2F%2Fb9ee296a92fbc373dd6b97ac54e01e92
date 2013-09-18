@@ -1,0 +1,14 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1379446170.733963:@value"QI"E  <div id="c6" class="container context" style="display:none">
+    <h2>
+        <a href="#" class="container_toggle" id="toggle_c6"><img alt="Collapse/expand" src="/assets/blank.png" /></a>
+        <a href="/contexts/6" title="View context: library">library</a>
+    </h2>
+    <div id="c_6_target" class="context_target drop_target"></div>
+    <div id="c6items" class="items toggle_target">
+      <div id="c6empty-nd" style="display:block;">
+        <div class="message"><p>Currently there are no incomplete actions in this context</p></div>
+      </div>
+      
+    </div>
+  </div>
+:ET

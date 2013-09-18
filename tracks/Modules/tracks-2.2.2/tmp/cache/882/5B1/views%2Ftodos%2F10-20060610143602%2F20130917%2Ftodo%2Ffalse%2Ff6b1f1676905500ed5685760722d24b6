@@ -1,0 +1,28 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1379446107.382339:@value"I"  <div id="todo_10" class="item-container">
+    <div id="line_todo_10" class="item-show">
+      <a href="/todos/10/toggle_star" class="icon star_item" title="star the action &#x27;foo&#x27;"><img alt="Blank" class="todo_star" id="star_img_10" src="/assets/blank.png" title="Star this action" /></a>
+      <input checked="checked" class="item-checkbox" id="mark_complete_10" name="mark_complete_10" title="" type="checkbox" value="/todos/10/toggle_check" />
+      
+      <ul class="sf-menu sf-item-menu">
+        <li style="z-index:486"><a href="#" class="item-downarrow"><img alt="" class="todo-submenu" src="/assets/downarrow.png" /></a>
+          <ul id="ultodo_10" class="todo-submenu">
+            <li><a href="/todos/10" class="icon_delete_item" id="delete_todo_10" title="Delete action" x_confirm_message="Are you sure that you want to delete the action &#x27;foo&#x27;?">Delete</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <div class="description">
+        <span class="grey"></span>        <span class="todo.descr">foo</span>
+        
+        <span class="tags"></span>
+        
+        (agenda)
+        
+        
+      </div>
+    </div>
+    <div id="edit_todo_10" class="edit-form" style="display:none">
+      <div class="placeholder"> </div>
+    </div>
+  </div>
+:ET

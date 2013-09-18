@@ -1,0 +1,98 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1379446111.314564:@value"£[I"•/* line 1, ../../app/assets/stylesheets/print.css.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../../app/assets/stylesheets/print.css.scss */
+body {
+  background: #fff;
+  color: #000;
+  font-size: 8.2pt;
+  font-family: "Lucida Grande", "Bitstream Vera Sans", Helvetica, Verdana, Arial, sans-serif;
+}
+
+/* line 13, ../../app/assets/stylesheets/print.css.scss */
+img {
+  max-width: 2.2in;
+  max-height: 4.3in;
+  border: 0;
+}
+
+/* line 22, ../../app/assets/stylesheets/print.css.scss */
+#navcontainer, #input_box, #footer, .big-box, .refresh, .badge, h1, .icon,
+#minilinks, .defer-container, .menu_sort, .position, .buttons, .sf-item-menu,
+.container_toggle, .grip, .show_notes, .recurring_icon, #project-next-prev,
+.project_settings, .add_note_link {
+  display: none;
+}
+
+/* line 26, ../../app/assets/stylesheets/print.css.scss */
+.tag {
+  margin-left: 3pt;
+}
+
+/* line 30, ../../app/assets/stylesheets/print.css.scss */
+.contexts {
+  margin: 0 0 2em 0;
+  border-top: 1px solid black;
+  page-break-before: always;
+}
+/* line 35, ../../app/assets/stylesheets/print.css.scss */
+.contexts:first-child {
+  page-break-before: avoid;
+}
+
+/* line 38, ../../app/assets/stylesheets/print.css.scss */
+h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: .3em;
+  margin-top: 5pt;
+  padding: 0.2em 0;
+  border-bottom: 1pt dotted black;
+}
+
+/* line 47, ../../app/assets/stylesheets/print.css.scss */
+a, p, blockquote, ul, li, ol, dt, dd, dl, table {
+  margin: 0 0 0.3em 0;
+}
+
+/* line 51, ../../app/assets/stylesheets/print.css.scss */
+.notes {
+  margin: 0.12em 1.2em;
+  padding: .3em;
+}
+
+/* line 56, ../../app/assets/stylesheets/print.css.scss */
+.description {
+  margin-left: 18pt;
+  line-height: 150%;
+}
+
+/* line 61, ../../app/assets/stylesheets/print.css.scss */
+ul {
+  list-style-type: circle;
+}
+
+/* line 65, ../../app/assets/stylesheets/print.css.scss */
+li {
+  margin: 0.1em 0 0.1em 2em;
+  line-height: 1.4em;
+}
+
+/* line 70, ../../app/assets/stylesheets/print.css.scss */
+.item-container {
+  clear: both;
+  padding-top: .3em;
+  padding-bottom: .3em;
+}
+
+/* line 76, ../../app/assets/stylesheets/print.css.scss */
+.item-checkbox {
+  width: 10pt;
+  height: 10pt;
+  display: block;
+  float: left;
+}
+:EF

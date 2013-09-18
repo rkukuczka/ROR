@@ -1,0 +1,14 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1379446107.277333:@value"SI"G  <div id="c7" class="container context" style="display:none">
+    <h2>
+        <a href="#" class="container_toggle" id="toggle_c7"><img alt="Collapse/expand" src="/assets/blank.png" /></a>
+        <a href="/contexts/7" title="View context: freetime">freetime</a>
+    </h2>
+    <div id="c_7_target" class="context_target drop_target"></div>
+    <div id="c7items" class="items toggle_target">
+      <div id="c7empty-nd" style="display:block;">
+        <div class="message"><p>Currently there are no incomplete actions in this context</p></div>
+      </div>
+      
+    </div>
+  </div>
+:ET

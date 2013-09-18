@@ -1,0 +1,14 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1379446107.285334:@value"OI"C  <div id="c8" class="container context" style="display:none">
+    <h2>
+        <a href="#" class="container_toggle" id="toggle_c8"><img alt="Collapse/expand" src="/assets/blank.png" /></a>
+        <a href="/contexts/8" title="View context: office">office</a>
+    </h2>
+    <div id="c_8_target" class="context_target drop_target"></div>
+    <div id="c8items" class="items toggle_target">
+      <div id="c8empty-nd" style="display:block;">
+        <div class="message"><p>Currently there are no incomplete actions in this context</p></div>
+      </div>
+      
+    </div>
+  </div>
+:ET

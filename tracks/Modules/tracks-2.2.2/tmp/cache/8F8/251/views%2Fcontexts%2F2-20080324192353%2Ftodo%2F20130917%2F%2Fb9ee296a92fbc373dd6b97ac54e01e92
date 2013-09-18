@@ -1,0 +1,110 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1379446107.183328:@value"¡'I"•'  <div id="c2" class="container context" style="display:block">
+    <h2>
+        <a href="#" class="container_toggle" id="toggle_c2"><img alt="Collapse/expand" src="/assets/blank.png" /></a>
+        <a href="/contexts/2" title="View context: call">call</a>
+    </h2>
+    <div id="c_2_target" class="context_target drop_target"></div>
+    <div id="c2items" class="items toggle_target">
+      <div id="c2empty-nd" style="display:none;">
+        <div class="message"><p>Currently there are no incomplete actions in this context</p></div>
+      </div>
+        <div id="todo_6" class="item-container">
+    <div id="line_todo_6" class="item-show">
+      <a href="/todos/6/toggle_star" class="icon star_item" title="star the action &#x27;Phone Grandfather to ask about the paradox&#x27;"><img alt="Blank" class="todo_star" id="star_img_6" src="/assets/blank.png" title="Star this action" /></a>
+      <input class="item-checkbox" id="mark_complete_6" name="mark_complete_6" title="" type="checkbox" value="/todos/6/toggle_check" />
+      <a href="/todos/6/edit" class="icon edit_item" id="icon_edit_todo_6" title="Edit the action &#x27;Phone Grandfather to ask about the paradox&#x27;"><img align="absmiddle" alt="Edit" class="edit_item" id="edit_icon_todo_6" src="/assets/blank.png" /></a>
+      <ul class="sf-menu sf-item-menu">
+        <li style="z-index:494"><a href="#" class="item-downarrow"><img alt="" class="todo-submenu" src="/assets/downarrow.png" /></a>
+          <ul id="ultodo_6" class="todo-submenu">
+            <li><a href="/todos/6" class="icon_delete_item" id="delete_todo_6" title="Delete action" x_confirm_message="Are you sure that you want to delete the action &#x27;Phone Grandfather to ask about the paradox&#x27;?">Delete</a></li>
+              <li><a href="/todos/6/defer?_source_view=todo&amp;days=1" class="icon_defer_item icon_defer_1_item" id="defer_1_todo_6" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 1 day</a></li>
+              <li><a href="/todos/6/defer?_source_view=todo&amp;days=2" class="icon_defer_item icon_defer_2_item" id="defer_2_todo_6" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 2 days</a></li>
+              <li><a href="/todos/6/defer?_source_view=todo&amp;days=3" class="icon_defer_item icon_defer_3_item" id="defer_3_todo_6" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 3 days</a></li>
+              <li><a href="/todos/6/defer?_source_view=todo&amp;days=7" class="icon_defer_item icon_defer_7_item" id="defer_7_todo_6" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 7 days</a></li>
+              <li><a href="/todos/6/convert_to_project?_source_view=todo" class="icon_item_to_project" id="to_project_todo_6">Make project</a></li>
+          </ul>
+        </li>
+      </ul>
+      <img alt="Grip" border="0" class="grip" height="16" src="/assets/grip.png" title="Drag onto another action to make it depend on that action" width="7" />
+      <div class="description">
+        <a title="03/06/2006"><span class="red">Overdue by 2663 days</span></a>        <span class="todo.descr">Phone Grandfather to ask about the paradox</span>
+        
+        <span class="tags"></span>
+        
+        <a href="/projects/1" title="View project: Build a working time machine">[P]</a>
+        <a href="#" class="show_notes" title="Show notes"><img alt="Blank" border="0" height="16" src="/assets/blank.png" width="16" /></a><div class="todo_notes" id="notes_todo_6" style="display:none"></div>
+        
+      </div>
+    </div>
+    <div id="edit_todo_6" class="edit-form" style="display:none">
+      <div class="placeholder"> </div>
+    </div>
+  </div>
+  <div id="todo_2" class="item-container">
+    <div id="line_todo_2" class="item-show">
+      <a href="/todos/2/toggle_star" class="icon star_item" title="star the action &#x27;Call dinosaur exterminator&#x27;"><img alt="Blank" class="todo_star" id="star_img_2" src="/assets/blank.png" title="Star this action" /></a>
+      <input class="item-checkbox" id="mark_complete_2" name="mark_complete_2" title="" type="checkbox" value="/todos/2/toggle_check" />
+      <a href="/todos/2/edit" class="icon edit_item" id="icon_edit_todo_2" title="Edit the action &#x27;Call dinosaur exterminator&#x27;"><img align="absmiddle" alt="Edit" class="edit_item" id="edit_icon_todo_2" src="/assets/blank.png" /></a>
+      <ul class="sf-menu sf-item-menu">
+        <li style="z-index:493"><a href="#" class="item-downarrow"><img alt="" class="todo-submenu" src="/assets/downarrow.png" /></a>
+          <ul id="ultodo_2" class="todo-submenu">
+            <li><a href="/todos/2" class="icon_delete_item" id="delete_todo_2" title="Delete action" x_confirm_message="Are you sure that you want to delete the action &#x27;Call dinosaur exterminator&#x27;?">Delete</a></li>
+              <li><a href="/todos/2/defer?_source_view=todo&amp;days=1" class="icon_defer_item icon_defer_1_item" id="defer_1_todo_2" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 1 day</a></li>
+              <li><a href="/todos/2/defer?_source_view=todo&amp;days=2" class="icon_defer_item icon_defer_2_item" id="defer_2_todo_2" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 2 days</a></li>
+              <li><a href="/todos/2/defer?_source_view=todo&amp;days=3" class="icon_defer_item icon_defer_3_item" id="defer_3_todo_2" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 3 days</a></li>
+              <li><a href="/todos/2/defer?_source_view=todo&amp;days=7" class="icon_defer_item icon_defer_7_item" id="defer_7_todo_2" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 7 days</a></li>
+              <li><a href="/todos/2/convert_to_project?_source_view=todo" class="icon_item_to_project" id="to_project_todo_2">Make project</a></li>
+          </ul>
+        </li>
+      </ul>
+      <img alt="Grip" border="0" class="grip" height="16" src="/assets/grip.png" title="Drag onto another action to make it depend on that action" width="7" />
+      <div class="description">
+        <a title="24/06/2006"><span class="red">Overdue by 2642 days</span></a>        <span class="todo.descr">Call dinosaur exterminator</span>
+        
+        <span class="tags"></span>
+        
+        <a href="/projects/3" title="View project: Evict dinosaurs from the garden">[P]</a>
+        <a href="#" class="show_notes" title="Show notes"><img alt="Blank" border="0" height="16" src="/assets/blank.png" width="16" /></a><div class="todo_notes" id="notes_todo_2" style="display:none"></div>
+        
+      </div>
+    </div>
+    <div id="edit_todo_2" class="edit-form" style="display:none">
+      <div class="placeholder"> </div>
+    </div>
+  </div>
+  <div id="todo_14" class="item-container">
+    <div id="line_todo_14" class="item-show">
+      <a href="/todos/14/toggle_star" class="icon star_item" title="star the action &#x27;Call stock broker&#x27;"><img alt="Blank" class="todo_star" id="star_img_14" src="/assets/blank.png" title="Star this action" /></a>
+      <input class="item-checkbox" id="mark_complete_14" name="mark_complete_14" title="" type="checkbox" value="/todos/14/toggle_check" />
+      <a href="/todos/14/edit" class="icon edit_item" id="icon_edit_todo_14" title="Edit the action &#x27;Call stock broker&#x27;"><img align="absmiddle" alt="Edit" class="edit_item" id="edit_icon_todo_14" src="/assets/blank.png" /></a>
+      <ul class="sf-menu sf-item-menu">
+        <li style="z-index:492"><a href="#" class="item-downarrow"><img alt="" class="todo-submenu" src="/assets/downarrow.png" /></a>
+          <ul id="ultodo_14" class="todo-submenu">
+            <li><a href="/todos/14" class="icon_delete_item" id="delete_todo_14" title="Delete action" x_confirm_message="Are you sure that you want to delete the action &#x27;Call stock broker&#x27;?">Delete</a></li>
+              <li><a href="/todos/14/defer?_source_view=todo&amp;days=1" class="icon_defer_item icon_defer_1_item" id="defer_1_todo_14" x_defer_alert="false">Defer 1 day</a></li>
+              <li><a href="/todos/14/defer?_source_view=todo&amp;days=2" class="icon_defer_item icon_defer_2_item" id="defer_2_todo_14" x_defer_alert="false">Defer 2 days</a></li>
+              <li><a href="/todos/14/defer?_source_view=todo&amp;days=3" class="icon_defer_item icon_defer_3_item" id="defer_3_todo_14" x_defer_alert="false">Defer 3 days</a></li>
+              <li><a href="/todos/14/defer?_source_view=todo&amp;days=7" class="icon_defer_item icon_defer_7_item" id="defer_7_todo_14" x_defer_alert="false">Defer 7 days</a></li>
+              <li><a href="/todos/14/convert_to_project?_source_view=todo" class="icon_item_to_project" id="to_project_todo_14">Make project</a></li>
+          </ul>
+        </li>
+      </ul>
+      <img alt="Grip" border="0" class="grip" height="16" src="/assets/grip.png" title="Drag onto another action to make it depend on that action" width="7" />
+      <div class="description stale_l3">
+                <span class="todo.descr">Call stock broker</span>
+        
+        <span class="tags"></span>
+        
+        <a href="/projects/2" title="View project: Make more money than Billy Gates">[P]</a>
+        <a href="#" class="show_notes" title="Show notes"><img alt="Blank" border="0" height="16" src="/assets/blank.png" width="16" /></a><div class="todo_notes" id="notes_todo_14" style="display:none"></div>
+        
+      </div>
+    </div>
+    <div id="edit_todo_14" class="edit-form" style="display:none">
+      <div class="placeholder"> </div>
+    </div>
+  </div>
+
+    </div>
+  </div>
+:ET

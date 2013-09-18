@@ -1,0 +1,16 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1379446110.831537:@value"q[I"c(function() {
+  var __hasProp = {}.hasOwnProperty,
+    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
+
+  this.SwfFu = {
+    setup: function(object, klass, init_args) {
+      __extends(object, klass.prototype);
+      if (typeof object.initialize === "function") {
+        object.initialize.apply(object, init_args);
+      }
+      return null;
+    }
+  };
+
+}).call(this);
+:ET

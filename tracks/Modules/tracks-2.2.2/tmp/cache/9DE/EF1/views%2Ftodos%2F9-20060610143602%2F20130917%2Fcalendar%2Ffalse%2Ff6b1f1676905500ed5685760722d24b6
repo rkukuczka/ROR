@@ -1,0 +1,33 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1379446149.746763:@value"I"ø  <div id="todo_9" class="item-container">
+    <div id="line_todo_9" class="item-show">
+      <a href="/todos/9/toggle_star" class="icon star_item" title="star the action &#x27;This should be due today&#x27;"><img alt="Blank" class="todo_star" id="star_img_9" src="/assets/blank.png" title="Star this action" /></a>
+      <input class="item-checkbox" id="mark_complete_9" name="mark_complete_9" title="" type="checkbox" value="/todos/9/toggle_check" />
+      <a href="/todos/9/edit" class="icon edit_item" id="icon_edit_todo_9" title="Edit the action &#x27;This should be due today&#x27;"><img align="absmiddle" alt="Edit" class="edit_item" id="edit_icon_todo_9" src="/assets/blank.png" /></a>
+      <ul class="sf-menu sf-item-menu">
+        <li style="z-index:497"><a href="#" class="item-downarrow"><img alt="" class="todo-submenu" src="/assets/downarrow.png" /></a>
+          <ul id="ultodo_9" class="todo-submenu">
+            <li><a href="/todos/9" class="icon_delete_item" id="delete_todo_9" title="Delete action" x_confirm_message="Are you sure that you want to delete the action &#x27;This should be due today&#x27;?">Delete</a></li>
+              <li><a href="/todos/9/defer?_source_view=calendar&amp;days=1" class="icon_defer_item icon_defer_1_item" id="defer_1_todo_9" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 1 day</a></li>
+              <li><a href="/todos/9/defer?_source_view=calendar&amp;days=2" class="icon_defer_item icon_defer_2_item" id="defer_2_todo_9" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 2 days</a></li>
+              <li><a href="/todos/9/defer?_source_view=calendar&amp;days=3" class="icon_defer_item icon_defer_3_item" id="defer_3_todo_9" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 3 days</a></li>
+              <li><a href="/todos/9/defer?_source_view=calendar&amp;days=7" class="icon_defer_item icon_defer_7_item" id="defer_7_todo_9" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 7 days</a></li>
+              <li><a href="/todos/9/convert_to_project?_source_view=calendar" class="icon_item_to_project" id="to_project_todo_9">Make project</a></li>
+          </ul>
+        </li>
+      </ul>
+      <img alt="Grip" border="0" class="grip" height="16" src="/assets/grip.png" title="Drag onto another action to make it depend on that action" width="7" />
+      <div class="description">
+        <a title="10/06/2006"><span class="red">Overdue by 2656 days</span></a>        <span class="todo.descr">This should be due today</span>
+        
+        <span class="tags"></span>
+        
+        
+        
+        
+      </div>
+    </div>
+    <div id="edit_todo_9" class="edit-form" style="display:none">
+      <div class="placeholder"> </div>
+    </div>
+  </div>
+:ET

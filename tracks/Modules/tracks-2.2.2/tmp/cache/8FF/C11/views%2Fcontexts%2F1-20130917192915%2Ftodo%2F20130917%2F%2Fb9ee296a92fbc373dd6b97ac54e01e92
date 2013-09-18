@@ -1,0 +1,142 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1379446186.376858:@value"*4I"4  <div id="c1" class="container context" style="display:block">
+    <h2>
+        <a href="#" class="container_toggle" id="toggle_c1"><img alt="Collapse/expand" src="/assets/blank.png" /></a>
+        <a href="/contexts/1" title="View context: agenda">agenda</a>
+    </h2>
+    <div id="c_1_target" class="context_target drop_target"></div>
+    <div id="c1items" class="items toggle_target">
+      <div id="c1empty-nd" style="display:none;">
+        <div class="message"><p>Currently there are no incomplete actions in this context</p></div>
+      </div>
+        <div id="todo_9" class="item-container">
+    <div id="line_todo_9" class="item-show">
+      <a href="/todos/9/toggle_star" class="icon star_item" title="star the action &#x27;This should be due today&#x27;"><img alt="Blank" class="todo_star" id="star_img_9" src="/assets/blank.png" title="Star this action" /></a>
+      <input class="item-checkbox" id="mark_complete_9" name="mark_complete_9" title="" type="checkbox" value="/todos/9/toggle_check" />
+      <a href="/todos/9/edit" class="icon edit_item" id="icon_edit_todo_9" title="Edit the action &#x27;This should be due today&#x27;"><img align="absmiddle" alt="Edit" class="edit_item" id="edit_icon_todo_9" src="/assets/blank.png" /></a>
+      <ul class="sf-menu sf-item-menu">
+        <li style="z-index:498"><a href="#" class="item-downarrow"><img alt="" class="todo-submenu" src="/assets/downarrow.png" /></a>
+          <ul id="ultodo_9" class="todo-submenu">
+            <li><a href="/todos/9" class="icon_delete_item" id="delete_todo_9" title="Delete action" x_confirm_message="Are you sure that you want to delete the action &#x27;This should be due today&#x27;?">Delete</a></li>
+              <li><a href="/todos/9/defer?_source_view=todo&amp;days=1" class="icon_defer_item icon_defer_1_item" id="defer_1_todo_9" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 1 day</a></li>
+              <li><a href="/todos/9/defer?_source_view=todo&amp;days=2" class="icon_defer_item icon_defer_2_item" id="defer_2_todo_9" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 2 days</a></li>
+              <li><a href="/todos/9/defer?_source_view=todo&amp;days=3" class="icon_defer_item icon_defer_3_item" id="defer_3_todo_9" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 3 days</a></li>
+              <li><a href="/todos/9/defer?_source_view=todo&amp;days=7" class="icon_defer_item icon_defer_7_item" id="defer_7_todo_9" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 7 days</a></li>
+              <li><a href="/todos/9/convert_to_project?_source_view=todo" class="icon_item_to_project" id="to_project_todo_9">Make project</a></li>
+          </ul>
+        </li>
+      </ul>
+      <img alt="Grip" border="0" class="grip" height="16" src="/assets/grip.png" title="Drag onto another action to make it depend on that action" width="7" />
+      <div class="description">
+        <a title="10/06/2006"><span class="red">Overdue by 2656 days</span></a>        <span class="todo.descr">This should be due today</span>
+        
+        <span class="tags"></span>
+        
+        
+        
+        
+      </div>
+    </div>
+    <div id="edit_todo_9" class="edit-form" style="display:none">
+      <div class="placeholder"> </div>
+    </div>
+  </div>
+  <div id="todo_12" class="item-container">
+    <div id="line_todo_12" class="item-show">
+      <a href="/todos/12/toggle_star" class="icon star_item" title="star the action &#x27;Buy stegosaurus bait&#x27;"><img alt="Blank" class="todo_star" id="star_img_12" src="/assets/blank.png" title="Star this action" /></a>
+      <input class="item-checkbox" id="mark_complete_12" name="mark_complete_12" title="" type="checkbox" value="/todos/12/toggle_check" />
+      <a href="/todos/12/edit" class="icon edit_item" id="icon_edit_todo_12" title="Edit the action &#x27;Buy stegosaurus bait&#x27;"><img align="absmiddle" alt="Edit" class="edit_item" id="edit_icon_todo_12" src="/assets/blank.png" /></a>
+      <ul class="sf-menu sf-item-menu">
+        <li style="z-index:497"><a href="#" class="item-downarrow"><img alt="" class="todo-submenu" src="/assets/downarrow.png" /></a>
+          <ul id="ultodo_12" class="todo-submenu">
+            <li><a href="/todos/12" class="icon_delete_item" id="delete_todo_12" title="Delete action" x_confirm_message="Are you sure that you want to delete the action &#x27;Buy stegosaurus bait&#x27;?">Delete</a></li>
+              <li><a href="/todos/12/defer?_source_view=todo&amp;days=1" class="icon_defer_item icon_defer_1_item" id="defer_1_todo_12" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 1 day</a></li>
+              <li><a href="/todos/12/defer?_source_view=todo&amp;days=2" class="icon_defer_item icon_defer_2_item" id="defer_2_todo_12" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 2 days</a></li>
+              <li><a href="/todos/12/defer?_source_view=todo&amp;days=3" class="icon_defer_item icon_defer_3_item" id="defer_3_todo_12" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 3 days</a></li>
+              <li><a href="/todos/12/defer?_source_view=todo&amp;days=7" class="icon_defer_item icon_defer_7_item" id="defer_7_todo_12" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 7 days</a></li>
+              <li><a href="/todos/12/convert_to_project?_source_view=todo" class="icon_item_to_project" id="to_project_todo_12">Make project</a></li>
+          </ul>
+        </li>
+      </ul>
+      <img alt="Grip" border="0" class="grip" height="16" src="/assets/grip.png" title="Drag onto another action to make it depend on that action" width="7" />
+      <div class="description">
+        <a title="17/06/2006"><span class="red">Overdue by 2649 days</span></a>        <span class="todo.descr">Buy stegosaurus bait</span>
+        
+        <span class="tags"></span>
+        
+        <a href="/projects/3" title="View project: Evict dinosaurs from the garden">[P]</a>
+        
+        
+      </div>
+    </div>
+    <div id="edit_todo_12" class="edit-form" style="display:none">
+      <div class="placeholder"> </div>
+    </div>
+  </div>
+  <div id="todo_13" class="item-container">
+    <div id="line_todo_13" class="item-show">
+      <a href="/todos/13/toggle_star" class="icon star_item" title="star the action &#x27;New action in context&#x27;"><img alt="Blank" class="todo_star" id="star_img_13" src="/assets/blank.png" title="Star this action" /></a>
+      <input class="item-checkbox" id="mark_complete_13" name="mark_complete_13" title="" type="checkbox" value="/todos/13/toggle_check" />
+      <a href="/todos/13/edit" class="icon edit_item" id="icon_edit_todo_13" title="Edit the action &#x27;New action in context&#x27;"><img align="absmiddle" alt="Edit" class="edit_item" id="edit_icon_todo_13" src="/assets/blank.png" /></a>
+      <ul class="sf-menu sf-item-menu">
+        <li style="z-index:496"><a href="#" class="item-downarrow"><img alt="" class="todo-submenu" src="/assets/downarrow.png" /></a>
+          <ul id="ultodo_13" class="todo-submenu">
+            <li><a href="/todos/13" class="icon_delete_item" id="delete_todo_13" title="Delete action" x_confirm_message="Are you sure that you want to delete the action &#x27;New action in context&#x27;?">Delete</a></li>
+              <li><a href="/todos/13/defer?_source_view=todo&amp;days=1" class="icon_defer_item icon_defer_1_item" id="defer_1_todo_13" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 1 day</a></li>
+              <li><a href="/todos/13/defer?_source_view=todo&amp;days=2" class="icon_defer_item icon_defer_2_item" id="defer_2_todo_13" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 2 days</a></li>
+              <li><a href="/todos/13/defer?_source_view=todo&amp;days=3" class="icon_defer_item icon_defer_3_item" id="defer_3_todo_13" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 3 days</a></li>
+              <li><a href="/todos/13/defer?_source_view=todo&amp;days=7" class="icon_defer_item icon_defer_7_item" id="defer_7_todo_13" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 7 days</a></li>
+              <li><a href="/todos/13/convert_to_project?_source_view=todo" class="icon_item_to_project" id="to_project_todo_13">Make project</a></li>
+          </ul>
+        </li>
+      </ul>
+      <img alt="Grip" border="0" class="grip" height="16" src="/assets/grip.png" title="Drag onto another action to make it depend on that action" width="7" />
+      <div class="description">
+        <a title="17/06/2006"><span class="red">Overdue by 2649 days</span></a>        <span class="todo.descr">New action in context</span>
+        
+        <span class="tags"></span>
+        
+        <a href="/projects/3" title="View project: Evict dinosaurs from the garden">[P]</a>
+        <a href="#" class="show_notes" title="Show notes"><img alt="Blank" border="0" height="16" src="/assets/blank.png" width="16" /></a><div class="todo_notes" id="notes_todo_13" style="display:none"></div>
+        
+      </div>
+    </div>
+    <div id="edit_todo_13" class="edit-form" style="display:none">
+      <div class="placeholder"> </div>
+    </div>
+  </div>
+  <div id="todo_1" class="item-container">
+    <div id="line_todo_1" class="item-show">
+      <a href="/todos/1/toggle_star" class="icon star_item" title="star the action &#x27;Call Bill Gates to find out how much he makes per day&#x27;"><img alt="Blank" class="todo_star" id="star_img_1" src="/assets/blank.png" title="Star this action" /></a>
+      <input class="item-checkbox" id="mark_complete_1" name="mark_complete_1" title="" type="checkbox" value="/todos/1/toggle_check" />
+      <a href="/todos/1/edit" class="icon edit_item" id="icon_edit_todo_1" title="Edit the action &#x27;Call Bill Gates to find out how much he makes per day&#x27;"><img align="absmiddle" alt="Edit" class="edit_item" id="edit_icon_todo_1" src="/assets/blank.png" /></a>
+      <ul class="sf-menu sf-item-menu">
+        <li style="z-index:495"><a href="#" class="item-downarrow"><img alt="" class="todo-submenu" src="/assets/downarrow.png" /></a>
+          <ul id="ultodo_1" class="todo-submenu">
+            <li><a href="/todos/1" class="icon_delete_item" id="delete_todo_1" title="Delete action" x_confirm_message="Are you sure that you want to delete the action &#x27;Call Bill Gates to find out how much he makes per day&#x27;?">Delete</a></li>
+              <li><a href="/todos/1/defer?_source_view=todo&amp;days=1" class="icon_defer_item icon_defer_1_item" id="defer_1_todo_1" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 1 day</a></li>
+              <li><a href="/todos/1/defer?_source_view=todo&amp;days=2" class="icon_defer_item icon_defer_2_item" id="defer_2_todo_1" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 2 days</a></li>
+              <li><a href="/todos/1/defer?_source_view=todo&amp;days=3" class="icon_defer_item icon_defer_3_item" id="defer_3_todo_1" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 3 days</a></li>
+              <li><a href="/todos/1/defer?_source_view=todo&amp;days=7" class="icon_defer_item icon_defer_7_item" id="defer_7_todo_1" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 7 days</a></li>
+              <li><a href="/todos/1/convert_to_project?_source_view=todo" class="icon_item_to_project" id="to_project_todo_1">Make project</a></li>
+          </ul>
+        </li>
+      </ul>
+      <img alt="Grip" border="0" class="grip" height="16" src="/assets/grip.png" title="Drag onto another action to make it depend on that action" width="7" />
+      <div class="description">
+        <a title="24/06/2006"><span class="red">Overdue by 2642 days</span></a>        <span class="todo.descr">Call Bill Gates to find out how much he makes per day</span>
+        
+        <span class="tags"></span>
+        
+        <a href="/projects/2" title="View project: Make more money than Billy Gates">[P]</a>
+        
+        
+      </div>
+    </div>
+    <div id="edit_todo_1" class="edit-form" style="display:none">
+      <div class="placeholder"> </div>
+    </div>
+  </div>
+
+    </div>
+  </div>
+:ET

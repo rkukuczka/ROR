@@ -1,0 +1,94 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1379446176.348284:@value"CI"7  <div class="container">
+    <h2 id="project_name_container">
+      <div id="project_name" style="width: 100%;">Build a working time machine</div>
+    </h2>
+    <div id="container_project_1" class="list">
+      <div id="project_1" class="project">
+  <div class="project_settings">This project
+    is active
+      with no default context
+      and with no default tags.
+    <a href="/projects/1/edit" class="project_edit_settings icon" id="link_edit_project_1">Edit Project Settings</a>
+  </div>
+</div>
+<div id="edit_project_1" class="edit-form" style="display:none;">
+   <div class="placeholder"> </div>
+</div>
+
+    </div>
+  </div>
+  
+  <div class="container">
+    <h2>Actions in this project</h2>
+    <div id="p1items" class="items toggle_target">
+      <div id="p1empty-nd" style="display:none;">
+        <div class="message"><p>Currently there are no incomplete actions in this project</p></div>
+      </div>
+        <div id="todo_6" class="item-container">
+    <div id="line_todo_6" class="item-show">
+      <a href="/todos/6/toggle_star" class="icon star_item" title="star the action &#x27;Phone Grandfather to ask about the paradox&#x27;"><img alt="Blank" class="todo_star" id="star_img_6" src="/assets/blank.png" title="Star this action" /></a>
+      <input class="item-checkbox" id="mark_complete_6" name="mark_complete_6" title="" type="checkbox" value="/todos/6/toggle_check" />
+      <a href="/todos/6/edit" class="icon edit_item" id="icon_edit_todo_6" title="Edit the action &#x27;Phone Grandfather to ask about the paradox&#x27;"><img align="absmiddle" alt="Edit" class="edit_item" id="edit_icon_todo_6" src="/assets/blank.png" /></a>
+      <ul class="sf-menu sf-item-menu">
+        <li style="z-index:499"><a href="#" class="item-downarrow"><img alt="" class="todo-submenu" src="/assets/downarrow.png" /></a>
+          <ul id="ultodo_6" class="todo-submenu">
+            <li><a href="/todos/6" class="icon_delete_item" id="delete_todo_6" title="Delete action" x_confirm_message="Are you sure that you want to delete the action &#x27;Phone Grandfather to ask about the paradox&#x27;?">Delete</a></li>
+              <li><a href="/todos/6/defer?_source_view=project&amp;days=1" class="icon_defer_item icon_defer_1_item" id="defer_1_todo_6" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 1 day</a></li>
+              <li><a href="/todos/6/defer?_source_view=project&amp;days=2" class="icon_defer_item icon_defer_2_item" id="defer_2_todo_6" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 2 days</a></li>
+              <li><a href="/todos/6/defer?_source_view=project&amp;days=3" class="icon_defer_item icon_defer_3_item" id="defer_3_todo_6" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 3 days</a></li>
+              <li><a href="/todos/6/defer?_source_view=project&amp;days=7" class="icon_defer_item icon_defer_7_item" id="defer_7_todo_6" x_defer_alert="true" x_defer_date_after_due_date="Defer date is after due date. Please edit and adjust due date before deferring.">Defer 7 days</a></li>
+              <li><a href="/todos/6/convert_to_project?_source_view=project" class="icon_item_to_project" id="to_project_todo_6">Make project</a></li>
+          </ul>
+        </li>
+      </ul>
+      <img alt="Grip" border="0" class="grip" height="16" src="/assets/grip.png" title="Drag onto another action to make it depend on that action" width="7" />
+      <div class="description">
+        <a title="03/06/2006"><span class="red">Overdue by 2663 days</span></a>        <span class="todo.descr">Phone Grandfather to ask about the paradox</span>
+        
+        <span class="tags"></span>
+        
+        <a href="/contexts/2" title="View context: call">[C]</a>
+        <a href="#" class="show_notes" title="Show notes"><img alt="Blank" border="0" height="16" src="/assets/blank.png" width="16" /></a><div class="todo_notes" id="notes_todo_6" style="display:none"></div>
+        
+      </div>
+    </div>
+    <div id="edit_todo_6" class="edit-form" style="display:none">
+      <div class="placeholder"> </div>
+    </div>
+  </div>
+  <div id="todo_5" class="item-container">
+    <div id="line_todo_5" class="item-show">
+      <a href="/todos/5/toggle_star" class="icon star_item" title="star the action &#x27;Construct time dilation device&#x27;"><img alt="Blank" class="todo_star" id="star_img_5" src="/assets/blank.png" title="Star this action" /></a>
+      <input class="item-checkbox" id="mark_complete_5" name="mark_complete_5" title="" type="checkbox" value="/todos/5/toggle_check" />
+      <a href="/todos/5/edit" class="icon edit_item" id="icon_edit_todo_5" title="Edit the action &#x27;Construct time dilation device&#x27;"><img align="absmiddle" alt="Edit" class="edit_item" id="edit_icon_todo_5" src="/assets/blank.png" /></a>
+      <ul class="sf-menu sf-item-menu">
+        <li style="z-index:498"><a href="#" class="item-downarrow"><img alt="" class="todo-submenu" src="/assets/downarrow.png" /></a>
+          <ul id="ultodo_5" class="todo-submenu">
+            <li><a href="/todos/5" class="icon_delete_item" id="delete_todo_5" title="Delete action" x_confirm_message="Are you sure that you want to delete the action &#x27;Construct time dilation device&#x27;?">Delete</a></li>
+              <li><a href="/todos/5/defer?_source_view=project&amp;days=1" class="icon_defer_item icon_defer_1_item" id="defer_1_todo_5" x_defer_alert="false">Defer 1 day</a></li>
+              <li><a href="/todos/5/defer?_source_view=project&amp;days=2" class="icon_defer_item icon_defer_2_item" id="defer_2_todo_5" x_defer_alert="false">Defer 2 days</a></li>
+              <li><a href="/todos/5/defer?_source_view=project&amp;days=3" class="icon_defer_item icon_defer_3_item" id="defer_3_todo_5" x_defer_alert="false">Defer 3 days</a></li>
+              <li><a href="/todos/5/defer?_source_view=project&amp;days=7" class="icon_defer_item icon_defer_7_item" id="defer_7_todo_5" x_defer_alert="false">Defer 7 days</a></li>
+              <li><a href="/todos/5/convert_to_project?_source_view=project" class="icon_item_to_project" id="to_project_todo_5">Make project</a></li>
+          </ul>
+        </li>
+      </ul>
+      <img alt="Grip" border="0" class="grip" height="16" src="/assets/grip.png" title="Drag onto another action to make it depend on that action" width="7" />
+      <div class="description stale_l3">
+                <span class="todo.descr">Construct time dilation device</span>
+        
+        <span class="tags"></span>
+        
+        <a href="/contexts/5" title="View context: lab">[C]</a>
+        
+        
+      </div>
+    </div>
+    <div id="edit_todo_5" class="edit-form" style="display:none">
+      <div class="placeholder"> </div>
+    </div>
+  </div>
+
+    </div>
+  </div>
+:ET

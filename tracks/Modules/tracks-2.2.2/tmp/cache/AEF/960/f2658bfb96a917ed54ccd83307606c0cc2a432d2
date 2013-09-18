@@ -1,0 +1,210 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1379444981.539945:@value"[I"ÿ/* line 1, ../../app/assets/stylesheets/login.css.scss */
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+/* line 3, ../../app/assets/stylesheets/login.css.scss */
+body, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  background: #eee;
+}
+
+/* line 10, ../../app/assets/stylesheets/login.css.scss */
+p {
+  background: #eee;
+}
+
+/* line 14, ../../app/assets/stylesheets/login.css.scss */
+a, a:link, a:active, a:visited {
+  color: #cc3334;
+  text-decoration: none;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+/* line 21, ../../app/assets/stylesheets/login.css.scss */
+a:hover {
+  color: #fff;
+  background-color: #cc3334;
+}
+
+/* line 26, ../../app/assets/stylesheets/login.css.scss */
+h1, h2, h3 {
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  text-align: center;
+}
+
+/* line 27, ../../app/assets/stylesheets/login.css.scss */
+h1 {
+  font-size: 28px;
+}
+
+/* line 28, ../../app/assets/stylesheets/login.css.scss */
+h2 {
+  font-size: 19px;
+}
+
+/* line 29, ../../app/assets/stylesheets/login.css.scss */
+h3 {
+  font-size: 16px;
+}
+
+/* line 31, ../../app/assets/stylesheets/login.css.scss */
+li {
+  margin-bottom: 7px;
+}
+
+/* line 33, ../../app/assets/stylesheets/login.css.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 39, ../../app/assets/stylesheets/login.css.scss */
+td {
+  background-color: #ff9;
+}
+
+/* line 41, ../../app/assets/stylesheets/login.css.scss */
+#scaffold-main {
+  width: 80%;
+  margin: 10px auto;
+  padding: 6px;
+}
+
+/* line 47, ../../app/assets/stylesheets/login.css.scss */
+div.form {
+  width: 350px;
+  margin: 100px auto 10px auto;
+  padding: 10px;
+  border: 1px solid #999999;
+  background: #ff9;
+}
+
+/* line 55, ../../app/assets/stylesheets/login.css.scss */
+div.memo {
+  width: 40%;
+  margin: 100px auto;
+  padding: 10px;
+  border: 1px solid #999999;
+  background: #ff9;
+}
+
+/* Flash box styling */
+/* line 65, ../../app/assets/stylesheets/login.css.scss */
+h4.alert {
+  font-size: 0.8em;
+  font-weight: bold;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+/* line 73, ../../app/assets/stylesheets/login.css.scss */
+h4.warning {
+  border: 1px solid #ed2e38;
+  background-color: #F6979C;
+  color: #000000;
+}
+
+/* line 78, ../../app/assets/stylesheets/login.css.scss */
+h4.error {
+  color: #fff;
+  background: #c00;
+}
+
+/* line 82, ../../app/assets/stylesheets/login.css.scss */
+h4.notice {
+  border: 1px solid #007e00;
+  background-color: #c2ffc2;
+  color: #007E00;
+}
+
+/*#notice {
+    padding: 2px;
+    border: 1px solid #007E00;
+    background-color: #c2ffc2;
+    color: #007E00;
+    margin-bottom: 15px;
+    text-align: center;
+}
+*/
+/* line 98, ../../app/assets/stylesheets/login.css.scss */
+#footer {
+  clear: both;
+  background-color: #eee;
+  font-size: 0.8em;
+  text-align: center;
+  color: #999;
+  margin: 20px auto;
+  padding: 0px;
+}
+
+/* Error message styles */
+/* line 110, ../../app/assets/stylesheets/login.css.scss */
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 116, ../../app/assets/stylesheets/login.css.scss */
+#errorExplanation {
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin: 10px auto 10px auto;
+  background-color: #f0f0f0;
+}
+/* line 123, ../../app/assets/stylesheets/login.css.scss */
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 133, ../../app/assets/stylesheets/login.css.scss */
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+/* line 139, ../../app/assets/stylesheets/login.css.scss */
+#errorExplanation ul li {
+  font-size: 1em;
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+/* line 146, ../../app/assets/stylesheets/login.css.scss */
+input.login_text {
+  width: 200px;
+}
+
+/* line 149, ../../app/assets/stylesheets/login.css.scss */
+input.open_id {
+  background: url(/assets/open-id-login-bg.gif) no-repeat;
+  background-color: #fff;
+  background-position: 0 50%;
+  color: #000;
+  padding-left: 18px;
+  width: 182px;
+}
+
+/* line 157, ../../app/assets/stylesheets/login.css.scss */
+p.alternate_auth {
+  text-align: center;
+}
+/* line 159, ../../app/assets/stylesheets/login.css.scss */
+p.alternate_auth a {
+  text-decoration: underline;
+}
+:EF

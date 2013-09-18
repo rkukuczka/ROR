@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="423b565a-aab8-44ad-820b-1c188bd089ce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Misc/dummy2.txt" afterPath="$PROJECT_DIR$/tracks/Misc/dummy2.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ROR.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379491303391" ignored="false" />
+    <file path="/Dummy.txt" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379491398602" ignored="false" />
     <file path="/dummy2.txt" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379490969907" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -361,7 +360,11 @@
       <created>1379490984170</created>
       <updated>1379490984170</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added 9">
+      <created>1379491406640</created>
+      <updated>1379491406640</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">

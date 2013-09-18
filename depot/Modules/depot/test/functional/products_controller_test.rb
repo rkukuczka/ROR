@@ -2,7 +2,8 @@ require 'test_helper'
 
 class ProductsControllerTest < ActionController::TestCase
   setup do
-    @product = products(:one)
+    @product1 = products(:one)
+    @product2 = products(:two)
   end
 
   test "should get index" do
@@ -16,32 +17,32 @@ class ProductsControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should create product" do
+  test "should create product1" do
     assert_difference('Product.count') do
-      post :create, product: { description: @product.description, image_url: @product.image_url, price: @product.price, title: @product.title }
+      post :create, product: { description: @product1.description, image_url: @product1.image_url, price: @product1.price, title: @product1.title }
     end
 
     assert_redirected_to product_path(assigns(:product))
   end
 
   test "should show product" do
-    get :show, id: @product
+    get :show, id: @product1
     assert_response :success
   end
 
   test "should get edit" do
-    get :edit, id: @product
+    get :edit, id: @product1
     assert_response :success
   end
 
   test "should update product" do
-    put :update, id: @product, product: { description: @product.description, image_url: @product.image_url, price: @product.price, title: @product.title }
+    put :update, id: @product1, product: { description: @product1.description, image_url: @product1.image_url, price: @product1.price, title: @product1.title }
     assert_redirected_to product_path(assigns(:product))
   end
 
   test "should destroy product" do
     assert_difference('Product.count', -1) do
-      delete :destroy, id: @product
+      delete :destroy, id: @product1
     end
 
     assert_redirected_to products_path

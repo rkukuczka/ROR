@@ -7,20 +7,23 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Product.delete_all
-Product.create(
+Product.create!(
+    :title => "Programming Ruby 1",
+    :description => %{<p><em>Programming Ruby</em> This is a bug</p>},
+    :price=>1.99,
+    :image_url => "rails.png"
+)
+
+Product.create!(
     :title => "Programming Ruby 2",
     :description => %{<p><em>Programming Ruby</em> This is a bug</p>},
-    :price=>4.99
+    :price=>2.99,
+    :image_url => "rails.png"
 )
 
-Product.create(
+Product.create!(
     :title => "Programming Ruby 3",
     :description => %{<p><em>Programming Ruby</em> This is a bug</p>},
-    :price=>4.99
-)
-
-Product.create(
-    :title => "Programming Ruby 4",
-    :description => %{<p><em>Programming Ruby</em> This is a bug</p>},
-    :price=>4.99
+    :price=>3.99,
+    :image_url => "rails.png"
 )

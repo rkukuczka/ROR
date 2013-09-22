@@ -1,0 +1,17 @@
+<% if notice %>
+    <p id='notice'><%= notice %></p>
+<% end %>
+
+<% @products.each do |product| %>
+
+    <div class='entry'>
+      <%= image_tag(product.image_url) %>
+      <h1><%= product.title %></h1>
+      <%= sanitize(product.description) %>
+      <div class='priceline'>
+        <span class='prize'><%= number_to_currency product.price %></span>
+        <%=button_to "Add to cart", line_items_path(:product_id => product)%>
+      </div>
+    </div>
+
+<% end %>

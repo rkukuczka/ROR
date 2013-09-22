@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Product.delete_all
-Product.create!(
+p1 = Product.create!(
     :title => "Programming Ruby 1",
     :description => %{<p><em>Programming Ruby</em> This is a bug</p>},
     :price=>1.99,
@@ -27,3 +27,17 @@ Product.create!(
     :price=>3.99,
     :image_url => "rails.png"
 )
+
+Cart.delete_all
+
+LineItem.delete_all
+
+c1 = Cart.create!
+li = LineItem.new(:product_id => p1.id, :cart_id => c1)
+c1.line_items << li
+li = LineItem.new(:product_id => p1.id, :cart_id => c1)
+c1.line_items << li
+li = LineItem.new(:product_id => p1.id, :cart_id => c1)
+c1.line_items << li
+
+c1.save!

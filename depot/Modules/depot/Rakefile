@@ -6,4 +6,14 @@ require File.expand_path('../config/application', __FILE__)
 
 Depot::Application.load_tasks
 
+namespace :rk do
+  task :echo => :environment do
+    puts 'Pola...' + mydesc(Product.new)
+    puts 'Pola...' + mydesc(Cart.new)
+    puts 'Pola...' + mydesc(LineItem.new)
+  end
 
+  def mydesc(o)
+   o.inspect
+  end
+end

@@ -43,8 +43,9 @@ class ProductsControllerTest < ActionController::TestCase
   end
 
   test "should destroy product" do
+    product3 = Product.create!(:title => "t", :image_url => "Rails.png", :price => 1)
     assert_difference('Product.count', -1) do
-      delete :destroy, id: @product1
+      delete :destroy, id: product3.id
     end
 
     assert_redirected_to products_path

@@ -12,7 +12,7 @@ class Product < ActiveRecord::Base
   validates :image_url, :format => {:with => %r{\.(gif|png|jpg)}i, :message => "Gif or Jpg or Png" }
 
   def ensure_not_referenced_by_line_items
-          if line_items.count.zero?
+          unless line_items.count.zero?
             errors[:base] = "Cannot delete product referenced by items"
             return false
           else

@@ -35,9 +35,9 @@ LineItem.delete_all
 c1 = Cart.create!
 li = LineItem.new(:product_id => p1.id, :cart_id => c1)
 c1.line_items << li
-li = LineItem.new(:product_id => p1.id, :cart_id => c1)
-c1.line_items << li
-li = LineItem.new(:product_id => p1.id, :cart_id => c1)
-c1.line_items << li
+#li = LineItem.new(:product_id => p1.id, :cart_id => c1)
+#c1.line_items << li
+#li = LineItem.new(:product_id => p1.id, :cart_id => c1)
+#c1.line_items << li
 
 c1.save!

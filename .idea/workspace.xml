@@ -2,56 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="423b565a-aab8-44ad-820b-1c188bd089ce" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/depot/Modules/depot/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/depot/Modules/depot/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="D:\dev\GitHub\ROR\depot\Modules\depot\public\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\dev\GitHub\ROR\depot\Modules\depot\public\stylesheets\styles.css" afterPath="" />
       <change type="DELETED" beforePath="D:\dev\GitHub\ROR\tracks\Modules\tracks-2.2.2\tmp\pids\server.pid" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ROR.iml" afterPath="$PROJECT_DIR$/.idea/ROR.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/107/841/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Faccept.png%3F" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/107/841/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Faccept.png%3F" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/5AA/581/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fapplication.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/5AA/581/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fapplication.css%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/53E/311/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fapplication.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/53E/311/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fapplication.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/09F/E61/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fblank.png%3F" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/09F/E61/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fblank.png%3F" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/4C9/EE1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fcollapse_expand.png%3F" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/4C9/EE1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fcollapse_expand.png%3F" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/3B3/BF1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fconstruction.gif%3F" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/3B3/BF1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fconstruction.gif%3F" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/EC1/731/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fimages%2Fui-bg_highlight-soft_100_feeebd_1x100.png%3F" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/EC1/731/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fimages%2Fui-bg_highlight-soft_100_feeebd_1x100.png%3F" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/A47/A51/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery-ui-1.10.0.custom.min.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/A47/A51/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery-ui-1.10.0.custom.min.css%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/9DB/E11/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery-ui-1.10.0.custom.min.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/9DB/E11/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery-ui-1.10.0.custom.min.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/621/871/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.blockUI.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/621/871/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.blockUI.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/5F2/311/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.cookie.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/5F2/311/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.cookie.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/52C/3A1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.form.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/52C/3A1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.form.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/8F7/021/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.jeditable.mini.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/8F7/021/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.jeditable.mini.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/34A/041/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/34A/041/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/C31/641/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.simulate.drag-sortable.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/C31/641/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.simulate.drag-sortable.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/75A/C51/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.truncator.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/75A/C51/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.truncator.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/A64/BD1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.ui.touch-punch.min.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/A64/BD1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery.ui.touch-punch.min.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/4FB/6C1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery_ujs.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/4FB/6C1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fjquery_ujs.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/32F/041/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Flogin.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/32F/041/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Flogin.css%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/61C/AE1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2FniftyCorners.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/61C/AE1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2FniftyCorners.css%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/473/DC1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fniftycube.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/473/DC1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fniftycube.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/343/661/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fprint.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/343/661/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fprint.css%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/26D/DE1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fstaricons.png%3F" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/26D/DE1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fstaricons.png%3F" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/796/E21/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsuperfish-navbar.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/796/E21/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsuperfish-navbar.css%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/876/CD1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsuperfish-vertical.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/876/CD1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsuperfish-vertical.css%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/4EF/8B1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsuperfish.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/4EF/8B1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsuperfish.css%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/483/1F1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsuperfish.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/483/1F1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsuperfish.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/496/6A1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsupersubs.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/496/6A1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsupersubs.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/334/BA1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fswf_fu.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/334/BA1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fswf_fu.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/471/C91/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fswfobject.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/471/C91/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fswfobject.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/3DF/C01/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsystem-search.png%3F" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/3DF/C01/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Fsystem-search.png%3F" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/39E/A61/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Ftracks.css%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/39E/A61/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Ftracks.css%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/332/8B1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Ftracks.js%3Fbody%3D1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/cache/332/8B1/http%3A%2F%2Flocalhost%3A3000%2Fassets%2Ftracks.js%3Fbody%3D1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/miniprofiler/mp_timers_1vxzpc8ysn25r3we8yqx" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/miniprofiler/mp_timers_1vxzpc8ysn25r3we8yqx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/miniprofiler/mp_timers_6e1jx7dpiu71ezwlc9mh" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/miniprofiler/mp_timers_6e1jx7dpiu71ezwlc9mh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/miniprofiler/mp_timers_fwuaduo00pq5omk2ivkt" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/miniprofiler/mp_timers_fwuaduo00pq5omk2ivkt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/db/tracks-example.sqlite3.db" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/db/tracks-example.sqlite3.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/log/development.log" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/app/controllers/login_controller.rb" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/app/controllers/login_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/miniprofiler/mp_views_127.0.0.1" afterPath="$PROJECT_DIR$/tracks/Modules/tracks-2.2.2/tmp/miniprofiler/mp_views_127.0.0.1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depot/Modules/depot/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/depot/Modules/depot/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depot/Modules/depot/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/depot/Modules/depot/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depot/Modules/depot/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/depot/Modules/depot/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depot/Modules/depot/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/depot/Modules/depot/app/helpers/application_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depot/Modules/depot/app/models/product.rb" afterPath="$PROJECT_DIR$/depot/Modules/depot/app/models/product.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depot/Modules/depot/config/routes.rb" afterPath="$PROJECT_DIR$/depot/Modules/depot/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depot/Modules/depot/db/schema.rb" afterPath="$PROJECT_DIR$/depot/Modules/depot/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depot/Modules/depot/.idea/workspace.xml" afterPath="$PROJECT_DIR$/depot/Modules/depot/.idea/workspace.xml" />
     </list>
     <ignored path="ROR.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379505922801" ignored="false" />
+    <file path="/Dummy.txt" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379575338274" ignored="false" />
     <file path="/dummy2.txt" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379490969907" ignored="false" />
     <file path="/login_controller.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379492291173" ignored="false" />
-    <file path="/*.regexp" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379504426364" ignored="false" />
+    <file path="/*.regexp" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379510755549" ignored="false" />
     <file path="/Ruby Console" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379506410949" ignored="false" />
     <file path="$PROJECT_DIR$/depot/Modules/depot/app/views/products/_form.html.erb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379506882000" ignored="false" />
     <file path="/_form.html.erb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379506858830" ignored="false" />
@@ -59,8 +30,27 @@
     <file path="/seeds.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379507695400" ignored="false" />
     <file path="/styles.css" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379508455659" ignored="false" />
     <file path="$PROJECT_DIR$/depot/Modules/depot/app/views/products/index.html.erb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379508771560" ignored="false" />
-    <file path="/index.html.erb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379508750055" ignored="false" />
-    <file path="$PROJECT_DIR$/depot/Modules/depot/app/assets/stylesheets/application.css" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379508877690" ignored="false" />
+    <file path="/index.html.erb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379572616837" ignored="false" />
+    <file path="/product.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379516839744" ignored="false" />
+    <file path="/products.yml" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379510954597" ignored="false" />
+    <file path="/temp.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379511098825" ignored="false" />
+    <file path="/products_controller_test.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379511120736" ignored="false" />
+    <file path="/product_test.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379513111475" ignored="false" />
+    <file path="/routes.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379516402698" ignored="false" />
+    <file path="$PROJECT_DIR$/depot/Modules/depot/app/controllers/store_controller.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379516782016" ignored="false" />
+    <file path="/store_controller.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379516772951" ignored="false" />
+    <file path="$PROJECT_DIR$/depot/Modules/depot/app/views/store/index.html.erb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379572616837" ignored="false" />
+    <file path="/application.html.erb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379571977859" ignored="false" />
+    <file path="/application_helper.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379570635051" ignored="false" />
+    <file path="/application.css" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379571475124" ignored="false" />
+    <file path="$PROJECT_DIR$/depot/Modules/depot/app/assets/stylesheets/depot.css.scss" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379572021161" ignored="false" />
+    <file path="/Rails depot: development" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379571925387" ignored="false" />
+    <file path="db-console:/f706e604/38797d72-5a05-438a-ba06-7ae32f32985f/" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379571926680" ignored="false" />
+    <file path="$PROJECT_DIR$/depot/Modules/depot/test/functional/store_controller_test.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379573525069" ignored="false" />
+    <file path="/store_controller_test.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379573525069" ignored="false" />
+    <file path="/application_controller.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379575230488" ignored="false" />
+    <file path="$PROJECT_DIR$/depot/Modules/depot/test/unit/cart_test.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379576395509" ignored="false" />
+    <file path="/cart_test.rb" changelist="423b565a-aab8-44ad-820b-1c188bd089ce" time="1379575819852" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

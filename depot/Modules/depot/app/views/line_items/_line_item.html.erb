@@ -1,0 +1,17 @@
+
+<tr>
+  <td> <%= line_item.quantity %>
+  </td>
+  <td> &times tutut;
+    <%= line_item.product.title %>
+  </td>
+  <td class="item_price">
+    <%= number_to_currency(line_item.product.price) %>
+  </td>
+  <td>
+    <%=
+        button_to "Remove2", line_item, {:method => :delete, :confirm => "Sure???"}
+    %>
+  </td>
+</tr>
+

@@ -3,14 +3,17 @@
 <html>
 <head>
   <title>Pragprog Books Online Store</title>
+
   <!-- START:stylesheet -->
   <%= stylesheet_link_tag "scaffold" %>
   <%= stylesheet_link_tag "depot", :media => "all" %><!-- <label id="code.slt"/> -->
   <%= stylesheet_link_tag "store", :media => "all" %>
   <!-- END:stylesheet -->
-  <%= javascript_include_tag :defaults %>
+  <%=javascript_include_tag :defaults %>
 
   <%= csrf_meta_tag %><!-- <label id="code.csrf"/> -->
+  <%= javascript_include_tag "application"%>
+  <%= stylesheet_link_tag "application", :media => "all"%>
 </head>
 <body id="store">
 <div id="banner">
@@ -19,6 +22,9 @@
 </div>
 <div id="columns">
   <div id="side">
+    <div id="cart">
+      <%= render @cart if !@cart.nil? %>
+    </div>
     <a href="http://www....">Home</a><br />
     <a href="http://www..../faq">Questions</a><br />
     <a href="http://www..../news">News</a><br />

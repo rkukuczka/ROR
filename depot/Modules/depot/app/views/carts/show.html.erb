@@ -3,23 +3,7 @@
 
 <div class="cart_items">
   <table>
-    <% for item in @cart.line_items do %>
-        <tr>
-          <td> <%= item.quantity %>
-          </td>
-          <td> &times;
-            <%= item.product.title %>
-          </td>
-          <td class="item_price">
-            <%= number_to_currency(item.product.price) %>
-          </td>
-          <td>
-            <%=
-                button_to "Remove2", item, {:method => :delete, :confirm => "Sure???"}
-            %>
-          </td>
-        </tr>
-    <% end %>
+    <%= render @cart.line_items %>
     <tr class="total_line">
       <td>
       </td>

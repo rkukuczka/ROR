@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Pragprog Books Online Store</title>
+  <title><%=t('.title')%> Pragprog Books Online Store </title>
   <%= stylesheet_link_tag "application", media: "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -10,6 +10,13 @@
 <!-- END:head -->
 <body class="<%= controller.controller_name %>">
 <div id="banner">
+
+  <%= form_tag store_path, class: 'locale', method: :get do %>
+  <%= select_tag 'set_locale', options_for_select(LANGUAGES, I18n.locale.to_s), onchange: 'this.form.submit()' %>
+  <%= submit_tag 'submit' %>
+  <%= javascript_tag "$('.locale input').hide()" %>
+  <% end %>
+
   <%= image_tag("logo.png") %>
   <%= @page_title || "Pragmatic Bookshelf" %>
 </div>
@@ -29,6 +36,18 @@
       <li><a href="http://www..../news">News</a></li>
       <li><a href="http://www..../contact">Contact</a></li>
     </ul>
+
+    <!-- START_HIGHLIGHT -->
+
+    <% if session[:user_id] %>
+        <ul>
+          <li><%= link_to 'Orders',   orders_path   %></li>
+          <li><%= link_to 'Products', products_path %></li>
+          <li><%= link_to 'Users',    users_path    %></li>
+        </ul>
+        <%= button_to 'Logout', logout_path, method: :delete   %>
+    <% end %>
+    <!-- END_HIGHLIGHT -->
   </div>
   <div id="main">
     <%= yield %>

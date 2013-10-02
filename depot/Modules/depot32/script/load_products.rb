@@ -7,3 +7,4 @@ Product.transaction do
                  image_url: "rails.png", price: 2)
   end
 end
+

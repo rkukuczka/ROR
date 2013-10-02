@@ -62,4 +62,20 @@ class OrdersControllerTest < ActionController::TestCase
     assert_redirected_to store_path
     assert_equal "Your cart is empty", flash[:notice]
   end
+
+  test "should create order_123" do
+    assert_difference('Order.count') do
+      post :create, order: @order.attributes
+    end
+    assert_redirected_to store_path
+  end
+
+  test "order shoud be added correctly" do
+    assert_difference("Order.count", 1) do
+      post :create, order: @order.attributes
+    end
+
+    assert_redirected store_path
+  end
+
 end

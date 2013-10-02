@@ -1,8 +1,11 @@
 class OrdersController < ApplicationController
+  skip_before_filter :authorize, only: [:new, :create]
+
   # GET /orders
   # GET /orders.json
   def index
-    @orders = Order.all
+    #@orders = Order.all
+    @orders = Order.paginate page: params[:page], order: 'created_at DESC', per_page: 10
 
     respond_to do |format|
       format.html # index.html.erb
@@ -48,11 +51,21 @@ class OrdersController < ApplicationController
   def create
     @order = Order.new(params[:order])
 
+    cart = current_cart
+
+    @order.add_order_from_cart cart
+
     respond_to do |format|
+
       if @order.save
-        format.html { redirect_to @order, notice: 'Order was successfully created.' }
+        Cart.destroy(session[:cart_id])
+        session[:cart_id] = nil
+
+        OrderNotifier.received(@order).deliver
+        format.html { redirect_to store_url, notice: 'Thank You for the order.' }
         format.json { render json: @order, status: :created, location: @order }
       else
+        @cart = current_cart
         format.html { render action: "new" }
         format.json { render json: @order.errors, status: :unprocessable_entity }
       end

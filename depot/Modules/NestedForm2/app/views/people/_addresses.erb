@@ -1,0 +1,5 @@
+<%= f.fields_for :addresses do |addresses_form| %>
+    <%=render :file => '/people/_address.erb', locals: {:addresses_form=>addresses_form} %>
+<% end %>
+
+<%=render :file => '/people/_newaddress.erb', locals: {:addresses_form=>addresses_form} %>

@@ -1,0 +1,15 @@
+<h1>Listing people!</h1>
+
+<%= form_tag people_path, :method => :get, :remote => true do %>
+    <p>
+      <%= text_field_tag :search, params[:search] %>
+      <%= submit_tag "Search", :name => nil %>
+    </p>
+<% end %>
+
+<div id="people">
+<%= render 'person' %>
+</div>
+
+<br/>
+<%= link_to 'New Person', new_person_path %>

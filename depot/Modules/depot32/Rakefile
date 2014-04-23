@@ -1,23 +1,33 @@
-#!/usr/bin/env rake
-# Add your own tasks in files placed in lib/tasks ending in .rake,
-# for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
+#Rakefile
+require 'selenium/rake/tasks'
+require 'rake'
+require 'rake/testtask'
+require 'spec/rake/spectask'
 
-require File.expand_path('../config/application', __FILE__)
+selenium_jar_file_path  = './tools/test/selenium-server-1.0.3/selenium-server.jar'
+browsers = ["*firefox", "*googlechrome", "*iexplore"]
 
-Depot::Application.load_tasks
+desc "start the selenium-rc server"
+Selenium::Rake::RemoteControlStartTask.new("rc") do |rc|
+  rc.port = 4444
+  rc.timeout_in_seconds = 2 * 60
+  rc.background = true
+  rc.wait_until_up_and_running = true
+  rc.jar_file = selenium_jar_file_path
+end
 
-namespace :rk do
-  task :echo => :environment do
-    puts 'Pola...' + mydesc(Product.new)
-    puts 'Pola...' + mydesc(Cart.new)
-    puts 'Pola...' + mydesc(LineItem.new)
-  end
+Selenium::Rake::RemoteControlStopTask.new("rc:stop") do |rc|
+  rc.host = "localhost"
+  rc.port = 4444
+  rc.timeout_in_seconds = 3 * 60
+end
 
-  task :ver => :environment do
-    puts Rails::VERSION::STRING
-  end
-
-  def mydesc(o)
-    o.inspect
+task :selenium_spec_wrapper do
+  browsers.each do |browser|
+    ENV['s_browser'] = browser
+    rake_system("spec spec/*_spec.rb")
   end
 end
+
+#task :default => [:rc, :selenium_spec_wrapper, "rc:stop"]
+#- See more at: http://blog.tacticalnuclearstrike.com/2010/03/running-selenium-with-multiple-browsers-from-rake/#sthash.DiyynRkg.dpuf

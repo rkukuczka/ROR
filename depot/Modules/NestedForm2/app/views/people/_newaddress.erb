@@ -1,0 +1,9 @@
+halo <%=Time.now.to_s%>
+...
+<li>
+  <%= label_tag :kind %>
+  <%= text_field_tag 'person[addresses_attributes]['+addresses.count.to_s+'][kind]' %>
+
+  <%= label_tag :street %>
+  <%= text_field_tag 'person[addresses_attributes]['+addresses.count.to_s+'][street]' %>
+</li>
